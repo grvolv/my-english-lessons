@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Plains Zebra — Wildlife English Lesson</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="demo-shell">
+    <section class="hero">
+      <p class="eyebrow">Wildlife English Lesson</p>
+      <h1>The Plains Zebra</h1>
+      <p class="intro">Explore the life of the plains zebra through bilingual videos and interactive English–Ukrainian practice.</p>
+    </section>
+
+    <section class="panel" aria-labelledby="videos-title">
+      <h2 id="videos-title">Videos</h2>
+      <div class="button-grid">
+        <a class="action video-link" href="#" data-media-key="bilingualVideo">Watch Bilingual Lesson</a>
+        <a class="action video-link" href="#" data-media-key="englishVideo">Watch English Version</a>
+        <a class="action video-link" href="#" data-media-key="ukrainianVideo">Watch Ukrainian Version</a>
+        <p class="video-status" id="video-status" role="status">Video hosting pending</p>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="practice-title">
+      <h2 id="practice-title">Practice</h2>
+      <div class="button-grid">
+        <a class="action secondary" href="trainer-en/">Open English Trainer</a>
+        <a class="action secondary" href="trainer-ua/">Open Ukrainian Trainer</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/config.js"></script>
+  <script>
+    (() => {
+      const media = window.PLAINS_ZEBRA_MEDIA || {};
+      let pending = 0;
+      document.querySelectorAll(".video-link").forEach((link) => {
+        const url = media[link.dataset.mediaKey];
+        if (typeof url === "string" && url.trim()) {
+          link.href = url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+        } else {
+          pending += 1;
+          link.removeAttribute("href");
+          link.setAttribute("aria-disabled", "true");
+          link.title = "Video hosting pending";
+          link.addEventListener("click", (event) => event.preventDefault());
+        }
+      });
+      const status = document.getElementById("video-status");
+      status.hidden = pending === 0;
+    })();
+  </script>
+</body>
+</html>

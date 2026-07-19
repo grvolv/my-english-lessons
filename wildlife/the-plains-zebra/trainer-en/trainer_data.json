@@ -1,0 +1,1057 @@
+{
+  "title": "The Plains Zebra",
+  "scene_count": 30,
+  "full_story_audio": "full_story_en.wav",
+  "scenes": [
+    {
+      "scene": 1,
+      "phrases": [
+        {
+          "en": "Across the sunlit grasslands of",
+          "ua": "На залитих сонцем трав'янистих",
+          "audio_en": "audio/scene_01_phrase_1_en.wav",
+          "audio_ua": "audio/scene_01_phrase_1_ua.mp3"
+        },
+        {
+          "en": "eastern and southern Africa, a",
+          "ua": "рівнинах Східної та Південної",
+          "audio_en": "audio/scene_01_phrase_2_en.wav",
+          "audio_ua": "audio/scene_01_phrase_2_ua.mp3"
+        },
+        {
+          "en": "herd of striped herbivores grazes",
+          "ua": "Африки стадо смугастих травоїдних",
+          "audio_en": "audio/scene_01_phrase_3_en.wav",
+          "audio_ua": "audio/scene_01_phrase_3_ua.mp3"
+        },
+        {
+          "en": "in the morning warmth.",
+          "ua": "пасеться в ранковому теплі.",
+          "audio_en": "audio/scene_01_phrase_4_en.wav",
+          "audio_ua": "audio/scene_01_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Across the sunlit grasslands of eastern and southern Africa, a herd of striped herbivores grazes in the morning warmth.",
+        "ua": "На залитих сонцем трав'янистих рівнинах Східної та Південної Африки стадо смугастих травоїдних пасеться в ранковому теплі.",
+        "audio_en": "audio/scene_01_sentence_en.wav",
+        "audio_ua": "audio/scene_01_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 2,
+      "phrases": [
+        {
+          "en": "This is the plains",
+          "ua": "Це рівнинна зебра",
+          "audio_en": "audio/scene_02_phrase_1_en.wav",
+          "audio_ua": "audio/scene_02_phrase_1_ua.mp3"
+        },
+        {
+          "en": "zebra, a highly social",
+          "ua": "— надзвичайно соціальний",
+          "audio_en": "audio/scene_02_phrase_2_en.wav",
+          "audio_ua": "audio/scene_02_phrase_2_ua.mp3"
+        },
+        {
+          "en": "and adaptable member of",
+          "ua": "і пристосовуваний представник",
+          "audio_en": "audio/scene_02_phrase_3_en.wav",
+          "audio_ua": "audio/scene_02_phrase_3_ua.mp3"
+        },
+        {
+          "en": "the horse family.",
+          "ua": "родини коневих.",
+          "audio_en": "audio/scene_02_phrase_4_en.wav",
+          "audio_ua": "audio/scene_02_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "This is the plains zebra, a highly social and adaptable member of the horse family.",
+        "ua": "Це рівнинна зебра — надзвичайно соціальний і пристосовуваний представник родини коневих.",
+        "audio_en": "audio/scene_02_sentence_en.wav",
+        "audio_ua": "audio/scene_02_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 3,
+      "phrases": [
+        {
+          "en": "Every individual carries a distinctive",
+          "ua": "Кожна особина має власний",
+          "audio_en": "audio/scene_03_phrase_1_en.wav",
+          "audio_ua": "audio/scene_03_phrase_1_ua.mp3"
+        },
+        {
+          "en": "pattern of black-and-white stripes that",
+          "ua": "характерний візерунок чорно-білих смуг,",
+          "audio_en": "audio/scene_03_phrase_2_en.wav",
+          "audio_ua": "audio/scene_03_phrase_2_ua.mp3"
+        },
+        {
+          "en": "differs from the markings",
+          "ua": "який відрізняється від смуг",
+          "audio_en": "audio/scene_03_phrase_3_en.wav",
+          "audio_ua": "audio/scene_03_phrase_3_ua.mp3"
+        },
+        {
+          "en": "of every other zebra.",
+          "ua": "усіх інших зебр.",
+          "audio_en": "audio/scene_03_phrase_4_en.wav",
+          "audio_ua": "audio/scene_03_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Every individual carries a distinctive pattern of black-and-white stripes that differs from the markings of every other zebra.",
+        "ua": "Кожна особина має власний характерний візерунок чорно-білих смуг, який відрізняється від смуг усіх інших зебр.",
+        "audio_en": "audio/scene_03_sentence_en.wav",
+        "audio_ua": "audio/scene_03_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 4,
+      "phrases": [
+        {
+          "en": "The exact purpose of these",
+          "ua": "Точне призначення цих смуг",
+          "audio_en": "audio/scene_04_phrase_1_en.wav",
+          "audio_ua": "audio/scene_04_phrase_1_ua.mp3"
+        },
+        {
+          "en": "stripes remains debated, but strong",
+          "ua": "досі обговорюється, але вагомі",
+          "audio_en": "audio/scene_04_phrase_2_en.wav",
+          "audio_ua": "audio/scene_04_phrase_2_ua.mp3"
+        },
+        {
+          "en": "evidence shows that they",
+          "ua": "докази свідчать, що вони",
+          "audio_en": "audio/scene_04_phrase_3_en.wav",
+          "audio_ua": "audio/scene_04_phrase_3_ua.mp3"
+        },
+        {
+          "en": "help deter biting flies.",
+          "ua": "допомагають відлякувати кусючих мух.",
+          "audio_en": "audio/scene_04_phrase_4_en.wav",
+          "audio_ua": "audio/scene_04_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "The exact purpose of these stripes remains debated, but strong evidence shows that they help deter biting flies.",
+        "ua": "Точне призначення цих смуг досі обговорюється, але вагомі докази свідчать, що вони допомагають відлякувати кусючих мух.",
+        "audio_en": "audio/scene_04_sentence_en.wav",
+        "audio_ua": "audio/scene_04_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 5,
+      "phrases": [
+        {
+          "en": "Plains zebras live in stable",
+          "ua": "Рівнинні зебри живуть у",
+          "audio_en": "audio/scene_05_phrase_1_en.wav",
+          "audio_ua": "audio/scene_05_phrase_1_ua.mp3"
+        },
+        {
+          "en": "family units known as",
+          "ua": "стабільних сімейних групах, відомих",
+          "audio_en": "audio/scene_05_phrase_2_en.wav",
+          "audio_ua": "audio/scene_05_phrase_2_ua.mp3"
+        },
+        {
+          "en": "harems and usually do",
+          "ua": "як гареми, і зазвичай",
+          "audio_en": "audio/scene_05_phrase_3_en.wav",
+          "audio_ua": "audio/scene_05_phrase_3_ua.mp3"
+        },
+        {
+          "en": "not defend fixed territories.",
+          "ua": "не захищають постійних територій.",
+          "audio_en": "audio/scene_05_phrase_4_en.wav",
+          "audio_ua": "audio/scene_05_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Plains zebras live in stable family units known as harems and usually do not defend fixed territories.",
+        "ua": "Рівнинні зебри живуть у стабільних сімейних групах, відомих як гареми, і зазвичай не захищають постійних територій.",
+        "audio_en": "audio/scene_05_sentence_en.wav",
+        "audio_ua": "audio/scene_05_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 6,
+      "phrases": [
+        {
+          "en": "A typical harem includes",
+          "ua": "Типовий гарем складається з",
+          "audio_en": "audio/scene_06_phrase_1_en.wav",
+          "audio_ua": "audio/scene_06_phrase_1_ua.mp3"
+        },
+        {
+          "en": "one adult stallion,",
+          "ua": "одного дорослого жеребця,",
+          "audio_en": "audio/scene_06_phrase_2_en.wav",
+          "audio_ua": "audio/scene_06_phrase_2_ua.mp3"
+        },
+        {
+          "en": "several mares, and",
+          "ua": "кількох кобил та",
+          "audio_en": "audio/scene_06_phrase_3_en.wav",
+          "audio_ua": "audio/scene_06_phrase_3_ua.mp3"
+        },
+        {
+          "en": "their dependent foals.",
+          "ua": "їхніх залежних лошат.",
+          "audio_en": "audio/scene_06_phrase_4_en.wav",
+          "audio_ua": "audio/scene_06_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "A typical harem includes one adult stallion, several mares, and their dependent foals.",
+        "ua": "Типовий гарем складається з одного дорослого жеребця, кількох кобил та їхніх залежних лошат.",
+        "audio_en": "audio/scene_06_sentence_en.wav",
+        "audio_ua": "audio/scene_06_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 7,
+      "phrases": [
+        {
+          "en": "Family members strengthen their bonds",
+          "ua": "Члени сім'ї зміцнюють зв'язки, стоячи",
+          "audio_en": "audio/scene_07_phrase_1_en.wav",
+          "audio_ua": "audio/scene_07_phrase_1_ua.mp3"
+        },
+        {
+          "en": "by standing close together",
+          "ua": "близько одне до одного",
+          "audio_en": "audio/scene_07_phrase_2_en.wav",
+          "audio_ua": "audio/scene_07_phrase_2_ua.mp3"
+        },
+        {
+          "en": "and gently grooming one",
+          "ua": "й ніжно доглядаючи шерсть",
+          "audio_en": "audio/scene_07_phrase_3_en.wav",
+          "audio_ua": "audio/scene_07_phrase_3_ua.mp3"
+        },
+        {
+          "en": "another's necks and shoulders.",
+          "ua": "на шиях і плечах.",
+          "audio_en": "audio/scene_07_phrase_4_en.wav",
+          "audio_ua": "audio/scene_07_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Family members strengthen their bonds by standing close together and gently grooming one another's necks and shoulders.",
+        "ua": "Члени сім'ї зміцнюють зв'язки, стоячи близько одне до одного й ніжно доглядаючи шерсть на шиях і плечах.",
+        "audio_en": "audio/scene_07_sentence_en.wav",
+        "audio_ua": "audio/scene_07_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 8,
+      "phrases": [
+        {
+          "en": "As adaptable grazers, plains zebras",
+          "ua": "Як пристосовувані пасовищні тварини, рівнинні",
+          "audio_en": "audio/scene_08_phrase_1_en.wav",
+          "audio_ua": "audio/scene_08_phrase_1_ua.mp3"
+        },
+        {
+          "en": "can feed on tall, coarse",
+          "ua": "зебри можуть поїдати високу жорстку",
+          "audio_en": "audio/scene_08_phrase_2_en.wav",
+          "audio_ua": "audio/scene_08_phrase_2_ua.mp3"
+        },
+        {
+          "en": "grasses that many other",
+          "ua": "траву, яку багато інших",
+          "audio_en": "audio/scene_08_phrase_3_en.wav",
+          "audio_ua": "audio/scene_08_phrase_3_ua.mp3"
+        },
+        {
+          "en": "herbivores use less efficiently.",
+          "ua": "травоїдних використовують менш ефективно.",
+          "audio_en": "audio/scene_08_phrase_4_en.wav",
+          "audio_ua": "audio/scene_08_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "As adaptable grazers, plains zebras can feed on tall, coarse grasses that many other herbivores use less efficiently.",
+        "ua": "Як пристосовувані пасовищні тварини, рівнинні зебри можуть поїдати високу жорстку траву, яку багато інших травоїдних використовують менш ефективно.",
+        "audio_en": "audio/scene_08_sentence_en.wav",
+        "audio_ua": "audio/scene_08_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 9,
+      "phrases": [
+        {
+          "en": "By removing this tougher",
+          "ua": "Видаляючи цю грубішу рослинність,",
+          "audio_en": "audio/scene_09_phrase_1_en.wav",
+          "audio_ua": "audio/scene_09_phrase_1_ua.mp3"
+        },
+        {
+          "en": "vegetation, they often expose",
+          "ua": "вони часто відкривають коротші",
+          "audio_en": "audio/scene_09_phrase_2_en.wav",
+          "audio_ua": "audio/scene_09_phrase_2_ua.mp3"
+        },
+        {
+          "en": "shorter, more nutritious growth",
+          "ua": "й поживніші пагони для",
+          "audio_en": "audio/scene_09_phrase_3_en.wav",
+          "audio_ua": "audio/scene_09_phrase_3_ua.mp3"
+        },
+        {
+          "en": "for other grazing animals.",
+          "ua": "інших пасовищних тварин.",
+          "audio_en": "audio/scene_09_phrase_4_en.wav",
+          "audio_ua": "audio/scene_09_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "By removing this tougher vegetation, they often expose shorter, more nutritious growth for other grazing animals.",
+        "ua": "Видаляючи цю грубішу рослинність, вони часто відкривають коротші й поживніші пагони для інших пасовищних тварин.",
+        "audio_en": "audio/scene_09_sentence_en.wav",
+        "audio_ua": "audio/scene_09_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 10,
+      "phrases": [
+        {
+          "en": "When birth approaches, a",
+          "ua": "Коли наближаються пологи,",
+          "audio_en": "audio/scene_10_phrase_1_en.wav",
+          "audio_ua": "audio/scene_10_phrase_1_ua.mp3"
+        },
+        {
+          "en": "pregnant mare may",
+          "ua": "вагітна кобила може",
+          "audio_en": "audio/scene_10_phrase_2_en.wav",
+          "audio_ua": "audio/scene_10_phrase_2_ua.mp3"
+        },
+        {
+          "en": "separate briefly from",
+          "ua": "ненадовго відокремитися від",
+          "audio_en": "audio/scene_10_phrase_3_en.wav",
+          "audio_ua": "audio/scene_10_phrase_3_ua.mp3"
+        },
+        {
+          "en": "the family group.",
+          "ua": "сімейної групи.",
+          "audio_en": "audio/scene_10_phrase_4_en.wav",
+          "audio_ua": "audio/scene_10_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "When birth approaches, a pregnant mare may separate briefly from the family group.",
+        "ua": "Коли наближаються пологи, вагітна кобила може ненадовго відокремитися від сімейної групи.",
+        "audio_en": "audio/scene_10_sentence_en.wav",
+        "audio_ua": "audio/scene_10_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 11,
+      "phrases": [
+        {
+          "en": "She usually delivers a",
+          "ua": "Зазвичай вона народжує одне",
+          "audio_en": "audio/scene_11_phrase_1_en.wav",
+          "audio_ua": "audio/scene_11_phrase_1_ua.mp3"
+        },
+        {
+          "en": "single foal whose first",
+          "ua": "лоша, чиї перші смуги",
+          "audio_en": "audio/scene_11_phrase_2_en.wav",
+          "audio_ua": "audio/scene_11_phrase_2_ua.mp3"
+        },
+        {
+          "en": "stripes appear brownish rather",
+          "ua": "мають коричнюватий, а не",
+          "audio_en": "audio/scene_11_phrase_3_en.wav",
+          "audio_ua": "audio/scene_11_phrase_3_ua.mp3"
+        },
+        {
+          "en": "than deep black.",
+          "ua": "насичено чорний колір.",
+          "audio_en": "audio/scene_11_phrase_4_en.wav",
+          "audio_ua": "audio/scene_11_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "She usually delivers a single foal whose first stripes appear brownish rather than deep black.",
+        "ua": "Зазвичай вона народжує одне лоша, чиї перші смуги мають коричнюватий, а не насичено чорний колір.",
+        "audio_en": "audio/scene_11_sentence_en.wav",
+        "audio_ua": "audio/scene_11_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 12,
+      "phrases": [
+        {
+          "en": "During the first hours, the",
+          "ua": "У перші години кобила",
+          "audio_en": "audio/scene_12_phrase_1_en.wav",
+          "audio_ua": "audio/scene_12_phrase_1_ua.mp3"
+        },
+        {
+          "en": "mare keeps close contact with",
+          "ua": "тримається поруч із новонародженим,",
+          "audio_en": "audio/scene_12_phrase_2_en.wav",
+          "audio_ua": "audio/scene_12_phrase_2_ua.mp3"
+        },
+        {
+          "en": "the newborn as it learns",
+          "ua": "поки воно запам'ятовує її",
+          "audio_en": "audio/scene_12_phrase_3_en.wav",
+          "audio_ua": "audio/scene_12_phrase_3_ua.mp3"
+        },
+        {
+          "en": "her appearance, scent, and voice.",
+          "ua": "вигляд, запах і голос.",
+          "audio_en": "audio/scene_12_phrase_4_en.wav",
+          "audio_ua": "audio/scene_12_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "During the first hours, the mare keeps close contact with the newborn as it learns her appearance, scent, and voice.",
+        "ua": "У перші години кобила тримається поруч із новонародженим, поки воно запам'ятовує її вигляд, запах і голос.",
+        "audio_en": "audio/scene_12_sentence_en.wav",
+        "audio_ua": "audio/scene_12_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 13,
+      "phrases": [
+        {
+          "en": "The foal struggles upright",
+          "ua": "Невдовзі після народження лоша",
+          "audio_en": "audio/scene_13_phrase_1_en.wav",
+          "audio_ua": "audio/scene_13_phrase_1_ua.mp3"
+        },
+        {
+          "en": "soon after birth and",
+          "ua": "намагається підвестися і часто",
+          "audio_en": "audio/scene_13_phrase_2_en.wav",
+          "audio_ua": "audio/scene_13_phrase_2_ua.mp3"
+        },
+        {
+          "en": "is often standing within",
+          "ua": "вже приблизно через п'ятнадцять",
+          "audio_en": "audio/scene_13_phrase_3_en.wav",
+          "audio_ua": "audio/scene_13_phrase_3_ua.mp3"
+        },
+        {
+          "en": "about fifteen minutes.",
+          "ua": "хвилин стоїть на ногах.",
+          "audio_en": "audio/scene_13_phrase_4_en.wav",
+          "audio_ua": "audio/scene_13_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "The foal struggles upright soon after birth and is often standing within about fifteen minutes.",
+        "ua": "Невдовзі після народження лоша намагається підвестися і часто вже приблизно через п'ятнадцять хвилин стоїть на ногах.",
+        "audio_en": "audio/scene_13_sentence_en.wav",
+        "audio_ua": "audio/scene_13_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 14,
+      "phrases": [
+        {
+          "en": "Within a short time, it can",
+          "ua": "Через короткий час воно вже",
+          "audio_en": "audio/scene_14_phrase_1_en.wav",
+          "audio_ua": "audio/scene_14_phrase_1_ua.mp3"
+        },
+        {
+          "en": "walk and run well enough",
+          "ua": "може ходити й бігати достатньо",
+          "audio_en": "audio/scene_14_phrase_2_en.wav",
+          "audio_ua": "audio/scene_14_phrase_2_ua.mp3"
+        },
+        {
+          "en": "to follow its mother and",
+          "ua": "добре, щоб слідувати за матір'ю",
+          "audio_en": "audio/scene_14_phrase_3_en.wav",
+          "audio_ua": "audio/scene_14_phrase_3_ua.mp3"
+        },
+        {
+          "en": "remain with the moving family.",
+          "ua": "та залишатися з рухомою сім'єю.",
+          "audio_en": "audio/scene_14_phrase_4_en.wav",
+          "audio_ua": "audio/scene_14_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Within a short time, it can walk and run well enough to follow its mother and remain with the moving family.",
+        "ua": "Через короткий час воно вже може ходити й бігати достатньо добре, щоб слідувати за матір'ю та залишатися з рухомою сім'єю.",
+        "audio_en": "audio/scene_14_sentence_en.wav",
+        "audio_ua": "audio/scene_14_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 15,
+      "phrases": [
+        {
+          "en": "When the group travels,",
+          "ua": "Під час переходів досвідчена",
+          "audio_en": "audio/scene_15_phrase_1_en.wav",
+          "audio_ua": "audio/scene_15_phrase_1_ua.mp3"
+        },
+        {
+          "en": "an experienced mare commonly",
+          "ua": "кобила часто допомагає",
+          "audio_en": "audio/scene_15_phrase_2_en.wav",
+          "audio_ua": "audio/scene_15_phrase_2_ua.mp3"
+        },
+        {
+          "en": "helps guide the family",
+          "ua": "вести сім'ю до",
+          "audio_en": "audio/scene_15_phrase_3_en.wav",
+          "audio_ua": "audio/scene_15_phrase_3_ua.mp3"
+        },
+        {
+          "en": "toward grazing and water.",
+          "ua": "пасовищ і води.",
+          "audio_en": "audio/scene_15_phrase_4_en.wav",
+          "audio_ua": "audio/scene_15_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "When the group travels, an experienced mare commonly helps guide the family toward grazing and water.",
+        "ua": "Під час переходів досвідчена кобила часто допомагає вести сім'ю до пасовищ і води.",
+        "audio_en": "audio/scene_15_sentence_en.wav",
+        "audio_ua": "audio/scene_15_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 16,
+      "phrases": [
+        {
+          "en": "The stallion often remains near",
+          "ua": "Жеребець нерідко тримається позаду",
+          "audio_en": "audio/scene_16_phrase_1_en.wav",
+          "audio_ua": "audio/scene_16_phrase_1_ua.mp3"
+        },
+        {
+          "en": "the rear or outer edge,",
+          "ua": "або на зовнішньому краї",
+          "audio_en": "audio/scene_16_phrase_2_en.wav",
+          "audio_ua": "audio/scene_16_phrase_2_ua.mp3"
+        },
+        {
+          "en": "watching for predators and",
+          "ua": "групи, стежачи за хижаками",
+          "audio_en": "audio/scene_16_phrase_3_en.wav",
+          "audio_ua": "audio/scene_16_phrase_3_ua.mp3"
+        },
+        {
+          "en": "keeping the harem together.",
+          "ua": "й утримуючи гарем разом.",
+          "audio_en": "audio/scene_16_phrase_4_en.wav",
+          "audio_ua": "audio/scene_16_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "The stallion often remains near the rear or outer edge, watching for predators and keeping the harem together.",
+        "ua": "Жеребець нерідко тримається позаду або на зовнішньому краї групи, стежачи за хижаками й утримуючи гарем разом.",
+        "audio_en": "audio/scene_16_sentence_en.wav",
+        "audio_ua": "audio/scene_16_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 17,
+      "phrases": [
+        {
+          "en": "Plains zebras communicate with",
+          "ua": "Рівнинні зебри спілкуються гавкаючими",
+          "audio_en": "audio/scene_17_phrase_1_en.wav",
+          "audio_ua": "audio/scene_17_phrase_1_ua.mp3"
+        },
+        {
+          "en": "barking calls, snorts, facial",
+          "ua": "криками, пирханням, виразами",
+          "audio_en": "audio/scene_17_phrase_2_en.wav",
+          "audio_ua": "audio/scene_17_phrase_2_ua.mp3"
+        },
+        {
+          "en": "signals, and movements of",
+          "ua": "морди та рухами",
+          "audio_en": "audio/scene_17_phrase_3_en.wav",
+          "audio_ua": "audio/scene_17_phrase_3_ua.mp3"
+        },
+        {
+          "en": "their ears and tails.",
+          "ua": "вух і хвоста.",
+          "audio_en": "audio/scene_17_phrase_4_en.wav",
+          "audio_ua": "audio/scene_17_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Plains zebras communicate with barking calls, snorts, facial signals, and movements of their ears and tails.",
+        "ua": "Рівнинні зебри спілкуються гавкаючими криками, пирханням, виразами морди та рухами вух і хвоста.",
+        "audio_en": "audio/scene_17_sentence_en.wav",
+        "audio_ua": "audio/scene_17_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 18,
+      "phrases": [
+        {
+          "en": "In the dry grass",
+          "ua": "У сухій траві",
+          "audio_en": "audio/scene_18_phrase_1_en.wav",
+          "audio_ua": "audio/scene_18_phrase_1_ua.mp3"
+        },
+        {
+          "en": "ahead, the family suddenly",
+          "ua": "попереду сім'я раптово",
+          "audio_en": "audio/scene_18_phrase_2_en.wav",
+          "audio_ua": "audio/scene_18_phrase_2_ua.mp3"
+        },
+        {
+          "en": "detects a group of",
+          "ua": "помічає групу плямистих",
+          "audio_en": "audio/scene_18_phrase_3_en.wav",
+          "audio_ua": "audio/scene_18_phrase_3_ua.mp3"
+        },
+        {
+          "en": "spotted hyenas moving closer.",
+          "ua": "гієн, що наближається.",
+          "audio_en": "audio/scene_18_phrase_4_en.wav",
+          "audio_ua": "audio/scene_18_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "In the dry grass ahead, the family suddenly detects a group of spotted hyenas moving closer.",
+        "ua": "У сухій траві попереду сім'я раптово помічає групу плямистих гієн, що наближається.",
+        "audio_en": "audio/scene_18_sentence_en.wav",
+        "audio_ua": "audio/scene_18_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 19,
+      "phrases": [
+        {
+          "en": "A sharp alarm call sends",
+          "ua": "Різкий сигнал тривоги",
+          "audio_en": "audio/scene_19_phrase_1_en.wav",
+          "audio_ua": "audio/scene_19_phrase_1_ua.mp3"
+        },
+        {
+          "en": "the mares and foals",
+          "ua": "змушує кобил і",
+          "audio_en": "audio/scene_19_phrase_2_en.wav",
+          "audio_ua": "audio/scene_19_phrase_2_ua.mp3"
+        },
+        {
+          "en": "running toward the safety",
+          "ua": "лошат бігти до",
+          "audio_en": "audio/scene_19_phrase_3_en.wav",
+          "audio_ua": "audio/scene_19_phrase_3_ua.mp3"
+        },
+        {
+          "en": "of the wider herd.",
+          "ua": "безпеки більшого стада.",
+          "audio_en": "audio/scene_19_phrase_4_en.wav",
+          "audio_ua": "audio/scene_19_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "A sharp alarm call sends the mares and foals running toward the safety of the wider herd.",
+        "ua": "Різкий сигнал тривоги змушує кобил і лошат бігти до безпеки більшого стада.",
+        "audio_en": "audio/scene_19_sentence_en.wav",
+        "audio_ua": "audio/scene_19_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 20,
+      "phrases": [
+        {
+          "en": "The stallion turns toward the",
+          "ua": "Жеребець повертається до небезпеки,",
+          "audio_en": "audio/scene_20_phrase_1_en.wav",
+          "audio_ua": "audio/scene_20_phrase_1_ua.mp3"
+        },
+        {
+          "en": "danger, threatening the predators with",
+          "ua": "погрожуючи хижакам укусами й",
+          "audio_en": "audio/scene_20_phrase_2_en.wav",
+          "audio_ua": "audio/scene_20_phrase_2_ua.mp3"
+        },
+        {
+          "en": "bites and powerful kicks",
+          "ua": "потужними ударами копит,",
+          "audio_en": "audio/scene_20_phrase_3_en.wav",
+          "audio_ua": "audio/scene_20_phrase_3_ua.mp3"
+        },
+        {
+          "en": "while the family escapes.",
+          "ua": "поки сім'я тікає.",
+          "audio_en": "audio/scene_20_phrase_4_en.wav",
+          "audio_ua": "audio/scene_20_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "The stallion turns toward the danger, threatening the predators with bites and powerful kicks while the family escapes.",
+        "ua": "Жеребець повертається до небезпеки, погрожуючи хижакам укусами й потужними ударами копит, поки сім'я тікає.",
+        "audio_en": "audio/scene_20_sentence_en.wav",
+        "audio_ua": "audio/scene_20_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 21,
+      "phrases": [
+        {
+          "en": "Hyenas may abandon the",
+          "ua": "Гієни можуть відмовитися від нападу,",
+          "audio_en": "audio/scene_21_phrase_1_en.wav",
+          "audio_ua": "audio/scene_21_phrase_1_ua.mp3"
+        },
+        {
+          "en": "approach when the zebras",
+          "ua": "коли зебри залишаються пильними,",
+          "audio_en": "audio/scene_21_phrase_2_en.wav",
+          "audio_ua": "audio/scene_21_phrase_2_ua.mp3"
+        },
+        {
+          "en": "remain alert, coordinated, and",
+          "ua": "діють злагоджено і не",
+          "audio_en": "audio/scene_21_phrase_3_en.wav",
+          "audio_ua": "audio/scene_21_phrase_3_ua.mp3"
+        },
+        {
+          "en": "difficult to isolate.",
+          "ua": "дають відокремити одну тварину.",
+          "audio_en": "audio/scene_21_phrase_4_en.wav",
+          "audio_ua": "audio/scene_21_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Hyenas may abandon the approach when the zebras remain alert, coordinated, and difficult to isolate.",
+        "ua": "Гієни можуть відмовитися від нападу, коли зебри залишаються пильними, діють злагоджено і не дають відокремити одну тварину.",
+        "audio_en": "audio/scene_21_sentence_en.wav",
+        "audio_ua": "audio/scene_21_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 22,
+      "phrases": [
+        {
+          "en": "Once the danger passes,",
+          "ua": "Коли небезпека минає, розділені",
+          "audio_en": "audio/scene_22_phrase_1_en.wav",
+          "audio_ua": "audio/scene_22_phrase_1_ua.mp3"
+        },
+        {
+          "en": "separated family members call,",
+          "ua": "члени сім'ї кличуть одне",
+          "audio_en": "audio/scene_22_phrase_2_en.wav",
+          "audio_ua": "audio/scene_22_phrase_2_ua.mp3"
+        },
+        {
+          "en": "approach, and reunite through",
+          "ua": "одного, зближуються й возз'єднуються",
+          "audio_en": "audio/scene_22_phrase_3_en.wav",
+          "audio_ua": "audio/scene_22_phrase_3_ua.mp3"
+        },
+        {
+          "en": "close social contact.",
+          "ua": "через тісний соціальний контакт.",
+          "audio_en": "audio/scene_22_phrase_4_en.wav",
+          "audio_ua": "audio/scene_22_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Once the danger passes, separated family members call, approach, and reunite through close social contact.",
+        "ua": "Коли небезпека минає, розділені члени сім'ї кличуть одне одного, зближуються й возз'єднуються через тісний соціальний контакт.",
+        "audio_en": "audio/scene_22_sentence_en.wav",
+        "audio_ua": "audio/scene_22_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 23,
+      "phrases": [
+        {
+          "en": "Plains zebras frequently travel",
+          "ua": "Рівнинні зебри часто мандрують і",
+          "audio_en": "audio/scene_23_phrase_1_en.wav",
+          "audio_ua": "audio/scene_23_phrase_1_ua.mp3"
+        },
+        {
+          "en": "and graze beside wildebeest",
+          "ua": "пасуться поруч з антилопами",
+          "audio_en": "audio/scene_23_phrase_2_en.wav",
+          "audio_ua": "audio/scene_23_phrase_2_ua.mp3"
+        },
+        {
+          "en": "and other herbivores",
+          "ua": "гну та іншими травоїдними",
+          "audio_en": "audio/scene_23_phrase_3_en.wav",
+          "audio_ua": "audio/scene_23_phrase_3_ua.mp3"
+        },
+        {
+          "en": "during seasonal movements.",
+          "ua": "під час сезонних переміщень.",
+          "audio_en": "audio/scene_23_phrase_4_en.wav",
+          "audio_ua": "audio/scene_23_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Plains zebras frequently travel and graze beside wildebeest and other herbivores during seasonal movements.",
+        "ua": "Рівнинні зебри часто мандрують і пасуться поруч з антилопами гну та іншими травоїдними під час сезонних переміщень.",
+        "audio_en": "audio/scene_23_sentence_en.wav",
+        "audio_ua": "audio/scene_23_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 24,
+      "phrases": [
+        {
+          "en": "These movements help the animals",
+          "ua": "Ці переміщення допомагають тваринам знаходити",
+          "audio_en": "audio/scene_24_phrase_1_en.wav",
+          "audio_ua": "audio/scene_24_phrase_1_ua.mp3"
+        },
+        {
+          "en": "reach fresh grass and water,",
+          "ua": "свіжу траву й воду,",
+          "audio_en": "audio/scene_24_phrase_2_en.wav",
+          "audio_ua": "audio/scene_24_phrase_2_ua.mp3"
+        },
+        {
+          "en": "but many routes are increasingly",
+          "ua": "але багато маршрутів дедалі",
+          "audio_en": "audio/scene_24_phrase_3_en.wav",
+          "audio_ua": "audio/scene_24_phrase_3_ua.mp3"
+        },
+        {
+          "en": "disrupted by human development.",
+          "ua": "більше порушуються людською діяльністю.",
+          "audio_en": "audio/scene_24_phrase_4_en.wav",
+          "audio_ua": "audio/scene_24_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "These movements help the animals reach fresh grass and water, but many routes are increasingly disrupted by human development.",
+        "ua": "Ці переміщення допомагають тваринам знаходити свіжу траву й воду, але багато маршрутів дедалі більше порушуються людською діяльністю.",
+        "audio_en": "audio/scene_24_sentence_en.wav",
+        "audio_ua": "audio/scene_24_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 25,
+      "phrases": [
+        {
+          "en": "Roads, farms, and fences can",
+          "ua": "Дороги, ферми й паркани можуть",
+          "audio_en": "audio/scene_25_phrase_1_en.wav",
+          "audio_ua": "audio/scene_25_phrase_1_ua.mp3"
+        },
+        {
+          "en": "divide open rangelands and prevent",
+          "ua": "розділяти відкриті пасовища та не",
+          "audio_en": "audio/scene_25_phrase_2_en.wav",
+          "audio_ua": "audio/scene_25_phrase_2_ua.mp3"
+        },
+        {
+          "en": "herds from reaching important",
+          "ua": "дозволяти стадам діставатися важливих",
+          "audio_en": "audio/scene_25_phrase_3_en.wav",
+          "audio_ua": "audio/scene_25_phrase_3_ua.mp3"
+        },
+        {
+          "en": "grazing areas and rivers.",
+          "ua": "кормових ділянок і річок.",
+          "audio_en": "audio/scene_25_phrase_4_en.wav",
+          "audio_ua": "audio/scene_25_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Roads, farms, and fences can divide open rangelands and prevent herds from reaching important grazing areas and rivers.",
+        "ua": "Дороги, ферми й паркани можуть розділяти відкриті пасовища та не дозволяти стадам діставатися важливих кормових ділянок і річок.",
+        "audio_en": "audio/scene_25_sentence_en.wav",
+        "audio_ua": "audio/scene_25_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 26,
+      "phrases": [
+        {
+          "en": "Severe drought can",
+          "ua": "Сильна посуха може ще",
+          "audio_en": "audio/scene_26_phrase_1_en.wav",
+          "audio_ua": "audio/scene_26_phrase_1_ua.mp3"
+        },
+        {
+          "en": "further reduce available",
+          "ua": "більше скоротити кількість",
+          "audio_en": "audio/scene_26_phrase_2_en.wav",
+          "audio_ua": "audio/scene_26_phrase_2_ua.mp3"
+        },
+        {
+          "en": "water and forage",
+          "ua": "доступної води й",
+          "audio_en": "audio/scene_26_phrase_3_en.wav",
+          "audio_ua": "audio/scene_26_phrase_3_ua.mp3"
+        },
+        {
+          "en": "across the plains.",
+          "ua": "корму на рівнинах.",
+          "audio_en": "audio/scene_26_phrase_4_en.wav",
+          "audio_ua": "audio/scene_26_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Severe drought can further reduce available water and forage across the plains.",
+        "ua": "Сильна посуха може ще більше скоротити кількість доступної води й корму на рівнинах.",
+        "audio_en": "audio/scene_26_sentence_en.wav",
+        "audio_ua": "audio/scene_26_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 27,
+      "phrases": [
+        {
+          "en": "When movement routes and",
+          "ua": "Коли одночасно зникають маршрути пересування",
+          "audio_en": "audio/scene_27_phrase_1_en.wav",
+          "audio_ua": "audio/scene_27_phrase_1_ua.mp3"
+        },
+        {
+          "en": "water sources disappear together,",
+          "ua": "й джерела води, стада",
+          "audio_en": "audio/scene_27_phrase_2_en.wav",
+          "audio_ua": "audio/scene_27_phrase_2_ua.mp3"
+        },
+        {
+          "en": "zebra herds face greater",
+          "ua": "зебр стикаються з більшим",
+          "audio_en": "audio/scene_27_phrase_3_en.wav",
+          "audio_ua": "audio/scene_27_phrase_3_ua.mp3"
+        },
+        {
+          "en": "hunger, exhaustion, and mortality.",
+          "ua": "голодом, виснаженням і смертністю.",
+          "audio_en": "audio/scene_27_phrase_4_en.wav",
+          "audio_ua": "audio/scene_27_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "When movement routes and water sources disappear together, zebra herds face greater hunger, exhaustion, and mortality.",
+        "ua": "Коли одночасно зникають маршрути пересування й джерела води, стада зебр стикаються з більшим голодом, виснаженням і смертністю.",
+        "audio_en": "audio/scene_27_sentence_en.wav",
+        "audio_ua": "audio/scene_27_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 28,
+      "phrases": [
+        {
+          "en": "As young males mature, many leave",
+          "ua": "Коли молоді самці дорослішають, багато з",
+          "audio_en": "audio/scene_28_phrase_1_en.wav",
+          "audio_ua": "audio/scene_28_phrase_1_ua.mp3"
+        },
+        {
+          "en": "their family units and join",
+          "ua": "них залишають сімейні групи й",
+          "audio_en": "audio/scene_28_phrase_2_en.wav",
+          "audio_ua": "audio/scene_28_phrase_2_ua.mp3"
+        },
+        {
+          "en": "bachelor groups before attempting to",
+          "ua": "приєднуються до холостяцьких груп, перш",
+          "audio_en": "audio/scene_28_phrase_3_en.wav",
+          "audio_ua": "audio/scene_28_phrase_3_ua.mp3"
+        },
+        {
+          "en": "form harems of their own.",
+          "ua": "ніж намагатися створити власні гареми.",
+          "audio_en": "audio/scene_28_phrase_4_en.wav",
+          "audio_ua": "audio/scene_28_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "As young males mature, many leave their family units and join bachelor groups before attempting to form harems of their own.",
+        "ua": "Коли молоді самці дорослішають, багато з них залишають сімейні групи й приєднуються до холостяцьких груп, перш ніж намагатися створити власні гареми.",
+        "audio_en": "audio/scene_28_sentence_en.wav",
+        "audio_ua": "audio/scene_28_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 29,
+      "phrases": [
+        {
+          "en": "Young females may transfer",
+          "ua": "Молоді самки можуть переходити",
+          "audio_en": "audio/scene_29_phrase_1_en.wav",
+          "audio_ua": "audio/scene_29_phrase_1_ua.mp3"
+        },
+        {
+          "en": "to different harems, helping",
+          "ua": "до інших гаремів,",
+          "audio_en": "audio/scene_29_phrase_2_en.wav",
+          "audio_ua": "audio/scene_29_phrase_2_ua.mp3"
+        },
+        {
+          "en": "maintain genetic exchange",
+          "ua": "підтримуючи генетичний обмін",
+          "audio_en": "audio/scene_29_phrase_3_en.wav",
+          "audio_ua": "audio/scene_29_phrase_3_ua.mp3"
+        },
+        {
+          "en": "between family groups.",
+          "ua": "між сімейними групами.",
+          "audio_en": "audio/scene_29_phrase_4_en.wav",
+          "audio_ua": "audio/scene_29_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Young females may transfer to different harems, helping maintain genetic exchange between family groups.",
+        "ua": "Молоді самки можуть переходити до інших гаремів, підтримуючи генетичний обмін між сімейними групами.",
+        "audio_en": "audio/scene_29_sentence_en.wav",
+        "audio_ua": "audio/scene_29_sentence_ua.mp3"
+      }
+    },
+    {
+      "scene": 30,
+      "phrases": [
+        {
+          "en": "Through strong social bonds, flexible",
+          "ua": "Завдяки міцним соціальним зв'язкам, гнучкому",
+          "audio_en": "audio/scene_30_phrase_1_en.wav",
+          "audio_ua": "audio/scene_30_phrase_1_ua.mp3"
+        },
+        {
+          "en": "feeding, and constant movement, plains",
+          "ua": "харчуванню й постійному руху рівнинні",
+          "audio_en": "audio/scene_30_phrase_2_en.wav",
+          "audio_ua": "audio/scene_30_phrase_2_ua.mp3"
+        },
+        {
+          "en": "zebras remain one of Africa's",
+          "ua": "зебри залишаються одними з",
+          "audio_en": "audio/scene_30_phrase_3_en.wav",
+          "audio_ua": "audio/scene_30_phrase_3_ua.mp3"
+        },
+        {
+          "en": "most recognizable grazing animals.",
+          "ua": "найвідоміших пасовищних тварин Африки.",
+          "audio_en": "audio/scene_30_phrase_4_en.wav",
+          "audio_ua": "audio/scene_30_phrase_4_ua.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Through strong social bonds, flexible feeding, and constant movement, plains zebras remain one of Africa's most recognizable grazing animals.",
+        "ua": "Завдяки міцним соціальним зв'язкам, гнучкому харчуванню й постійному руху рівнинні зебри залишаються одними з найвідоміших пасовищних тварин Африки.",
+        "audio_en": "audio/scene_30_sentence_en.wav",
+        "audio_ua": "audio/scene_30_sentence_ua.mp3"
+      }
+    }
+  ]
+}

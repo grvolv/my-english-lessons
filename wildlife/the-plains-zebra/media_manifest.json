@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "topic": "The Plains Zebra",
+  "publication_target": "GitHub Pages project site with external video hosting",
+  "videos": [
+    {
+      "logical_media_role": "bilingual_video",
+      "source_filename": "Bilingual_Lesson_The_Plains_Zebra_Compact.mp4",
+      "source_path": "workspace/The_Plains_Zebra/final_output/Bilingual_Lesson_The_Plains_Zebra_Compact.mp4",
+      "byte_size": 101682232,
+      "sha256": "50030c571c7941711636b6049ac0f10b15b7f4e6dc7bee602963afbab5e2cfe1",
+      "mime_type": "video/mp4",
+      "duration_seconds": 1232.198625,
+      "resolution": "1920x1080",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "configuration_key": "bilingualVideo",
+      "future_public_url": "https://drive.google.com/file/d/1DXAd1sPeDmJISvFW9SpgJB-RsUPj1e6X/view?usp=drive_open",
+      "upload_status": "uploaded_and_link_verified"
+    },
+    {
+      "logical_media_role": "english_video",
+      "source_filename": "English_Slideshow_The_Plains_Zebra_XTTS.mp4",
+      "source_path": "workspace/The_Plains_Zebra/final_output/English_Slideshow_The_Plains_Zebra_XTTS.mp4",
+      "byte_size": 25912348,
+      "sha256": "3457080077e7e250797a234638b84758073d6650517669bd39921c30dc1e6cb0",
+      "mime_type": "video/mp4",
+      "duration_seconds": 215.583047,
+      "resolution": "1920x1080",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "configuration_key": "englishVideo",
+      "future_public_url": "https://drive.google.com/file/d/1je65TZJoHewS352L75XblracnKzWB_IQ/view?usp=drive_open",
+      "upload_status": "uploaded_and_link_verified"
+    },
+    {
+      "logical_media_role": "ukrainian_video",
+      "source_filename": "Ukrainian_Slideshow_The_Plains_Zebra_EdgeTTS.mp4",
+      "source_path": "workspace/The_Plains_Zebra/final_output/Ukrainian_Slideshow_The_Plains_Zebra_EdgeTTS.mp4",
+      "byte_size": 25656324,
+      "sha256": "808b571fedf7b4a7f4d731c8b567906d6b6807e11b6036ae721616c368059f92",
+      "mime_type": "video/mp4",
+      "duration_seconds": 230.045,
+      "resolution": "1920x1080",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "configuration_key": "ukrainianVideo",
+      "future_public_url": "https://drive.google.com/file/d/1G4alCvNSroDGtBmFHjuq3-TrsiRPuqMa/view?usp=drive_open",
+      "upload_status": "uploaded_and_link_verified"
+    }
+  ]
+}
