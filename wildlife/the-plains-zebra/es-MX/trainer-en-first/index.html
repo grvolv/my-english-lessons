@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>English Web Trainer</title>
+  <style>
+    :root {
+      --page: #f7f4ee;
+      --paper: #fffdf8;
+      --ink: #20201d;
+      --muted: #6f6a60;
+      --line: #ddd3c2;
+      --accent: #2c6f73;
+      --accent-dark: #1f5356;
+      --accent-soft: #dbeeed;
+      --mark: #f3d27b;
+      --success: #4f7b45;
+      --overlay: rgba(18, 20, 20, 0.58);
+      --shadow: 0 24px 70px rgba(34, 31, 25, 0.24);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(44, 111, 115, 0.08), transparent 28%, transparent 72%, rgba(137, 77, 55, 0.08)),
+        var(--page);
+    }
+
+    .app {
+      min-height: 100vh;
+    }
+
+    header {
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 253, 248, 0.84);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .topbar {
+      width: min(980px, calc(100% - 32px));
+      margin: 0 auto;
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.2;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .counter {
+      color: var(--muted);
+      font-size: 14px;
+      white-space: nowrap;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+    }
+
+    main {
+      width: min(980px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 46px 0 72px;
+    }
+
+    .story {
+      background: var(--paper);
+      border: 1px solid rgba(221, 211, 194, 0.78);
+      border-radius: 8px;
+      padding: clamp(28px, 5vw, 58px);
+      box-shadow: 0 18px 46px rgba(42, 37, 28, 0.1);
+    }
+
+    .story-kicker {
+      margin: 0;
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .story-player {
+      width: 100%;
+      margin: 22px 0 2px;
+      display: block;
+    }
+
+    .story-text {
+      margin: 18px 0 0;
+      font-size: clamp(24px, 3.1vw, 38px);
+      line-height: 1.55;
+      letter-spacing: 0;
+    }
+
+    .story-sentence {
+      border-radius: 6px;
+      cursor: pointer;
+      outline: 0;
+      padding: 2px 5px;
+      margin: 0 -5px;
+      transition: background 140ms ease, box-shadow 140ms ease, color 140ms ease;
+    }
+
+    .story-sentence:hover,
+    .story-sentence:focus-visible {
+      background: var(--mark);
+      box-shadow: 0 0 0 4px rgba(243, 210, 123, 0.35);
+    }
+
+    .story-sentence.studied {
+      color: var(--accent-dark);
+      background: rgba(219, 238, 237, 0.74);
+    }
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: var(--overlay);
+    }
+
+    .modal.open {
+      display: flex;
+    }
+
+    .dialog {
+      width: min(900px, 100%);
+      max-height: min(720px, calc(100vh - 48px));
+      background: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      overflow: hidden;
+    }
+
+    .dialog-head {
+      min-height: 62px;
+      padding: 16px 18px 14px 26px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 16px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfaf6;
+    }
+
+    .scene-label {
+      margin: 0;
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .icon-button {
+      width: 40px;
+      min-height: 40px;
+      padding: 0;
+      border-radius: 50%;
+      font-size: 26px;
+      line-height: 1;
+      font-weight: 400;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .progress-wrap {
+      padding: 18px 26px 0;
+      background: #ffffff;
+    }
+
+    .progress {
+      height: 8px;
+      border-radius: 999px;
+      background: #e7e0d5;
+      overflow: hidden;
+    }
+
+    .progress span {
+      display: block;
+      height: 100%;
+      width: 0;
+      background: var(--accent);
+      transition: width 180ms ease;
+    }
+
+    .content {
+      max-height: 70vh;
+      padding: clamp(40px, 6vh, 58px) clamp(28px, 5vw, 46px) clamp(28px, 5vw, 46px);
+      display: grid;
+      align-content: start;
+      gap: 22px;
+      overflow-y: auto;
+    }
+
+    .step-label {
+      margin: 0;
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .english {
+      margin: 0;
+      font-size: clamp(28px, 4.1vw, 46px);
+      line-height: 1.12;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .target-language {
+      margin: 0;
+      font-size: clamp(21px, 2.7vw, 30px);
+      line-height: 1.2;
+      color: #293136;
+      font-weight: 700;
+    }
+
+    .hidden-note {
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+    }
+
+    .translation {
+      min-height: 82px;
+      border-top: 1px solid var(--line);
+      padding-top: 20px;
+      display: grid;
+      gap: 14px;
+      align-content: start;
+    }
+
+    .controls {
+      border-top: 1px solid var(--line);
+      padding: 18px 26px;
+      display: grid;
+      grid-template-columns: 132px 1fr 132px;
+      gap: 14px;
+      align-items: center;
+      background: #fbfaf6;
+    }
+
+    .center-actions {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    button {
+      appearance: none;
+      border: 1px solid var(--accent);
+      background: var(--accent);
+      color: #fff;
+      border-radius: 8px;
+      min-height: 46px;
+      padding: 0 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    button:hover { background: var(--accent-dark); }
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.45;
+      background: #8da5ad;
+      border-color: #8da5ad;
+    }
+
+    .secondary {
+      background: #fff;
+      color: var(--accent);
+    }
+
+    .secondary:hover {
+      background: #eef7f9;
+      color: var(--accent-dark);
+    }
+
+    .success {
+      border-color: var(--success);
+      background: var(--success);
+    }
+
+    .controls.final-step {
+      grid-template-columns: 132px 1fr;
+    }
+
+    .controls.final-step .center-actions {
+      grid-column: 2;
+    }
+
+    .controls.final-step #backButton {
+      grid-column: 1;
+    }
+
+    .controls.final-step #nextButton {
+      display: block;
+      grid-column: 1 / -1;
+      grid-row: 2;
+    }
+
+    .return-button {
+      width: 100%;
+      min-height: 64px;
+      border-color: var(--success);
+      background: var(--success);
+      font-size: 20px;
+    }
+
+    .return-button:hover {
+      background: #3f6537;
+    }
+
+    @media (max-width: 720px) {
+      .topbar {
+        min-height: 64px;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 12px 0;
+      }
+
+      .counter { white-space: normal; }
+
+      main {
+        padding: 20px 0 34px;
+      }
+
+      .story {
+        padding: 24px 20px;
+      }
+
+      .modal {
+        padding: 12px;
+      }
+
+      .dialog {
+        max-height: calc(100vh - 24px);
+      }
+
+      .controls {
+        grid-template-columns: 1fr 1fr;
+        padding: 14px;
+      }
+
+      .center-actions {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        flex-wrap: wrap;
+      }
+
+      .controls > button:first-child { grid-column: 1; }
+      .controls > button:last-child { grid-column: 2; }
+
+      .controls.final-step {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .controls.final-step .center-actions {
+        grid-column: 2;
+        grid-row: 1;
+      }
+
+      .controls.final-step #backButton {
+        grid-column: 1;
+        grid-row: 1;
+      }
+
+      .controls.final-step #nextButton {
+        grid-column: 1 / -1;
+        grid-row: 2;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="topbar">
+        <h1 id="title">English Web Trainer</h1>
+        <div class="counter" id="storyCounter"></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="story" aria-labelledby="title">
+        <p class="story-kicker" id="storyKicker"></p>
+        <audio class="story-player" controls src="audio/full_story_en.wav"></audio>
+        <p class="story-text" id="storyText" lang="en"></p>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <section class="dialog" role="dialog" aria-modal="true" aria-labelledby="sceneLabel">
+      <div class="dialog-head">
+        <p class="scene-label" id="sceneLabel"></p>
+        <button class="secondary icon-button" id="closeButton" aria-label="Close">×</button>
+      </div>
+
+      <div class="progress-wrap">
+        <div class="progress"><span id="progress"></span></div>
+      </div>
+
+      <div class="content" aria-live="polite">
+        <p class="step-label" id="stepLabel"></p>
+        <p class="english" id="englishText" lang="en"></p>
+        <div class="translation" id="translationBox"></div>
+      </div>
+
+      <div class="controls">
+        <button class="secondary" id="backButton">Back</button>
+        <div class="center-actions">
+          <button id="revealButton">Show Translation</button>
+          <button class="secondary" id="replayButton">Replay Audio</button>
+        </div>
+        <button id="nextButton">Next</button>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const EMBEDDED_TRAINER_DATA = {"title": "The Plains Zebra", "scene_count": 30, "mode": "en-first", "full_story_audio": "audio/full_story_en.wav", "target_language": "Spanish", "target_locale": "es-MX", "target_voice": "es-MX-JorgeNeural", "scenes": [{"scene": 1, "phrases": [{"en": "Across the sunlit grasslands of", "target": "A través de las praderas iluminadas por el sol de", "audio_en": "audio/scene_01_phrase_1_en.wav", "audio_target": "audio/scene_01_phrase_1_target.mp3"}, {"en": "eastern and southern Africa, a", "target": "África oriental y meridional, una", "audio_en": "audio/scene_01_phrase_2_en.wav", "audio_target": "audio/scene_01_phrase_2_target.mp3"}, {"en": "herd of striped herbivores grazes", "target": "manada de herbívoros rayados pasta", "audio_en": "audio/scene_01_phrase_3_en.wav", "audio_target": "audio/scene_01_phrase_3_target.mp3"}, {"en": "in the morning warmth.", "target": "bajo el calor de la mañana.", "audio_en": "audio/scene_01_phrase_4_en.wav", "audio_target": "audio/scene_01_phrase_4_target.mp3"}], "sentence": {"en": "Across the sunlit grasslands of eastern and southern Africa, a herd of striped herbivores grazes in the morning warmth.", "target": "A través de las praderas iluminadas por el sol de África oriental y meridional, una manada de herbívoros rayados pasta bajo el calor de la mañana.", "audio_en": "audio/scene_01_sentence_en.wav", "audio_target": "audio/scene_01_sentence_target.mp3"}}, {"scene": 2, "phrases": [{"en": "This is the plains", "target": "Esta es la cebra de las llanuras,", "audio_en": "audio/scene_02_phrase_1_en.wav", "audio_target": "audio/scene_02_phrase_1_target.mp3"}, {"en": "zebra, a highly social", "target": "un miembro muy sociable", "audio_en": "audio/scene_02_phrase_2_en.wav", "audio_target": "audio/scene_02_phrase_2_target.mp3"}, {"en": "and adaptable member of", "target": "y adaptable de", "audio_en": "audio/scene_02_phrase_3_en.wav", "audio_target": "audio/scene_02_phrase_3_target.mp3"}, {"en": "the horse family.", "target": "la familia de los équidos.", "audio_en": "audio/scene_02_phrase_4_en.wav", "audio_target": "audio/scene_02_phrase_4_target.mp3"}], "sentence": {"en": "This is the plains zebra, a highly social and adaptable member of the horse family.", "target": "Esta es la cebra de las llanuras, un miembro muy sociable y adaptable de la familia de los équidos.", "audio_en": "audio/scene_02_sentence_en.wav", "audio_target": "audio/scene_02_sentence_target.mp3"}}, {"scene": 3, "phrases": [{"en": "Every individual carries a distinctive", "target": "Cada individuo tiene un patrón distintivo", "audio_en": "audio/scene_03_phrase_1_en.wav", "audio_target": "audio/scene_03_phrase_1_target.mp3"}, {"en": "pattern of black-and-white stripes that", "target": "de rayas blancas y negras que", "audio_en": "audio/scene_03_phrase_2_en.wav", "audio_target": "audio/scene_03_phrase_2_target.mp3"}, {"en": "differs from the markings", "target": "es diferente de las marcas", "audio_en": "audio/scene_03_phrase_3_en.wav", "audio_target": "audio/scene_03_phrase_3_target.mp3"}, {"en": "of every other zebra.", "target": "de todas las demás cebras.", "audio_en": "audio/scene_03_phrase_4_en.wav", "audio_target": "audio/scene_03_phrase_4_target.mp3"}], "sentence": {"en": "Every individual carries a distinctive pattern of black-and-white stripes that differs from the markings of every other zebra.", "target": "Cada individuo tiene un patrón distintivo de rayas blancas y negras que es diferente de las marcas de todas las demás cebras.", "audio_en": "audio/scene_03_sentence_en.wav", "audio_target": "audio/scene_03_sentence_target.mp3"}}, {"scene": 4, "phrases": [{"en": "The exact purpose of these", "target": "La función exacta de estas", "audio_en": "audio/scene_04_phrase_1_en.wav", "audio_target": "audio/scene_04_phrase_1_target.mp3"}, {"en": "stripes remains debated, but strong", "target": "rayas sigue siendo motivo de debate, pero hay pruebas sólidas", "audio_en": "audio/scene_04_phrase_2_en.wav", "audio_target": "audio/scene_04_phrase_2_target.mp3"}, {"en": "evidence shows that they", "target": "de que ayudan a", "audio_en": "audio/scene_04_phrase_3_en.wav", "audio_target": "audio/scene_04_phrase_3_target.mp3"}, {"en": "help deter biting flies.", "target": "ahuyentar a las moscas que pican.", "audio_en": "audio/scene_04_phrase_4_en.wav", "audio_target": "audio/scene_04_phrase_4_target.mp3"}], "sentence": {"en": "The exact purpose of these stripes remains debated, but strong evidence shows that they help deter biting flies.", "target": "La función exacta de estas rayas sigue siendo motivo de debate, pero hay pruebas sólidas de que ayudan a ahuyentar a las moscas que pican.", "audio_en": "audio/scene_04_sentence_en.wav", "audio_target": "audio/scene_04_sentence_target.mp3"}}, {"scene": 5, "phrases": [{"en": "Plains zebras live in stable", "target": "Las cebras de las llanuras viven en", "audio_en": "audio/scene_05_phrase_1_en.wav", "audio_target": "audio/scene_05_phrase_1_target.mp3"}, {"en": "family units known as", "target": "grupos familiares estables conocidos como", "audio_en": "audio/scene_05_phrase_2_en.wav", "audio_target": "audio/scene_05_phrase_2_target.mp3"}, {"en": "harems and usually do", "target": "harenes y, por lo general,", "audio_en": "audio/scene_05_phrase_3_en.wav", "audio_target": "audio/scene_05_phrase_3_target.mp3"}, {"en": "not defend fixed territories.", "target": "no defienden territorios fijos.", "audio_en": "audio/scene_05_phrase_4_en.wav", "audio_target": "audio/scene_05_phrase_4_target.mp3"}], "sentence": {"en": "Plains zebras live in stable family units known as harems and usually do not defend fixed territories.", "target": "Las cebras de las llanuras viven en grupos familiares estables conocidos como harenes y, por lo general, no defienden territorios fijos.", "audio_en": "audio/scene_05_sentence_en.wav", "audio_target": "audio/scene_05_sentence_target.mp3"}}, {"scene": 6, "phrases": [{"en": "A typical harem includes", "target": "Un harén típico incluye", "audio_en": "audio/scene_06_phrase_1_en.wav", "audio_target": "audio/scene_06_phrase_1_target.mp3"}, {"en": "one adult stallion,", "target": "un semental adulto,", "audio_en": "audio/scene_06_phrase_2_en.wav", "audio_target": "audio/scene_06_phrase_2_target.mp3"}, {"en": "several mares, and", "target": "varias yeguas y", "audio_en": "audio/scene_06_phrase_3_en.wav", "audio_target": "audio/scene_06_phrase_3_target.mp3"}, {"en": "their dependent foals.", "target": "sus potros dependientes.", "audio_en": "audio/scene_06_phrase_4_en.wav", "audio_target": "audio/scene_06_phrase_4_target.mp3"}], "sentence": {"en": "A typical harem includes one adult stallion, several mares, and their dependent foals.", "target": "Un harén típico incluye un semental adulto, varias yeguas y sus potros dependientes.", "audio_en": "audio/scene_06_sentence_en.wav", "audio_target": "audio/scene_06_sentence_target.mp3"}}, {"scene": 7, "phrases": [{"en": "Family members strengthen their bonds", "target": "Los miembros de la familia fortalecen sus vínculos", "audio_en": "audio/scene_07_phrase_1_en.wav", "audio_target": "audio/scene_07_phrase_1_target.mp3"}, {"en": "by standing close together", "target": "al permanecer muy cerca", "audio_en": "audio/scene_07_phrase_2_en.wav", "audio_target": "audio/scene_07_phrase_2_target.mp3"}, {"en": "and gently grooming one", "target": "y acicalarse con suavidad", "audio_en": "audio/scene_07_phrase_3_en.wav", "audio_target": "audio/scene_07_phrase_3_target.mp3"}, {"en": "another's necks and shoulders.", "target": "el cuello y los hombros.", "audio_en": "audio/scene_07_phrase_4_en.wav", "audio_target": "audio/scene_07_phrase_4_target.mp3"}], "sentence": {"en": "Family members strengthen their bonds by standing close together and gently grooming one another's necks and shoulders.", "target": "Los miembros de la familia fortalecen sus vínculos al permanecer muy cerca y acicalarse con suavidad el cuello y los hombros.", "audio_en": "audio/scene_07_sentence_en.wav", "audio_target": "audio/scene_07_sentence_target.mp3"}}, {"scene": 8, "phrases": [{"en": "As adaptable grazers, plains zebras", "target": "Como herbívoras adaptables, las cebras de las llanuras", "audio_en": "audio/scene_08_phrase_1_en.wav", "audio_target": "audio/scene_08_phrase_1_target.mp3"}, {"en": "can feed on tall, coarse", "target": "pueden alimentarse de pastos altos y ásperos", "audio_en": "audio/scene_08_phrase_2_en.wav", "audio_target": "audio/scene_08_phrase_2_target.mp3"}, {"en": "grasses that many other", "target": "que muchos otros", "audio_en": "audio/scene_08_phrase_3_en.wav", "audio_target": "audio/scene_08_phrase_3_target.mp3"}, {"en": "herbivores use less efficiently.", "target": "herbívoros aprovechan con menor eficiencia.", "audio_en": "audio/scene_08_phrase_4_en.wav", "audio_target": "audio/scene_08_phrase_4_target.mp3"}], "sentence": {"en": "As adaptable grazers, plains zebras can feed on tall, coarse grasses that many other herbivores use less efficiently.", "target": "Como herbívoras adaptables, las cebras de las llanuras pueden alimentarse de pastos altos y ásperos que muchos otros herbívoros aprovechan con menor eficiencia.", "audio_en": "audio/scene_08_sentence_en.wav", "audio_target": "audio/scene_08_sentence_target.mp3"}}, {"scene": 9, "phrases": [{"en": "By removing this tougher", "target": "Al retirar esta vegetación más dura,", "audio_en": "audio/scene_09_phrase_1_en.wav", "audio_target": "audio/scene_09_phrase_1_target.mp3"}, {"en": "vegetation, they often expose", "target": "a menudo dejan al descubierto", "audio_en": "audio/scene_09_phrase_2_en.wav", "audio_target": "audio/scene_09_phrase_2_target.mp3"}, {"en": "shorter, more nutritious growth", "target": "brotes más cortos y nutritivos", "audio_en": "audio/scene_09_phrase_3_en.wav", "audio_target": "audio/scene_09_phrase_3_target.mp3"}, {"en": "for other grazing animals.", "target": "para otros animales de pastoreo.", "audio_en": "audio/scene_09_phrase_4_en.wav", "audio_target": "audio/scene_09_phrase_4_target.mp3"}], "sentence": {"en": "By removing this tougher vegetation, they often expose shorter, more nutritious growth for other grazing animals.", "target": "Al retirar esta vegetación más dura, a menudo dejan al descubierto brotes más cortos y nutritivos para otros animales de pastoreo.", "audio_en": "audio/scene_09_sentence_en.wav", "audio_target": "audio/scene_09_sentence_target.mp3"}}, {"scene": 10, "phrases": [{"en": "When birth approaches, a", "target": "Cuando se acerca el parto, una", "audio_en": "audio/scene_10_phrase_1_en.wav", "audio_target": "audio/scene_10_phrase_1_target.mp3"}, {"en": "pregnant mare may", "target": "yegua preñada puede", "audio_en": "audio/scene_10_phrase_2_en.wav", "audio_target": "audio/scene_10_phrase_2_target.mp3"}, {"en": "separate briefly from", "target": "separarse brevemente", "audio_en": "audio/scene_10_phrase_3_en.wav", "audio_target": "audio/scene_10_phrase_3_target.mp3"}, {"en": "the family group.", "target": "del grupo familiar.", "audio_en": "audio/scene_10_phrase_4_en.wav", "audio_target": "audio/scene_10_phrase_4_target.mp3"}], "sentence": {"en": "When birth approaches, a pregnant mare may separate briefly from the family group.", "target": "Cuando se acerca el parto, una yegua preñada puede separarse brevemente del grupo familiar.", "audio_en": "audio/scene_10_sentence_en.wav", "audio_target": "audio/scene_10_sentence_target.mp3"}}, {"scene": 11, "phrases": [{"en": "She usually delivers a", "target": "Por lo general da a luz", "audio_en": "audio/scene_11_phrase_1_en.wav", "audio_target": "audio/scene_11_phrase_1_target.mp3"}, {"en": "single foal whose first", "target": "a un solo potro cuyas primeras", "audio_en": "audio/scene_11_phrase_2_en.wav", "audio_target": "audio/scene_11_phrase_2_target.mp3"}, {"en": "stripes appear brownish rather", "target": "rayas se ven de color café", "audio_en": "audio/scene_11_phrase_3_en.wav", "audio_target": "audio/scene_11_phrase_3_target.mp3"}, {"en": "than deep black.", "target": "en vez de negro intenso.", "audio_en": "audio/scene_11_phrase_4_en.wav", "audio_target": "audio/scene_11_phrase_4_target.mp3"}], "sentence": {"en": "She usually delivers a single foal whose first stripes appear brownish rather than deep black.", "target": "Por lo general da a luz a un solo potro cuyas primeras rayas se ven de color café en vez de negro intenso.", "audio_en": "audio/scene_11_sentence_en.wav", "audio_target": "audio/scene_11_sentence_target.mp3"}}, {"scene": 12, "phrases": [{"en": "During the first hours, the", "target": "Durante las primeras horas, la", "audio_en": "audio/scene_12_phrase_1_en.wav", "audio_target": "audio/scene_12_phrase_1_target.mp3"}, {"en": "mare keeps close contact with", "target": "yegua permanece muy cerca", "audio_en": "audio/scene_12_phrase_2_en.wav", "audio_target": "audio/scene_12_phrase_2_target.mp3"}, {"en": "the newborn as it learns", "target": "del recién nacido mientras aprende a reconocer", "audio_en": "audio/scene_12_phrase_3_en.wav", "audio_target": "audio/scene_12_phrase_3_target.mp3"}, {"en": "her appearance, scent, and voice.", "target": "su apariencia, su olor y su voz.", "audio_en": "audio/scene_12_phrase_4_en.wav", "audio_target": "audio/scene_12_phrase_4_target.mp3"}], "sentence": {"en": "During the first hours, the mare keeps close contact with the newborn as it learns her appearance, scent, and voice.", "target": "Durante las primeras horas, la yegua permanece muy cerca del recién nacido mientras aprende a reconocer su apariencia, su olor y su voz.", "audio_en": "audio/scene_12_sentence_en.wav", "audio_target": "audio/scene_12_sentence_target.mp3"}}, {"scene": 13, "phrases": [{"en": "The foal struggles upright", "target": "El potro se esfuerza por ponerse de pie", "audio_en": "audio/scene_13_phrase_1_en.wav", "audio_target": "audio/scene_13_phrase_1_target.mp3"}, {"en": "soon after birth and", "target": "poco después de nacer y", "audio_en": "audio/scene_13_phrase_2_en.wav", "audio_target": "audio/scene_13_phrase_2_target.mp3"}, {"en": "is often standing within", "target": "a menudo ya está parado", "audio_en": "audio/scene_13_phrase_3_en.wav", "audio_target": "audio/scene_13_phrase_3_target.mp3"}, {"en": "about fifteen minutes.", "target": "en unos quince minutos.", "audio_en": "audio/scene_13_phrase_4_en.wav", "audio_target": "audio/scene_13_phrase_4_target.mp3"}], "sentence": {"en": "The foal struggles upright soon after birth and is often standing within about fifteen minutes.", "target": "El potro se esfuerza por ponerse de pie poco después de nacer y a menudo ya está parado en unos quince minutos.", "audio_en": "audio/scene_13_sentence_en.wav", "audio_target": "audio/scene_13_sentence_target.mp3"}}, {"scene": 14, "phrases": [{"en": "Within a short time, it can", "target": "En poco tiempo, puede", "audio_en": "audio/scene_14_phrase_1_en.wav", "audio_target": "audio/scene_14_phrase_1_target.mp3"}, {"en": "walk and run well enough", "target": "caminar y correr lo bastante bien", "audio_en": "audio/scene_14_phrase_2_en.wav", "audio_target": "audio/scene_14_phrase_2_target.mp3"}, {"en": "to follow its mother and", "target": "para seguir a su madre y", "audio_en": "audio/scene_14_phrase_3_en.wav", "audio_target": "audio/scene_14_phrase_3_target.mp3"}, {"en": "remain with the moving family.", "target": "mantenerse con la familia en movimiento.", "audio_en": "audio/scene_14_phrase_4_en.wav", "audio_target": "audio/scene_14_phrase_4_target.mp3"}], "sentence": {"en": "Within a short time, it can walk and run well enough to follow its mother and remain with the moving family.", "target": "En poco tiempo, puede caminar y correr lo bastante bien para seguir a su madre y mantenerse con la familia en movimiento.", "audio_en": "audio/scene_14_sentence_en.wav", "audio_target": "audio/scene_14_sentence_target.mp3"}}, {"scene": 15, "phrases": [{"en": "When the group travels,", "target": "Cuando el grupo se desplaza,", "audio_en": "audio/scene_15_phrase_1_en.wav", "audio_target": "audio/scene_15_phrase_1_target.mp3"}, {"en": "an experienced mare commonly", "target": "una yegua experimentada suele", "audio_en": "audio/scene_15_phrase_2_en.wav", "audio_target": "audio/scene_15_phrase_2_target.mp3"}, {"en": "helps guide the family", "target": "ayudar a guiar a la familia", "audio_en": "audio/scene_15_phrase_3_en.wav", "audio_target": "audio/scene_15_phrase_3_target.mp3"}, {"en": "toward grazing and water.", "target": "hacia los pastizales y el agua.", "audio_en": "audio/scene_15_phrase_4_en.wav", "audio_target": "audio/scene_15_phrase_4_target.mp3"}], "sentence": {"en": "When the group travels, an experienced mare commonly helps guide the family toward grazing and water.", "target": "Cuando el grupo se desplaza, una yegua experimentada suele ayudar a guiar a la familia hacia los pastizales y el agua.", "audio_en": "audio/scene_15_sentence_en.wav", "audio_target": "audio/scene_15_sentence_target.mp3"}}, {"scene": 16, "phrases": [{"en": "The stallion often remains near", "target": "El semental suele permanecer cerca", "audio_en": "audio/scene_16_phrase_1_en.wav", "audio_target": "audio/scene_16_phrase_1_target.mp3"}, {"en": "the rear or outer edge,", "target": "de la parte trasera o del borde exterior,", "audio_en": "audio/scene_16_phrase_2_en.wav", "audio_target": "audio/scene_16_phrase_2_target.mp3"}, {"en": "watching for predators and", "target": "vigilando a los depredadores y", "audio_en": "audio/scene_16_phrase_3_en.wav", "audio_target": "audio/scene_16_phrase_3_target.mp3"}, {"en": "keeping the harem together.", "target": "manteniendo unido al harén.", "audio_en": "audio/scene_16_phrase_4_en.wav", "audio_target": "audio/scene_16_phrase_4_target.mp3"}], "sentence": {"en": "The stallion often remains near the rear or outer edge, watching for predators and keeping the harem together.", "target": "El semental suele permanecer cerca de la parte trasera o del borde exterior, vigilando a los depredadores y manteniendo unido al harén.", "audio_en": "audio/scene_16_sentence_en.wav", "audio_target": "audio/scene_16_sentence_target.mp3"}}, {"scene": 17, "phrases": [{"en": "Plains zebras communicate with", "target": "Las cebras de las llanuras se comunican mediante", "audio_en": "audio/scene_17_phrase_1_en.wav", "audio_target": "audio/scene_17_phrase_1_target.mp3"}, {"en": "barking calls, snorts, facial", "target": "llamados parecidos a ladridos, resoplidos y señales", "audio_en": "audio/scene_17_phrase_2_en.wav", "audio_target": "audio/scene_17_phrase_2_target.mp3"}, {"en": "signals, and movements of", "target": "faciales, además de movimientos de", "audio_en": "audio/scene_17_phrase_3_en.wav", "audio_target": "audio/scene_17_phrase_3_target.mp3"}, {"en": "their ears and tails.", "target": "las orejas y la cola.", "audio_en": "audio/scene_17_phrase_4_en.wav", "audio_target": "audio/scene_17_phrase_4_target.mp3"}], "sentence": {"en": "Plains zebras communicate with barking calls, snorts, facial signals, and movements of their ears and tails.", "target": "Las cebras de las llanuras se comunican mediante llamados parecidos a ladridos, resoplidos y señales faciales, además de movimientos de las orejas y la cola.", "audio_en": "audio/scene_17_sentence_en.wav", "audio_target": "audio/scene_17_sentence_target.mp3"}}, {"scene": 18, "phrases": [{"en": "In the dry grass", "target": "Entre la hierba seca", "audio_en": "audio/scene_18_phrase_1_en.wav", "audio_target": "audio/scene_18_phrase_1_target.mp3"}, {"en": "ahead, the family suddenly", "target": "que hay más adelante, la familia de pronto", "audio_en": "audio/scene_18_phrase_2_en.wav", "audio_target": "audio/scene_18_phrase_2_target.mp3"}, {"en": "detects a group of", "target": "detecta a un grupo de", "audio_en": "audio/scene_18_phrase_3_en.wav", "audio_target": "audio/scene_18_phrase_3_target.mp3"}, {"en": "spotted hyenas moving closer.", "target": "hienas manchadas que se acerca.", "audio_en": "audio/scene_18_phrase_4_en.wav", "audio_target": "audio/scene_18_phrase_4_target.mp3"}], "sentence": {"en": "In the dry grass ahead, the family suddenly detects a group of spotted hyenas moving closer.", "target": "Entre la hierba seca que hay más adelante, la familia de pronto detecta a un grupo de hienas manchadas que se acerca.", "audio_en": "audio/scene_18_sentence_en.wav", "audio_target": "audio/scene_18_sentence_target.mp3"}}, {"scene": 19, "phrases": [{"en": "A sharp alarm call sends", "target": "Un llamado de alarma agudo hace que", "audio_en": "audio/scene_19_phrase_1_en.wav", "audio_target": "audio/scene_19_phrase_1_target.mp3"}, {"en": "the mares and foals", "target": "las yeguas y los potros", "audio_en": "audio/scene_19_phrase_2_en.wav", "audio_target": "audio/scene_19_phrase_2_target.mp3"}, {"en": "running toward the safety", "target": "corran hacia la seguridad", "audio_en": "audio/scene_19_phrase_3_en.wav", "audio_target": "audio/scene_19_phrase_3_target.mp3"}, {"en": "of the wider herd.", "target": "de la manada más grande.", "audio_en": "audio/scene_19_phrase_4_en.wav", "audio_target": "audio/scene_19_phrase_4_target.mp3"}], "sentence": {"en": "A sharp alarm call sends the mares and foals running toward the safety of the wider herd.", "target": "Un llamado de alarma agudo hace que las yeguas y los potros corran hacia la seguridad de la manada más grande.", "audio_en": "audio/scene_19_sentence_en.wav", "audio_target": "audio/scene_19_sentence_target.mp3"}}, {"scene": 20, "phrases": [{"en": "The stallion turns toward the", "target": "El semental se vuelve hacia el", "audio_en": "audio/scene_20_phrase_1_en.wav", "audio_target": "audio/scene_20_phrase_1_target.mp3"}, {"en": "danger, threatening the predators with", "target": "peligro y amenaza a los depredadores con", "audio_en": "audio/scene_20_phrase_2_en.wav", "audio_target": "audio/scene_20_phrase_2_target.mp3"}, {"en": "bites and powerful kicks", "target": "mordidas y potentes patadas", "audio_en": "audio/scene_20_phrase_3_en.wav", "audio_target": "audio/scene_20_phrase_3_target.mp3"}, {"en": "while the family escapes.", "target": "mientras la familia escapa.", "audio_en": "audio/scene_20_phrase_4_en.wav", "audio_target": "audio/scene_20_phrase_4_target.mp3"}], "sentence": {"en": "The stallion turns toward the danger, threatening the predators with bites and powerful kicks while the family escapes.", "target": "El semental se vuelve hacia el peligro y amenaza a los depredadores con mordidas y potentes patadas mientras la familia escapa.", "audio_en": "audio/scene_20_sentence_en.wav", "audio_target": "audio/scene_20_sentence_target.mp3"}}, {"scene": 21, "phrases": [{"en": "Hyenas may abandon the", "target": "Las hienas pueden abandonar", "audio_en": "audio/scene_21_phrase_1_en.wav", "audio_target": "audio/scene_21_phrase_1_target.mp3"}, {"en": "approach when the zebras", "target": "el acercamiento cuando las cebras", "audio_en": "audio/scene_21_phrase_2_en.wav", "audio_target": "audio/scene_21_phrase_2_target.mp3"}, {"en": "remain alert, coordinated, and", "target": "se mantienen alerta, coordinadas y", "audio_en": "audio/scene_21_phrase_3_en.wav", "audio_target": "audio/scene_21_phrase_3_target.mp3"}, {"en": "difficult to isolate.", "target": "son difíciles de aislar.", "audio_en": "audio/scene_21_phrase_4_en.wav", "audio_target": "audio/scene_21_phrase_4_target.mp3"}], "sentence": {"en": "Hyenas may abandon the approach when the zebras remain alert, coordinated, and difficult to isolate.", "target": "Las hienas pueden abandonar el acercamiento cuando las cebras se mantienen alerta, coordinadas y son difíciles de aislar.", "audio_en": "audio/scene_21_sentence_en.wav", "audio_target": "audio/scene_21_sentence_target.mp3"}}, {"scene": 22, "phrases": [{"en": "Once the danger passes,", "target": "Una vez que pasa el peligro,", "audio_en": "audio/scene_22_phrase_1_en.wav", "audio_target": "audio/scene_22_phrase_1_target.mp3"}, {"en": "separated family members call,", "target": "los familiares separados se llaman,", "audio_en": "audio/scene_22_phrase_2_en.wav", "audio_target": "audio/scene_22_phrase_2_target.mp3"}, {"en": "approach, and reunite through", "target": "se acercan y vuelven a reunirse mediante", "audio_en": "audio/scene_22_phrase_3_en.wav", "audio_target": "audio/scene_22_phrase_3_target.mp3"}, {"en": "close social contact.", "target": "un estrecho contacto social.", "audio_en": "audio/scene_22_phrase_4_en.wav", "audio_target": "audio/scene_22_phrase_4_target.mp3"}], "sentence": {"en": "Once the danger passes, separated family members call, approach, and reunite through close social contact.", "target": "Una vez que pasa el peligro, los familiares separados se llaman, se acercan y vuelven a reunirse mediante un estrecho contacto social.", "audio_en": "audio/scene_22_sentence_en.wav", "audio_target": "audio/scene_22_sentence_target.mp3"}}, {"scene": 23, "phrases": [{"en": "Plains zebras frequently travel", "target": "Las cebras de las llanuras viajan con frecuencia", "audio_en": "audio/scene_23_phrase_1_en.wav", "audio_target": "audio/scene_23_phrase_1_target.mp3"}, {"en": "and graze beside wildebeest", "target": "y pastan junto a ñus", "audio_en": "audio/scene_23_phrase_2_en.wav", "audio_target": "audio/scene_23_phrase_2_target.mp3"}, {"en": "and other herbivores", "target": "y otros herbívoros", "audio_en": "audio/scene_23_phrase_3_en.wav", "audio_target": "audio/scene_23_phrase_3_target.mp3"}, {"en": "during seasonal movements.", "target": "durante los desplazamientos estacionales.", "audio_en": "audio/scene_23_phrase_4_en.wav", "audio_target": "audio/scene_23_phrase_4_target.mp3"}], "sentence": {"en": "Plains zebras frequently travel and graze beside wildebeest and other herbivores during seasonal movements.", "target": "Las cebras de las llanuras viajan con frecuencia y pastan junto a ñus y otros herbívoros durante los desplazamientos estacionales.", "audio_en": "audio/scene_23_sentence_en.wav", "audio_target": "audio/scene_23_sentence_target.mp3"}}, {"scene": 24, "phrases": [{"en": "These movements help the animals", "target": "Estos desplazamientos ayudan a los animales", "audio_en": "audio/scene_24_phrase_1_en.wav", "audio_target": "audio/scene_24_phrase_1_target.mp3"}, {"en": "reach fresh grass and water,", "target": "a llegar a pastos frescos y agua,", "audio_en": "audio/scene_24_phrase_2_en.wav", "audio_target": "audio/scene_24_phrase_2_target.mp3"}, {"en": "but many routes are increasingly", "target": "pero cada vez más rutas son", "audio_en": "audio/scene_24_phrase_3_en.wav", "audio_target": "audio/scene_24_phrase_3_target.mp3"}, {"en": "disrupted by human development.", "target": "interrumpidas por el desarrollo humano.", "audio_en": "audio/scene_24_phrase_4_en.wav", "audio_target": "audio/scene_24_phrase_4_target.mp3"}], "sentence": {"en": "These movements help the animals reach fresh grass and water, but many routes are increasingly disrupted by human development.", "target": "Estos desplazamientos ayudan a los animales a llegar a pastos frescos y agua, pero cada vez más rutas son interrumpidas por el desarrollo humano.", "audio_en": "audio/scene_24_sentence_en.wav", "audio_target": "audio/scene_24_sentence_target.mp3"}}, {"scene": 25, "phrases": [{"en": "Roads, farms, and fences can", "target": "Las carreteras, las granjas y las cercas pueden", "audio_en": "audio/scene_25_phrase_1_en.wav", "audio_target": "audio/scene_25_phrase_1_target.mp3"}, {"en": "divide open rangelands and prevent", "target": "dividir los pastizales abiertos e impedir", "audio_en": "audio/scene_25_phrase_2_en.wav", "audio_target": "audio/scene_25_phrase_2_target.mp3"}, {"en": "herds from reaching important", "target": "que las manadas lleguen a importantes", "audio_en": "audio/scene_25_phrase_3_en.wav", "audio_target": "audio/scene_25_phrase_3_target.mp3"}, {"en": "grazing areas and rivers.", "target": "zonas de pastoreo y ríos.", "audio_en": "audio/scene_25_phrase_4_en.wav", "audio_target": "audio/scene_25_phrase_4_target.mp3"}], "sentence": {"en": "Roads, farms, and fences can divide open rangelands and prevent herds from reaching important grazing areas and rivers.", "target": "Las carreteras, las granjas y las cercas pueden dividir los pastizales abiertos e impedir que las manadas lleguen a importantes zonas de pastoreo y ríos.", "audio_en": "audio/scene_25_sentence_en.wav", "audio_target": "audio/scene_25_sentence_target.mp3"}}, {"scene": 26, "phrases": [{"en": "Severe drought can", "target": "Una sequía intensa puede", "audio_en": "audio/scene_26_phrase_1_en.wav", "audio_target": "audio/scene_26_phrase_1_target.mp3"}, {"en": "further reduce available", "target": "reducir todavía más", "audio_en": "audio/scene_26_phrase_2_en.wav", "audio_target": "audio/scene_26_phrase_2_target.mp3"}, {"en": "water and forage", "target": "el agua y el alimento disponibles", "audio_en": "audio/scene_26_phrase_3_en.wav", "audio_target": "audio/scene_26_phrase_3_target.mp3"}, {"en": "across the plains.", "target": "en las llanuras.", "audio_en": "audio/scene_26_phrase_4_en.wav", "audio_target": "audio/scene_26_phrase_4_target.mp3"}], "sentence": {"en": "Severe drought can further reduce available water and forage across the plains.", "target": "Una sequía intensa puede reducir todavía más el agua y el alimento disponibles en las llanuras.", "audio_en": "audio/scene_26_sentence_en.wav", "audio_target": "audio/scene_26_sentence_target.mp3"}}, {"scene": 27, "phrases": [{"en": "When movement routes and", "target": "Cuando las rutas de desplazamiento y", "audio_en": "audio/scene_27_phrase_1_en.wav", "audio_target": "audio/scene_27_phrase_1_target.mp3"}, {"en": "water sources disappear together,", "target": "las fuentes de agua desaparecen al mismo tiempo,", "audio_en": "audio/scene_27_phrase_2_en.wav", "audio_target": "audio/scene_27_phrase_2_target.mp3"}, {"en": "zebra herds face greater", "target": "las manadas de cebras enfrentan mayor", "audio_en": "audio/scene_27_phrase_3_en.wav", "audio_target": "audio/scene_27_phrase_3_target.mp3"}, {"en": "hunger, exhaustion, and mortality.", "target": "hambre, agotamiento y mortalidad.", "audio_en": "audio/scene_27_phrase_4_en.wav", "audio_target": "audio/scene_27_phrase_4_target.mp3"}], "sentence": {"en": "When movement routes and water sources disappear together, zebra herds face greater hunger, exhaustion, and mortality.", "target": "Cuando las rutas de desplazamiento y las fuentes de agua desaparecen al mismo tiempo, las manadas de cebras enfrentan mayor hambre, agotamiento y mortalidad.", "audio_en": "audio/scene_27_sentence_en.wav", "audio_target": "audio/scene_27_sentence_target.mp3"}}, {"scene": 28, "phrases": [{"en": "As young males mature, many leave", "target": "A medida que los machos jóvenes maduran, muchos abandonan", "audio_en": "audio/scene_28_phrase_1_en.wav", "audio_target": "audio/scene_28_phrase_1_target.mp3"}, {"en": "their family units and join", "target": "sus grupos familiares y se unen", "audio_en": "audio/scene_28_phrase_2_en.wav", "audio_target": "audio/scene_28_phrase_2_target.mp3"}, {"en": "bachelor groups before attempting to", "target": "a grupos de solteros antes de intentar", "audio_en": "audio/scene_28_phrase_3_en.wav", "audio_target": "audio/scene_28_phrase_3_target.mp3"}, {"en": "form harems of their own.", "target": "formar sus propios harenes.", "audio_en": "audio/scene_28_phrase_4_en.wav", "audio_target": "audio/scene_28_phrase_4_target.mp3"}], "sentence": {"en": "As young males mature, many leave their family units and join bachelor groups before attempting to form harems of their own.", "target": "A medida que los machos jóvenes maduran, muchos abandonan sus grupos familiares y se unen a grupos de solteros antes de intentar formar sus propios harenes.", "audio_en": "audio/scene_28_sentence_en.wav", "audio_target": "audio/scene_28_sentence_target.mp3"}}, {"scene": 29, "phrases": [{"en": "Young females may transfer", "target": "Las hembras jóvenes pueden trasladarse", "audio_en": "audio/scene_29_phrase_1_en.wav", "audio_target": "audio/scene_29_phrase_1_target.mp3"}, {"en": "to different harems, helping", "target": "a diferentes harenes, lo que ayuda", "audio_en": "audio/scene_29_phrase_2_en.wav", "audio_target": "audio/scene_29_phrase_2_target.mp3"}, {"en": "maintain genetic exchange", "target": "a mantener el intercambio genético", "audio_en": "audio/scene_29_phrase_3_en.wav", "audio_target": "audio/scene_29_phrase_3_target.mp3"}, {"en": "between family groups.", "target": "entre los grupos familiares.", "audio_en": "audio/scene_29_phrase_4_en.wav", "audio_target": "audio/scene_29_phrase_4_target.mp3"}], "sentence": {"en": "Young females may transfer to different harems, helping maintain genetic exchange between family groups.", "target": "Las hembras jóvenes pueden trasladarse a diferentes harenes, lo que ayuda a mantener el intercambio genético entre los grupos familiares.", "audio_en": "audio/scene_29_sentence_en.wav", "audio_target": "audio/scene_29_sentence_target.mp3"}}, {"scene": 30, "phrases": [{"en": "Through strong social bonds, flexible", "target": "Gracias a sus fuertes vínculos sociales, su alimentación flexible", "audio_en": "audio/scene_30_phrase_1_en.wav", "audio_target": "audio/scene_30_phrase_1_target.mp3"}, {"en": "feeding, and constant movement, plains", "target": "y su movimiento constante, las cebras de las llanuras", "audio_en": "audio/scene_30_phrase_2_en.wav", "audio_target": "audio/scene_30_phrase_2_target.mp3"}, {"en": "zebras remain one of Africa's", "target": "siguen siendo uno de los animales de pastoreo", "audio_en": "audio/scene_30_phrase_3_en.wav", "audio_target": "audio/scene_30_phrase_3_target.mp3"}, {"en": "most recognizable grazing animals.", "target": "más reconocibles de África.", "audio_en": "audio/scene_30_phrase_4_en.wav", "audio_target": "audio/scene_30_phrase_4_target.mp3"}], "sentence": {"en": "Through strong social bonds, flexible feeding, and constant movement, plains zebras remain one of Africa's most recognizable grazing animals.", "target": "Gracias a sus fuertes vínculos sociales, su alimentación flexible y su movimiento constante, las cebras de las llanuras siguen siendo uno de los animales de pastoreo más reconocibles de África.", "audio_en": "audio/scene_30_sentence_en.wav", "audio_target": "audio/scene_30_sentence_target.mp3"}}]};
+    let trainer = null;
+    let activeSceneIndex = null;
+    let currentStep = 0;
+    let revealed = new Set();
+    let audio = new Audio();
+    let hoverAudio = new Audio();
+    let lastSentenceEl = null;
+
+    const titleEl = document.getElementById('title');
+    const storyCounterEl = document.getElementById('storyCounter');
+    const storyKickerEl = document.getElementById('storyKicker');
+    const storyTextEl = document.getElementById('storyText');
+    const modalEl = document.getElementById('modal');
+    const sceneLabelEl = document.getElementById('sceneLabel');
+    const progressEl = document.getElementById('progress');
+    const stepLabelEl = document.getElementById('stepLabel');
+    const englishTextEl = document.getElementById('englishText');
+    const translationBoxEl = document.getElementById('translationBox');
+    const controlsEl = document.querySelector('.controls');
+    const backButton = document.getElementById('backButton');
+    const nextButton = document.getElementById('nextButton');
+    const revealButton = document.getElementById('revealButton');
+    const replayButton = document.getElementById('replayButton');
+    const closeButton = document.getElementById('closeButton');
+
+    function sceneSteps(scene) {
+      const steps = scene.phrases.map((phrase, index) => ({
+        type: 'phrase',
+        scene: scene.scene,
+        phrase: index + 1,
+        en: phrase.en,
+        target: phrase.target,
+        audioEn: phrase.audio_en,
+        audioTarget: phrase.audio_target
+      }));
+      steps.push({
+          type: 'sentence',
+          scene: scene.scene,
+          phrase: null,
+          en: scene.sentence.en,
+          target: scene.sentence.target,
+          audioEn: scene.sentence.audio_en,
+          audioTarget: scene.sentence.audio_target
+      });
+      return steps;
+    }
+
+    function play(src) {
+      if (!src) return;
+      audio.pause();
+      audio = new Audio(src);
+      audio.play().catch(() => {});
+    }
+
+    function stopMainAudio() {
+      audio.pause();
+      audio.currentTime = 0;
+    }
+
+    function playHover(src) {
+      if (!src || activeSceneIndex !== null) return;
+      hoverAudio.pause();
+      hoverAudio = new Audio(src);
+      hoverAudio.play().catch(() => {});
+    }
+
+    function stopHoverAudio() {
+      hoverAudio.pause();
+      hoverAudio.currentTime = 0;
+    }
+
+    function current() {
+      if (activeSceneIndex === null) return null;
+      return trainer.scenes[activeSceneIndex].steps[currentStep];
+    }
+
+    function stepKey(index = currentStep) {
+      if (activeSceneIndex === null) return '';
+      return `${activeSceneIndex}:${index}`;
+    }
+
+    function updateNavigation(isFinalStep) {
+      backButton.disabled = currentStep === 0;
+      nextButton.disabled = false;
+      nextButton.hidden = false;
+      nextButton.textContent = isFinalStep ? 'Return to Text' : 'Next';
+      nextButton.setAttribute('aria-label', isFinalStep ? 'Return to Text' : 'Next');
+      nextButton.classList.toggle('return-button', isFinalStep);
+      controlsEl.classList.toggle('final-step', isFinalStep);
+    }
+
+    function renderStory() {
+      titleEl.textContent = trainer.title;
+      storyCounterEl.textContent = `${trainer.scene_count} sentences`;
+      storyKickerEl.textContent = trainer.title;
+      storyTextEl.innerHTML = '';
+
+      trainer.scenes.forEach((scene, index) => {
+        const span = document.createElement('span');
+        span.className = 'story-sentence';
+        span.tabIndex = 0;
+        span.role = 'button';
+        span.dataset.sceneIndex = String(index);
+        span.textContent = scene.sentence.en;
+
+        span.addEventListener('mouseenter', () => playHover(scene.sentence.audio_en));
+        span.addEventListener('mouseleave', stopHoverAudio);
+        span.addEventListener('click', () => {
+          stopHoverAudio();
+          openScene(index, span);
+        });
+        span.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            stopHoverAudio();
+            openScene(index, span);
+          }
+        });
+
+        storyTextEl.appendChild(span);
+        storyTextEl.appendChild(document.createTextNode(' '));
+      });
+    }
+
+    function render(options = {}) {
+      const step = current();
+      if (!step) return;
+      const isRevealed = revealed.has(stepKey());
+      const total = trainer.scenes[activeSceneIndex].steps.length;
+      const isFinalStep = currentStep === total - 1;
+      const label = step.type === 'sentence'
+        ? `Scene ${step.scene} / final sentence`
+        : `Scene ${step.scene} / phrase ${step.phrase} of 4`;
+
+      sceneLabelEl.textContent = `Scene ${step.scene}`;
+      progressEl.style.width = `${((currentStep + 1) / total) * 100}%`;
+      stepLabelEl.textContent = label;
+      englishTextEl.textContent = step.en;
+
+      translationBoxEl.innerHTML = '';
+      if (isRevealed) {
+        const p = document.createElement('p');
+        p.className = 'target-language';
+        p.textContent = step.target;
+        translationBoxEl.appendChild(p);
+      } else {
+        const p = document.createElement('div');
+        p.className = 'hidden-note';
+        p.textContent = 'Translation hidden';
+        translationBoxEl.appendChild(p);
+      }
+
+      updateNavigation(isFinalStep);
+      revealButton.disabled = isRevealed;
+      revealButton.className = isRevealed ? 'success' : '';
+      revealButton.textContent = isRevealed ? 'Translation Shown' : 'Show Translation';
+
+      if (options.autoplay !== false) {
+        play(step.audioEn);
+      }
+    }
+
+    function openScene(sceneIndex, sentenceEl) {
+      stopHoverAudio();
+      stopMainAudio();
+      activeSceneIndex = sceneIndex;
+      currentStep = 0;
+      revealed.clear();
+      lastSentenceEl = sentenceEl;
+      modalEl.classList.add('open');
+      modalEl.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      render();
+      revealButton.focus();
+    }
+
+    function closeScene() {
+      stopHoverAudio();
+      stopMainAudio();
+      const completed = activeSceneIndex !== null
+        && currentStep === trainer.scenes[activeSceneIndex].steps.length - 1;
+      if (completed && lastSentenceEl) {
+        lastSentenceEl.classList.add('studied');
+      }
+      activeSceneIndex = null;
+      currentStep = 0;
+      revealed.clear();
+      nextButton.classList.remove('return-button');
+      nextButton.textContent = 'Next';
+      nextButton.setAttribute('aria-label', 'Next');
+      controlsEl.classList.remove('final-step');
+      modalEl.classList.remove('open');
+      modalEl.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+      if (lastSentenceEl) {
+        lastSentenceEl.focus();
+      }
+    }
+
+    backButton.addEventListener('click', () => {
+      if (currentStep === 0) return;
+      currentStep -= 1;
+      revealed.clear();
+      render();
+    });
+
+    nextButton.addEventListener('click', () => {
+      const total = trainer.scenes[activeSceneIndex].steps.length;
+      if (currentStep >= total - 1) {
+        closeScene();
+        return;
+      }
+      currentStep += 1;
+      render();
+    });
+
+    revealButton.addEventListener('click', () => {
+      revealed.add(stepKey());
+      render({ autoplay: false });
+      play(current().audioTarget);
+    });
+
+    replayButton.addEventListener('click', () => {
+      play(current().audioEn);
+    });
+
+    closeButton.addEventListener('click', closeScene);
+
+    modalEl.addEventListener('click', (event) => {
+      if (event.target === modalEl) closeScene();
+    });
+
+    window.addEventListener('keydown', (event) => {
+      if (activeSceneIndex === null) return;
+      if (event.key === 'Escape') closeScene();
+      if (event.key === 'ArrowLeft') backButton.click();
+      if (event.key === 'ArrowRight') nextButton.click();
+      if ((event.key === ' ' || event.key === 'Enter') && !event.target.closest('button')) {
+        event.preventDefault();
+        revealButton.click();
+      }
+    });
+
+    trainer = {
+      ...EMBEDDED_TRAINER_DATA,
+      scenes: EMBEDDED_TRAINER_DATA.scenes.map((scene) => ({ ...scene, steps: sceneSteps(scene) }))
+    };
+    renderStory();
+  </script>
+</body>
+</html>

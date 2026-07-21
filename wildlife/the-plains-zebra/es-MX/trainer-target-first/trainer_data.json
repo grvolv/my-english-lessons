@@ -1,0 +1,1061 @@
+{
+  "title": "The Plains Zebra",
+  "scene_count": 30,
+  "mode": "target-first",
+  "full_story_audio": "audio/full_story_target.wav",
+  "target_language": "Spanish",
+  "target_locale": "es-MX",
+  "target_voice": "es-MX-JorgeNeural",
+  "scenes": [
+    {
+      "scene": 1,
+      "phrases": [
+        {
+          "en": "Across the sunlit grasslands of",
+          "target": "A través de las praderas iluminadas por el sol de",
+          "audio_en": "audio/scene_01_phrase_1_en.wav",
+          "audio_target": "audio/scene_01_phrase_1_target.mp3"
+        },
+        {
+          "en": "eastern and southern Africa, a",
+          "target": "África oriental y meridional, una",
+          "audio_en": "audio/scene_01_phrase_2_en.wav",
+          "audio_target": "audio/scene_01_phrase_2_target.mp3"
+        },
+        {
+          "en": "herd of striped herbivores grazes",
+          "target": "manada de herbívoros rayados pasta",
+          "audio_en": "audio/scene_01_phrase_3_en.wav",
+          "audio_target": "audio/scene_01_phrase_3_target.mp3"
+        },
+        {
+          "en": "in the morning warmth.",
+          "target": "bajo el calor de la mañana.",
+          "audio_en": "audio/scene_01_phrase_4_en.wav",
+          "audio_target": "audio/scene_01_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Across the sunlit grasslands of eastern and southern Africa, a herd of striped herbivores grazes in the morning warmth.",
+        "target": "A través de las praderas iluminadas por el sol de África oriental y meridional, una manada de herbívoros rayados pasta bajo el calor de la mañana.",
+        "audio_en": "audio/scene_01_sentence_en.wav",
+        "audio_target": "audio/scene_01_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 2,
+      "phrases": [
+        {
+          "en": "This is the plains",
+          "target": "Esta es la cebra de las llanuras,",
+          "audio_en": "audio/scene_02_phrase_1_en.wav",
+          "audio_target": "audio/scene_02_phrase_1_target.mp3"
+        },
+        {
+          "en": "zebra, a highly social",
+          "target": "un miembro muy sociable",
+          "audio_en": "audio/scene_02_phrase_2_en.wav",
+          "audio_target": "audio/scene_02_phrase_2_target.mp3"
+        },
+        {
+          "en": "and adaptable member of",
+          "target": "y adaptable de",
+          "audio_en": "audio/scene_02_phrase_3_en.wav",
+          "audio_target": "audio/scene_02_phrase_3_target.mp3"
+        },
+        {
+          "en": "the horse family.",
+          "target": "la familia de los équidos.",
+          "audio_en": "audio/scene_02_phrase_4_en.wav",
+          "audio_target": "audio/scene_02_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "This is the plains zebra, a highly social and adaptable member of the horse family.",
+        "target": "Esta es la cebra de las llanuras, un miembro muy sociable y adaptable de la familia de los équidos.",
+        "audio_en": "audio/scene_02_sentence_en.wav",
+        "audio_target": "audio/scene_02_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 3,
+      "phrases": [
+        {
+          "en": "Every individual carries a distinctive",
+          "target": "Cada individuo tiene un patrón distintivo",
+          "audio_en": "audio/scene_03_phrase_1_en.wav",
+          "audio_target": "audio/scene_03_phrase_1_target.mp3"
+        },
+        {
+          "en": "pattern of black-and-white stripes that",
+          "target": "de rayas blancas y negras que",
+          "audio_en": "audio/scene_03_phrase_2_en.wav",
+          "audio_target": "audio/scene_03_phrase_2_target.mp3"
+        },
+        {
+          "en": "differs from the markings",
+          "target": "es diferente de las marcas",
+          "audio_en": "audio/scene_03_phrase_3_en.wav",
+          "audio_target": "audio/scene_03_phrase_3_target.mp3"
+        },
+        {
+          "en": "of every other zebra.",
+          "target": "de todas las demás cebras.",
+          "audio_en": "audio/scene_03_phrase_4_en.wav",
+          "audio_target": "audio/scene_03_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Every individual carries a distinctive pattern of black-and-white stripes that differs from the markings of every other zebra.",
+        "target": "Cada individuo tiene un patrón distintivo de rayas blancas y negras que es diferente de las marcas de todas las demás cebras.",
+        "audio_en": "audio/scene_03_sentence_en.wav",
+        "audio_target": "audio/scene_03_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 4,
+      "phrases": [
+        {
+          "en": "The exact purpose of these",
+          "target": "La función exacta de estas",
+          "audio_en": "audio/scene_04_phrase_1_en.wav",
+          "audio_target": "audio/scene_04_phrase_1_target.mp3"
+        },
+        {
+          "en": "stripes remains debated, but strong",
+          "target": "rayas sigue siendo motivo de debate, pero hay pruebas sólidas",
+          "audio_en": "audio/scene_04_phrase_2_en.wav",
+          "audio_target": "audio/scene_04_phrase_2_target.mp3"
+        },
+        {
+          "en": "evidence shows that they",
+          "target": "de que ayudan a",
+          "audio_en": "audio/scene_04_phrase_3_en.wav",
+          "audio_target": "audio/scene_04_phrase_3_target.mp3"
+        },
+        {
+          "en": "help deter biting flies.",
+          "target": "ahuyentar a las moscas que pican.",
+          "audio_en": "audio/scene_04_phrase_4_en.wav",
+          "audio_target": "audio/scene_04_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "The exact purpose of these stripes remains debated, but strong evidence shows that they help deter biting flies.",
+        "target": "La función exacta de estas rayas sigue siendo motivo de debate, pero hay pruebas sólidas de que ayudan a ahuyentar a las moscas que pican.",
+        "audio_en": "audio/scene_04_sentence_en.wav",
+        "audio_target": "audio/scene_04_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 5,
+      "phrases": [
+        {
+          "en": "Plains zebras live in stable",
+          "target": "Las cebras de las llanuras viven en",
+          "audio_en": "audio/scene_05_phrase_1_en.wav",
+          "audio_target": "audio/scene_05_phrase_1_target.mp3"
+        },
+        {
+          "en": "family units known as",
+          "target": "grupos familiares estables conocidos como",
+          "audio_en": "audio/scene_05_phrase_2_en.wav",
+          "audio_target": "audio/scene_05_phrase_2_target.mp3"
+        },
+        {
+          "en": "harems and usually do",
+          "target": "harenes y, por lo general,",
+          "audio_en": "audio/scene_05_phrase_3_en.wav",
+          "audio_target": "audio/scene_05_phrase_3_target.mp3"
+        },
+        {
+          "en": "not defend fixed territories.",
+          "target": "no defienden territorios fijos.",
+          "audio_en": "audio/scene_05_phrase_4_en.wav",
+          "audio_target": "audio/scene_05_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Plains zebras live in stable family units known as harems and usually do not defend fixed territories.",
+        "target": "Las cebras de las llanuras viven en grupos familiares estables conocidos como harenes y, por lo general, no defienden territorios fijos.",
+        "audio_en": "audio/scene_05_sentence_en.wav",
+        "audio_target": "audio/scene_05_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 6,
+      "phrases": [
+        {
+          "en": "A typical harem includes",
+          "target": "Un harén típico incluye",
+          "audio_en": "audio/scene_06_phrase_1_en.wav",
+          "audio_target": "audio/scene_06_phrase_1_target.mp3"
+        },
+        {
+          "en": "one adult stallion,",
+          "target": "un semental adulto,",
+          "audio_en": "audio/scene_06_phrase_2_en.wav",
+          "audio_target": "audio/scene_06_phrase_2_target.mp3"
+        },
+        {
+          "en": "several mares, and",
+          "target": "varias yeguas y",
+          "audio_en": "audio/scene_06_phrase_3_en.wav",
+          "audio_target": "audio/scene_06_phrase_3_target.mp3"
+        },
+        {
+          "en": "their dependent foals.",
+          "target": "sus potros dependientes.",
+          "audio_en": "audio/scene_06_phrase_4_en.wav",
+          "audio_target": "audio/scene_06_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "A typical harem includes one adult stallion, several mares, and their dependent foals.",
+        "target": "Un harén típico incluye un semental adulto, varias yeguas y sus potros dependientes.",
+        "audio_en": "audio/scene_06_sentence_en.wav",
+        "audio_target": "audio/scene_06_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 7,
+      "phrases": [
+        {
+          "en": "Family members strengthen their bonds",
+          "target": "Los miembros de la familia fortalecen sus vínculos",
+          "audio_en": "audio/scene_07_phrase_1_en.wav",
+          "audio_target": "audio/scene_07_phrase_1_target.mp3"
+        },
+        {
+          "en": "by standing close together",
+          "target": "al permanecer muy cerca",
+          "audio_en": "audio/scene_07_phrase_2_en.wav",
+          "audio_target": "audio/scene_07_phrase_2_target.mp3"
+        },
+        {
+          "en": "and gently grooming one",
+          "target": "y acicalarse con suavidad",
+          "audio_en": "audio/scene_07_phrase_3_en.wav",
+          "audio_target": "audio/scene_07_phrase_3_target.mp3"
+        },
+        {
+          "en": "another's necks and shoulders.",
+          "target": "el cuello y los hombros.",
+          "audio_en": "audio/scene_07_phrase_4_en.wav",
+          "audio_target": "audio/scene_07_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Family members strengthen their bonds by standing close together and gently grooming one another's necks and shoulders.",
+        "target": "Los miembros de la familia fortalecen sus vínculos al permanecer muy cerca y acicalarse con suavidad el cuello y los hombros.",
+        "audio_en": "audio/scene_07_sentence_en.wav",
+        "audio_target": "audio/scene_07_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 8,
+      "phrases": [
+        {
+          "en": "As adaptable grazers, plains zebras",
+          "target": "Como herbívoras adaptables, las cebras de las llanuras",
+          "audio_en": "audio/scene_08_phrase_1_en.wav",
+          "audio_target": "audio/scene_08_phrase_1_target.mp3"
+        },
+        {
+          "en": "can feed on tall, coarse",
+          "target": "pueden alimentarse de pastos altos y ásperos",
+          "audio_en": "audio/scene_08_phrase_2_en.wav",
+          "audio_target": "audio/scene_08_phrase_2_target.mp3"
+        },
+        {
+          "en": "grasses that many other",
+          "target": "que muchos otros",
+          "audio_en": "audio/scene_08_phrase_3_en.wav",
+          "audio_target": "audio/scene_08_phrase_3_target.mp3"
+        },
+        {
+          "en": "herbivores use less efficiently.",
+          "target": "herbívoros aprovechan con menor eficiencia.",
+          "audio_en": "audio/scene_08_phrase_4_en.wav",
+          "audio_target": "audio/scene_08_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "As adaptable grazers, plains zebras can feed on tall, coarse grasses that many other herbivores use less efficiently.",
+        "target": "Como herbívoras adaptables, las cebras de las llanuras pueden alimentarse de pastos altos y ásperos que muchos otros herbívoros aprovechan con menor eficiencia.",
+        "audio_en": "audio/scene_08_sentence_en.wav",
+        "audio_target": "audio/scene_08_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 9,
+      "phrases": [
+        {
+          "en": "By removing this tougher",
+          "target": "Al retirar esta vegetación más dura,",
+          "audio_en": "audio/scene_09_phrase_1_en.wav",
+          "audio_target": "audio/scene_09_phrase_1_target.mp3"
+        },
+        {
+          "en": "vegetation, they often expose",
+          "target": "a menudo dejan al descubierto",
+          "audio_en": "audio/scene_09_phrase_2_en.wav",
+          "audio_target": "audio/scene_09_phrase_2_target.mp3"
+        },
+        {
+          "en": "shorter, more nutritious growth",
+          "target": "brotes más cortos y nutritivos",
+          "audio_en": "audio/scene_09_phrase_3_en.wav",
+          "audio_target": "audio/scene_09_phrase_3_target.mp3"
+        },
+        {
+          "en": "for other grazing animals.",
+          "target": "para otros animales de pastoreo.",
+          "audio_en": "audio/scene_09_phrase_4_en.wav",
+          "audio_target": "audio/scene_09_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "By removing this tougher vegetation, they often expose shorter, more nutritious growth for other grazing animals.",
+        "target": "Al retirar esta vegetación más dura, a menudo dejan al descubierto brotes más cortos y nutritivos para otros animales de pastoreo.",
+        "audio_en": "audio/scene_09_sentence_en.wav",
+        "audio_target": "audio/scene_09_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 10,
+      "phrases": [
+        {
+          "en": "When birth approaches, a",
+          "target": "Cuando se acerca el parto, una",
+          "audio_en": "audio/scene_10_phrase_1_en.wav",
+          "audio_target": "audio/scene_10_phrase_1_target.mp3"
+        },
+        {
+          "en": "pregnant mare may",
+          "target": "yegua preñada puede",
+          "audio_en": "audio/scene_10_phrase_2_en.wav",
+          "audio_target": "audio/scene_10_phrase_2_target.mp3"
+        },
+        {
+          "en": "separate briefly from",
+          "target": "separarse brevemente",
+          "audio_en": "audio/scene_10_phrase_3_en.wav",
+          "audio_target": "audio/scene_10_phrase_3_target.mp3"
+        },
+        {
+          "en": "the family group.",
+          "target": "del grupo familiar.",
+          "audio_en": "audio/scene_10_phrase_4_en.wav",
+          "audio_target": "audio/scene_10_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "When birth approaches, a pregnant mare may separate briefly from the family group.",
+        "target": "Cuando se acerca el parto, una yegua preñada puede separarse brevemente del grupo familiar.",
+        "audio_en": "audio/scene_10_sentence_en.wav",
+        "audio_target": "audio/scene_10_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 11,
+      "phrases": [
+        {
+          "en": "She usually delivers a",
+          "target": "Por lo general da a luz",
+          "audio_en": "audio/scene_11_phrase_1_en.wav",
+          "audio_target": "audio/scene_11_phrase_1_target.mp3"
+        },
+        {
+          "en": "single foal whose first",
+          "target": "a un solo potro cuyas primeras",
+          "audio_en": "audio/scene_11_phrase_2_en.wav",
+          "audio_target": "audio/scene_11_phrase_2_target.mp3"
+        },
+        {
+          "en": "stripes appear brownish rather",
+          "target": "rayas se ven de color café",
+          "audio_en": "audio/scene_11_phrase_3_en.wav",
+          "audio_target": "audio/scene_11_phrase_3_target.mp3"
+        },
+        {
+          "en": "than deep black.",
+          "target": "en vez de negro intenso.",
+          "audio_en": "audio/scene_11_phrase_4_en.wav",
+          "audio_target": "audio/scene_11_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "She usually delivers a single foal whose first stripes appear brownish rather than deep black.",
+        "target": "Por lo general da a luz a un solo potro cuyas primeras rayas se ven de color café en vez de negro intenso.",
+        "audio_en": "audio/scene_11_sentence_en.wav",
+        "audio_target": "audio/scene_11_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 12,
+      "phrases": [
+        {
+          "en": "During the first hours, the",
+          "target": "Durante las primeras horas, la",
+          "audio_en": "audio/scene_12_phrase_1_en.wav",
+          "audio_target": "audio/scene_12_phrase_1_target.mp3"
+        },
+        {
+          "en": "mare keeps close contact with",
+          "target": "yegua permanece muy cerca",
+          "audio_en": "audio/scene_12_phrase_2_en.wav",
+          "audio_target": "audio/scene_12_phrase_2_target.mp3"
+        },
+        {
+          "en": "the newborn as it learns",
+          "target": "del recién nacido mientras aprende a reconocer",
+          "audio_en": "audio/scene_12_phrase_3_en.wav",
+          "audio_target": "audio/scene_12_phrase_3_target.mp3"
+        },
+        {
+          "en": "her appearance, scent, and voice.",
+          "target": "su apariencia, su olor y su voz.",
+          "audio_en": "audio/scene_12_phrase_4_en.wav",
+          "audio_target": "audio/scene_12_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "During the first hours, the mare keeps close contact with the newborn as it learns her appearance, scent, and voice.",
+        "target": "Durante las primeras horas, la yegua permanece muy cerca del recién nacido mientras aprende a reconocer su apariencia, su olor y su voz.",
+        "audio_en": "audio/scene_12_sentence_en.wav",
+        "audio_target": "audio/scene_12_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 13,
+      "phrases": [
+        {
+          "en": "The foal struggles upright",
+          "target": "El potro se esfuerza por ponerse de pie",
+          "audio_en": "audio/scene_13_phrase_1_en.wav",
+          "audio_target": "audio/scene_13_phrase_1_target.mp3"
+        },
+        {
+          "en": "soon after birth and",
+          "target": "poco después de nacer y",
+          "audio_en": "audio/scene_13_phrase_2_en.wav",
+          "audio_target": "audio/scene_13_phrase_2_target.mp3"
+        },
+        {
+          "en": "is often standing within",
+          "target": "a menudo ya está parado",
+          "audio_en": "audio/scene_13_phrase_3_en.wav",
+          "audio_target": "audio/scene_13_phrase_3_target.mp3"
+        },
+        {
+          "en": "about fifteen minutes.",
+          "target": "en unos quince minutos.",
+          "audio_en": "audio/scene_13_phrase_4_en.wav",
+          "audio_target": "audio/scene_13_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "The foal struggles upright soon after birth and is often standing within about fifteen minutes.",
+        "target": "El potro se esfuerza por ponerse de pie poco después de nacer y a menudo ya está parado en unos quince minutos.",
+        "audio_en": "audio/scene_13_sentence_en.wav",
+        "audio_target": "audio/scene_13_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 14,
+      "phrases": [
+        {
+          "en": "Within a short time, it can",
+          "target": "En poco tiempo, puede",
+          "audio_en": "audio/scene_14_phrase_1_en.wav",
+          "audio_target": "audio/scene_14_phrase_1_target.mp3"
+        },
+        {
+          "en": "walk and run well enough",
+          "target": "caminar y correr lo bastante bien",
+          "audio_en": "audio/scene_14_phrase_2_en.wav",
+          "audio_target": "audio/scene_14_phrase_2_target.mp3"
+        },
+        {
+          "en": "to follow its mother and",
+          "target": "para seguir a su madre y",
+          "audio_en": "audio/scene_14_phrase_3_en.wav",
+          "audio_target": "audio/scene_14_phrase_3_target.mp3"
+        },
+        {
+          "en": "remain with the moving family.",
+          "target": "mantenerse con la familia en movimiento.",
+          "audio_en": "audio/scene_14_phrase_4_en.wav",
+          "audio_target": "audio/scene_14_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Within a short time, it can walk and run well enough to follow its mother and remain with the moving family.",
+        "target": "En poco tiempo, puede caminar y correr lo bastante bien para seguir a su madre y mantenerse con la familia en movimiento.",
+        "audio_en": "audio/scene_14_sentence_en.wav",
+        "audio_target": "audio/scene_14_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 15,
+      "phrases": [
+        {
+          "en": "When the group travels,",
+          "target": "Cuando el grupo se desplaza,",
+          "audio_en": "audio/scene_15_phrase_1_en.wav",
+          "audio_target": "audio/scene_15_phrase_1_target.mp3"
+        },
+        {
+          "en": "an experienced mare commonly",
+          "target": "una yegua experimentada suele",
+          "audio_en": "audio/scene_15_phrase_2_en.wav",
+          "audio_target": "audio/scene_15_phrase_2_target.mp3"
+        },
+        {
+          "en": "helps guide the family",
+          "target": "ayudar a guiar a la familia",
+          "audio_en": "audio/scene_15_phrase_3_en.wav",
+          "audio_target": "audio/scene_15_phrase_3_target.mp3"
+        },
+        {
+          "en": "toward grazing and water.",
+          "target": "hacia los pastizales y el agua.",
+          "audio_en": "audio/scene_15_phrase_4_en.wav",
+          "audio_target": "audio/scene_15_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "When the group travels, an experienced mare commonly helps guide the family toward grazing and water.",
+        "target": "Cuando el grupo se desplaza, una yegua experimentada suele ayudar a guiar a la familia hacia los pastizales y el agua.",
+        "audio_en": "audio/scene_15_sentence_en.wav",
+        "audio_target": "audio/scene_15_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 16,
+      "phrases": [
+        {
+          "en": "The stallion often remains near",
+          "target": "El semental suele permanecer cerca",
+          "audio_en": "audio/scene_16_phrase_1_en.wav",
+          "audio_target": "audio/scene_16_phrase_1_target.mp3"
+        },
+        {
+          "en": "the rear or outer edge,",
+          "target": "de la parte trasera o del borde exterior,",
+          "audio_en": "audio/scene_16_phrase_2_en.wav",
+          "audio_target": "audio/scene_16_phrase_2_target.mp3"
+        },
+        {
+          "en": "watching for predators and",
+          "target": "vigilando a los depredadores y",
+          "audio_en": "audio/scene_16_phrase_3_en.wav",
+          "audio_target": "audio/scene_16_phrase_3_target.mp3"
+        },
+        {
+          "en": "keeping the harem together.",
+          "target": "manteniendo unido al harén.",
+          "audio_en": "audio/scene_16_phrase_4_en.wav",
+          "audio_target": "audio/scene_16_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "The stallion often remains near the rear or outer edge, watching for predators and keeping the harem together.",
+        "target": "El semental suele permanecer cerca de la parte trasera o del borde exterior, vigilando a los depredadores y manteniendo unido al harén.",
+        "audio_en": "audio/scene_16_sentence_en.wav",
+        "audio_target": "audio/scene_16_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 17,
+      "phrases": [
+        {
+          "en": "Plains zebras communicate with",
+          "target": "Las cebras de las llanuras se comunican mediante",
+          "audio_en": "audio/scene_17_phrase_1_en.wav",
+          "audio_target": "audio/scene_17_phrase_1_target.mp3"
+        },
+        {
+          "en": "barking calls, snorts, facial",
+          "target": "llamados parecidos a ladridos, resoplidos y señales",
+          "audio_en": "audio/scene_17_phrase_2_en.wav",
+          "audio_target": "audio/scene_17_phrase_2_target.mp3"
+        },
+        {
+          "en": "signals, and movements of",
+          "target": "faciales, además de movimientos de",
+          "audio_en": "audio/scene_17_phrase_3_en.wav",
+          "audio_target": "audio/scene_17_phrase_3_target.mp3"
+        },
+        {
+          "en": "their ears and tails.",
+          "target": "las orejas y la cola.",
+          "audio_en": "audio/scene_17_phrase_4_en.wav",
+          "audio_target": "audio/scene_17_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Plains zebras communicate with barking calls, snorts, facial signals, and movements of their ears and tails.",
+        "target": "Las cebras de las llanuras se comunican mediante llamados parecidos a ladridos, resoplidos y señales faciales, además de movimientos de las orejas y la cola.",
+        "audio_en": "audio/scene_17_sentence_en.wav",
+        "audio_target": "audio/scene_17_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 18,
+      "phrases": [
+        {
+          "en": "In the dry grass",
+          "target": "Entre la hierba seca",
+          "audio_en": "audio/scene_18_phrase_1_en.wav",
+          "audio_target": "audio/scene_18_phrase_1_target.mp3"
+        },
+        {
+          "en": "ahead, the family suddenly",
+          "target": "que hay más adelante, la familia de pronto",
+          "audio_en": "audio/scene_18_phrase_2_en.wav",
+          "audio_target": "audio/scene_18_phrase_2_target.mp3"
+        },
+        {
+          "en": "detects a group of",
+          "target": "detecta a un grupo de",
+          "audio_en": "audio/scene_18_phrase_3_en.wav",
+          "audio_target": "audio/scene_18_phrase_3_target.mp3"
+        },
+        {
+          "en": "spotted hyenas moving closer.",
+          "target": "hienas manchadas que se acerca.",
+          "audio_en": "audio/scene_18_phrase_4_en.wav",
+          "audio_target": "audio/scene_18_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "In the dry grass ahead, the family suddenly detects a group of spotted hyenas moving closer.",
+        "target": "Entre la hierba seca que hay más adelante, la familia de pronto detecta a un grupo de hienas manchadas que se acerca.",
+        "audio_en": "audio/scene_18_sentence_en.wav",
+        "audio_target": "audio/scene_18_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 19,
+      "phrases": [
+        {
+          "en": "A sharp alarm call sends",
+          "target": "Un llamado de alarma agudo hace que",
+          "audio_en": "audio/scene_19_phrase_1_en.wav",
+          "audio_target": "audio/scene_19_phrase_1_target.mp3"
+        },
+        {
+          "en": "the mares and foals",
+          "target": "las yeguas y los potros",
+          "audio_en": "audio/scene_19_phrase_2_en.wav",
+          "audio_target": "audio/scene_19_phrase_2_target.mp3"
+        },
+        {
+          "en": "running toward the safety",
+          "target": "corran hacia la seguridad",
+          "audio_en": "audio/scene_19_phrase_3_en.wav",
+          "audio_target": "audio/scene_19_phrase_3_target.mp3"
+        },
+        {
+          "en": "of the wider herd.",
+          "target": "de la manada más grande.",
+          "audio_en": "audio/scene_19_phrase_4_en.wav",
+          "audio_target": "audio/scene_19_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "A sharp alarm call sends the mares and foals running toward the safety of the wider herd.",
+        "target": "Un llamado de alarma agudo hace que las yeguas y los potros corran hacia la seguridad de la manada más grande.",
+        "audio_en": "audio/scene_19_sentence_en.wav",
+        "audio_target": "audio/scene_19_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 20,
+      "phrases": [
+        {
+          "en": "The stallion turns toward the",
+          "target": "El semental se vuelve hacia el",
+          "audio_en": "audio/scene_20_phrase_1_en.wav",
+          "audio_target": "audio/scene_20_phrase_1_target.mp3"
+        },
+        {
+          "en": "danger, threatening the predators with",
+          "target": "peligro y amenaza a los depredadores con",
+          "audio_en": "audio/scene_20_phrase_2_en.wav",
+          "audio_target": "audio/scene_20_phrase_2_target.mp3"
+        },
+        {
+          "en": "bites and powerful kicks",
+          "target": "mordidas y potentes patadas",
+          "audio_en": "audio/scene_20_phrase_3_en.wav",
+          "audio_target": "audio/scene_20_phrase_3_target.mp3"
+        },
+        {
+          "en": "while the family escapes.",
+          "target": "mientras la familia escapa.",
+          "audio_en": "audio/scene_20_phrase_4_en.wav",
+          "audio_target": "audio/scene_20_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "The stallion turns toward the danger, threatening the predators with bites and powerful kicks while the family escapes.",
+        "target": "El semental se vuelve hacia el peligro y amenaza a los depredadores con mordidas y potentes patadas mientras la familia escapa.",
+        "audio_en": "audio/scene_20_sentence_en.wav",
+        "audio_target": "audio/scene_20_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 21,
+      "phrases": [
+        {
+          "en": "Hyenas may abandon the",
+          "target": "Las hienas pueden abandonar",
+          "audio_en": "audio/scene_21_phrase_1_en.wav",
+          "audio_target": "audio/scene_21_phrase_1_target.mp3"
+        },
+        {
+          "en": "approach when the zebras",
+          "target": "el acercamiento cuando las cebras",
+          "audio_en": "audio/scene_21_phrase_2_en.wav",
+          "audio_target": "audio/scene_21_phrase_2_target.mp3"
+        },
+        {
+          "en": "remain alert, coordinated, and",
+          "target": "se mantienen alerta, coordinadas y",
+          "audio_en": "audio/scene_21_phrase_3_en.wav",
+          "audio_target": "audio/scene_21_phrase_3_target.mp3"
+        },
+        {
+          "en": "difficult to isolate.",
+          "target": "son difíciles de aislar.",
+          "audio_en": "audio/scene_21_phrase_4_en.wav",
+          "audio_target": "audio/scene_21_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Hyenas may abandon the approach when the zebras remain alert, coordinated, and difficult to isolate.",
+        "target": "Las hienas pueden abandonar el acercamiento cuando las cebras se mantienen alerta, coordinadas y son difíciles de aislar.",
+        "audio_en": "audio/scene_21_sentence_en.wav",
+        "audio_target": "audio/scene_21_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 22,
+      "phrases": [
+        {
+          "en": "Once the danger passes,",
+          "target": "Una vez que pasa el peligro,",
+          "audio_en": "audio/scene_22_phrase_1_en.wav",
+          "audio_target": "audio/scene_22_phrase_1_target.mp3"
+        },
+        {
+          "en": "separated family members call,",
+          "target": "los familiares separados se llaman,",
+          "audio_en": "audio/scene_22_phrase_2_en.wav",
+          "audio_target": "audio/scene_22_phrase_2_target.mp3"
+        },
+        {
+          "en": "approach, and reunite through",
+          "target": "se acercan y vuelven a reunirse mediante",
+          "audio_en": "audio/scene_22_phrase_3_en.wav",
+          "audio_target": "audio/scene_22_phrase_3_target.mp3"
+        },
+        {
+          "en": "close social contact.",
+          "target": "un estrecho contacto social.",
+          "audio_en": "audio/scene_22_phrase_4_en.wav",
+          "audio_target": "audio/scene_22_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Once the danger passes, separated family members call, approach, and reunite through close social contact.",
+        "target": "Una vez que pasa el peligro, los familiares separados se llaman, se acercan y vuelven a reunirse mediante un estrecho contacto social.",
+        "audio_en": "audio/scene_22_sentence_en.wav",
+        "audio_target": "audio/scene_22_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 23,
+      "phrases": [
+        {
+          "en": "Plains zebras frequently travel",
+          "target": "Las cebras de las llanuras viajan con frecuencia",
+          "audio_en": "audio/scene_23_phrase_1_en.wav",
+          "audio_target": "audio/scene_23_phrase_1_target.mp3"
+        },
+        {
+          "en": "and graze beside wildebeest",
+          "target": "y pastan junto a ñus",
+          "audio_en": "audio/scene_23_phrase_2_en.wav",
+          "audio_target": "audio/scene_23_phrase_2_target.mp3"
+        },
+        {
+          "en": "and other herbivores",
+          "target": "y otros herbívoros",
+          "audio_en": "audio/scene_23_phrase_3_en.wav",
+          "audio_target": "audio/scene_23_phrase_3_target.mp3"
+        },
+        {
+          "en": "during seasonal movements.",
+          "target": "durante los desplazamientos estacionales.",
+          "audio_en": "audio/scene_23_phrase_4_en.wav",
+          "audio_target": "audio/scene_23_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Plains zebras frequently travel and graze beside wildebeest and other herbivores during seasonal movements.",
+        "target": "Las cebras de las llanuras viajan con frecuencia y pastan junto a ñus y otros herbívoros durante los desplazamientos estacionales.",
+        "audio_en": "audio/scene_23_sentence_en.wav",
+        "audio_target": "audio/scene_23_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 24,
+      "phrases": [
+        {
+          "en": "These movements help the animals",
+          "target": "Estos desplazamientos ayudan a los animales",
+          "audio_en": "audio/scene_24_phrase_1_en.wav",
+          "audio_target": "audio/scene_24_phrase_1_target.mp3"
+        },
+        {
+          "en": "reach fresh grass and water,",
+          "target": "a llegar a pastos frescos y agua,",
+          "audio_en": "audio/scene_24_phrase_2_en.wav",
+          "audio_target": "audio/scene_24_phrase_2_target.mp3"
+        },
+        {
+          "en": "but many routes are increasingly",
+          "target": "pero cada vez más rutas son",
+          "audio_en": "audio/scene_24_phrase_3_en.wav",
+          "audio_target": "audio/scene_24_phrase_3_target.mp3"
+        },
+        {
+          "en": "disrupted by human development.",
+          "target": "interrumpidas por el desarrollo humano.",
+          "audio_en": "audio/scene_24_phrase_4_en.wav",
+          "audio_target": "audio/scene_24_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "These movements help the animals reach fresh grass and water, but many routes are increasingly disrupted by human development.",
+        "target": "Estos desplazamientos ayudan a los animales a llegar a pastos frescos y agua, pero cada vez más rutas son interrumpidas por el desarrollo humano.",
+        "audio_en": "audio/scene_24_sentence_en.wav",
+        "audio_target": "audio/scene_24_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 25,
+      "phrases": [
+        {
+          "en": "Roads, farms, and fences can",
+          "target": "Las carreteras, las granjas y las cercas pueden",
+          "audio_en": "audio/scene_25_phrase_1_en.wav",
+          "audio_target": "audio/scene_25_phrase_1_target.mp3"
+        },
+        {
+          "en": "divide open rangelands and prevent",
+          "target": "dividir los pastizales abiertos e impedir",
+          "audio_en": "audio/scene_25_phrase_2_en.wav",
+          "audio_target": "audio/scene_25_phrase_2_target.mp3"
+        },
+        {
+          "en": "herds from reaching important",
+          "target": "que las manadas lleguen a importantes",
+          "audio_en": "audio/scene_25_phrase_3_en.wav",
+          "audio_target": "audio/scene_25_phrase_3_target.mp3"
+        },
+        {
+          "en": "grazing areas and rivers.",
+          "target": "zonas de pastoreo y ríos.",
+          "audio_en": "audio/scene_25_phrase_4_en.wav",
+          "audio_target": "audio/scene_25_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Roads, farms, and fences can divide open rangelands and prevent herds from reaching important grazing areas and rivers.",
+        "target": "Las carreteras, las granjas y las cercas pueden dividir los pastizales abiertos e impedir que las manadas lleguen a importantes zonas de pastoreo y ríos.",
+        "audio_en": "audio/scene_25_sentence_en.wav",
+        "audio_target": "audio/scene_25_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 26,
+      "phrases": [
+        {
+          "en": "Severe drought can",
+          "target": "Una sequía intensa puede",
+          "audio_en": "audio/scene_26_phrase_1_en.wav",
+          "audio_target": "audio/scene_26_phrase_1_target.mp3"
+        },
+        {
+          "en": "further reduce available",
+          "target": "reducir todavía más",
+          "audio_en": "audio/scene_26_phrase_2_en.wav",
+          "audio_target": "audio/scene_26_phrase_2_target.mp3"
+        },
+        {
+          "en": "water and forage",
+          "target": "el agua y el alimento disponibles",
+          "audio_en": "audio/scene_26_phrase_3_en.wav",
+          "audio_target": "audio/scene_26_phrase_3_target.mp3"
+        },
+        {
+          "en": "across the plains.",
+          "target": "en las llanuras.",
+          "audio_en": "audio/scene_26_phrase_4_en.wav",
+          "audio_target": "audio/scene_26_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Severe drought can further reduce available water and forage across the plains.",
+        "target": "Una sequía intensa puede reducir todavía más el agua y el alimento disponibles en las llanuras.",
+        "audio_en": "audio/scene_26_sentence_en.wav",
+        "audio_target": "audio/scene_26_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 27,
+      "phrases": [
+        {
+          "en": "When movement routes and",
+          "target": "Cuando las rutas de desplazamiento y",
+          "audio_en": "audio/scene_27_phrase_1_en.wav",
+          "audio_target": "audio/scene_27_phrase_1_target.mp3"
+        },
+        {
+          "en": "water sources disappear together,",
+          "target": "las fuentes de agua desaparecen al mismo tiempo,",
+          "audio_en": "audio/scene_27_phrase_2_en.wav",
+          "audio_target": "audio/scene_27_phrase_2_target.mp3"
+        },
+        {
+          "en": "zebra herds face greater",
+          "target": "las manadas de cebras enfrentan mayor",
+          "audio_en": "audio/scene_27_phrase_3_en.wav",
+          "audio_target": "audio/scene_27_phrase_3_target.mp3"
+        },
+        {
+          "en": "hunger, exhaustion, and mortality.",
+          "target": "hambre, agotamiento y mortalidad.",
+          "audio_en": "audio/scene_27_phrase_4_en.wav",
+          "audio_target": "audio/scene_27_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "When movement routes and water sources disappear together, zebra herds face greater hunger, exhaustion, and mortality.",
+        "target": "Cuando las rutas de desplazamiento y las fuentes de agua desaparecen al mismo tiempo, las manadas de cebras enfrentan mayor hambre, agotamiento y mortalidad.",
+        "audio_en": "audio/scene_27_sentence_en.wav",
+        "audio_target": "audio/scene_27_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 28,
+      "phrases": [
+        {
+          "en": "As young males mature, many leave",
+          "target": "A medida que los machos jóvenes maduran, muchos abandonan",
+          "audio_en": "audio/scene_28_phrase_1_en.wav",
+          "audio_target": "audio/scene_28_phrase_1_target.mp3"
+        },
+        {
+          "en": "their family units and join",
+          "target": "sus grupos familiares y se unen",
+          "audio_en": "audio/scene_28_phrase_2_en.wav",
+          "audio_target": "audio/scene_28_phrase_2_target.mp3"
+        },
+        {
+          "en": "bachelor groups before attempting to",
+          "target": "a grupos de solteros antes de intentar",
+          "audio_en": "audio/scene_28_phrase_3_en.wav",
+          "audio_target": "audio/scene_28_phrase_3_target.mp3"
+        },
+        {
+          "en": "form harems of their own.",
+          "target": "formar sus propios harenes.",
+          "audio_en": "audio/scene_28_phrase_4_en.wav",
+          "audio_target": "audio/scene_28_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "As young males mature, many leave their family units and join bachelor groups before attempting to form harems of their own.",
+        "target": "A medida que los machos jóvenes maduran, muchos abandonan sus grupos familiares y se unen a grupos de solteros antes de intentar formar sus propios harenes.",
+        "audio_en": "audio/scene_28_sentence_en.wav",
+        "audio_target": "audio/scene_28_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 29,
+      "phrases": [
+        {
+          "en": "Young females may transfer",
+          "target": "Las hembras jóvenes pueden trasladarse",
+          "audio_en": "audio/scene_29_phrase_1_en.wav",
+          "audio_target": "audio/scene_29_phrase_1_target.mp3"
+        },
+        {
+          "en": "to different harems, helping",
+          "target": "a diferentes harenes, lo que ayuda",
+          "audio_en": "audio/scene_29_phrase_2_en.wav",
+          "audio_target": "audio/scene_29_phrase_2_target.mp3"
+        },
+        {
+          "en": "maintain genetic exchange",
+          "target": "a mantener el intercambio genético",
+          "audio_en": "audio/scene_29_phrase_3_en.wav",
+          "audio_target": "audio/scene_29_phrase_3_target.mp3"
+        },
+        {
+          "en": "between family groups.",
+          "target": "entre los grupos familiares.",
+          "audio_en": "audio/scene_29_phrase_4_en.wav",
+          "audio_target": "audio/scene_29_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Young females may transfer to different harems, helping maintain genetic exchange between family groups.",
+        "target": "Las hembras jóvenes pueden trasladarse a diferentes harenes, lo que ayuda a mantener el intercambio genético entre los grupos familiares.",
+        "audio_en": "audio/scene_29_sentence_en.wav",
+        "audio_target": "audio/scene_29_sentence_target.mp3"
+      }
+    },
+    {
+      "scene": 30,
+      "phrases": [
+        {
+          "en": "Through strong social bonds, flexible",
+          "target": "Gracias a sus fuertes vínculos sociales, su alimentación flexible",
+          "audio_en": "audio/scene_30_phrase_1_en.wav",
+          "audio_target": "audio/scene_30_phrase_1_target.mp3"
+        },
+        {
+          "en": "feeding, and constant movement, plains",
+          "target": "y su movimiento constante, las cebras de las llanuras",
+          "audio_en": "audio/scene_30_phrase_2_en.wav",
+          "audio_target": "audio/scene_30_phrase_2_target.mp3"
+        },
+        {
+          "en": "zebras remain one of Africa's",
+          "target": "siguen siendo uno de los animales de pastoreo",
+          "audio_en": "audio/scene_30_phrase_3_en.wav",
+          "audio_target": "audio/scene_30_phrase_3_target.mp3"
+        },
+        {
+          "en": "most recognizable grazing animals.",
+          "target": "más reconocibles de África.",
+          "audio_en": "audio/scene_30_phrase_4_en.wav",
+          "audio_target": "audio/scene_30_phrase_4_target.mp3"
+        }
+      ],
+      "sentence": {
+        "en": "Through strong social bonds, flexible feeding, and constant movement, plains zebras remain one of Africa's most recognizable grazing animals.",
+        "target": "Gracias a sus fuertes vínculos sociales, su alimentación flexible y su movimiento constante, las cebras de las llanuras siguen siendo uno de los animales de pastoreo más reconocibles de África.",
+        "audio_en": "audio/scene_30_sentence_en.wav",
+        "audio_target": "audio/scene_30_sentence_target.mp3"
+      }
+    }
+  ]
+}
