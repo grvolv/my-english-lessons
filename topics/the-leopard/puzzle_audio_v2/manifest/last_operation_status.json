@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "topic": "The_Leopard",
+  "assets": 476,
+  "imported_sentences": 0,
+  "generated_assets": 415,
+  "environment": {
+    "python": "/home/grvol/projects/kling_video_gen/venv/bin/python",
+    "venv": "/home/grvol/projects/kling_video_gen/venv",
+    "torch": "2.5.1+cu124",
+    "cuda": "12.4",
+    "device": "NVIDIA GeForce RTX 2070",
+    "torch_path": "/home/grvol/projects/kling_video_gen/venv/lib/python3.11/site-packages/torch/__init__.py",
+    "tts_path": "/home/grvol/projects/kling_video_gen/venv/lib/python3.11/site-packages/TTS/__init__.py"
+  }
+}

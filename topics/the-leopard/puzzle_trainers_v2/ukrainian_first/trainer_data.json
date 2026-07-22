@@ -1,0 +1,3672 @@
+{
+  "schema_version": 2,
+  "topic": "The_Leopard",
+  "title": "The Leopard",
+  "direction": "ukrainian-first",
+  "content_revision": "20a7670b168441a7d8e79bc5642d25a2e2a74eb29273f97e8a170d94081df6f2",
+  "scene_count": 30,
+  "scenes": [
+    {
+      "scene": 1,
+      "sentences": {
+        "en": {
+          "id": "scene-001-en-sentence",
+          "text": "Deep within Africa’s shaded forests and open savannas, a heavily spotted predator rests silently on the broad branch of an old tree.",
+          "text_sha256": "c1eca892558fb1b28967a89e1eceb5cf8c0c962fe0d70fd55cae0f28a16d2f0b",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_001_sentence_en.wav",
+          "duration": 8.726
+        },
+        "ua": {
+          "id": "scene-001-ua-sentence",
+          "text": "Глибоко в тінистих лісах і відкритих саванах Африки густо плямистий хижак мовчки відпочиває на широкій гілці старого дерева.",
+          "text_sha256": "8c9a81a712dfe3fba19b2b72d164e274da1edb944bf187fecad0919d7f3eb753",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_001_sentence_ua.mp3",
+          "duration": 8.136
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-001-en-block-001",
+            "position": 1,
+            "text": "Deep within",
+            "text_sha256": "8308b35ea22cf3309831e721491e524942920e2d8998ffae9db4677a52a753ba",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_001_block_en_001.wav"
+          },
+          {
+            "id": "scene-001-en-block-002",
+            "position": 2,
+            "text": "Africa’s shaded forests",
+            "text_sha256": "94d3f7ec6b1aaf27e12e1b1fdecbbb8ee7cf822b42b17a0be498fa34104d5342",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_001_block_en_002.wav"
+          },
+          {
+            "id": "scene-001-en-block-003",
+            "position": 3,
+            "text": "and open savannas,",
+            "text_sha256": "d4114f6d786840b99b274aecf76c28c1da23b2960e45aee6593652fb2b208e28",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_001_block_en_003.wav"
+          },
+          {
+            "id": "scene-001-en-block-004",
+            "position": 4,
+            "text": "a heavily spotted predator",
+            "text_sha256": "476ac01dcb68e80df757794e4bbd08f0a971b7c664d7010655f22089dd90f1c4",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_001_block_en_004.wav"
+          },
+          {
+            "id": "scene-001-en-block-005",
+            "position": 5,
+            "text": "rests silently",
+            "text_sha256": "157d07b76871550cf08e692c544c7cd59f198ad69ab1618c5f6c136ede94133a",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_001_block_en_005.wav"
+          },
+          {
+            "id": "scene-001-en-block-006",
+            "position": 6,
+            "text": "on the broad branch",
+            "text_sha256": "b9973d27ec345a44457b3096092c278dfb0d87d128bc57ee713b147e2ddad43b",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_001_block_en_006.wav"
+          },
+          {
+            "id": "scene-001-en-block-007",
+            "position": 7,
+            "text": "of an old tree.",
+            "text_sha256": "477555755740d21809962ff6b39e755c7eff629bbf0f5e749ed1910725788039",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_001_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-001-ua-block-001",
+            "position": 1,
+            "text": "Глибоко",
+            "text_sha256": "9a0ccee3a92dff6857b772e23a1f3a519a87c0276fd25de077b0d0eb9053da34",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_001_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-001-ua-block-002",
+            "position": 2,
+            "text": "в тінистих лісах",
+            "text_sha256": "242f1f66854f54997f9411ed42beaf272f385ec8baaa96821ab2b6f321cdc10b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_001_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-001-ua-block-003",
+            "position": 3,
+            "text": "і відкритих саванах Африки",
+            "text_sha256": "b8465de30d1954aefc50313533c337b36bbbda5ce7ced3df616ffd7545835b22",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_001_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-001-ua-block-004",
+            "position": 4,
+            "text": "густо плямистий хижак",
+            "text_sha256": "5258e74716371d3b40f974397d29349d07ed323a7d0aab316425a03a5ca9e80f",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_001_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-001-ua-block-005",
+            "position": 5,
+            "text": "мовчки відпочиває",
+            "text_sha256": "399aae39c8c9c8588694edf81cfdebaa14d1b309447cf13df8ddfd312b77434c",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_001_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-001-ua-block-006",
+            "position": 6,
+            "text": "на широкій гілці",
+            "text_sha256": "b2a6e44ccd55327da75bc7c6169311dacb3e7e21e8d808e088ed43774e5015ca",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_001_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-001-ua-block-007",
+            "position": 7,
+            "text": "старого дерева.",
+            "text_sha256": "222f328ebe979c7205b656b5b4b7874310952505551fc532a6787f6947b890ef",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_001_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 2,
+      "sentences": {
+        "en": {
+          "id": "scene-002-en-sentence",
+          "text": "This is the leopard, a powerful and highly adaptable wild cat famous for its strength, stealth, and remarkable climbing ability.",
+          "text_sha256": "2eb2bc034642ec6aac7b17ec0b751242707ba009e54240d0cf03d4f32a545184",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_002_sentence_en.wav",
+          "duration": 10.166
+        },
+        "ua": {
+          "id": "scene-002-ua-sentence",
+          "text": "Це леопард — сильна й надзвичайно пристосовувана дика кішка, відома своєю могутністю, потайністю та дивовижною здатністю лазити по деревах.",
+          "text_sha256": "74495394f40db7da02d4722341759bea421fe5480e4d67d716adc8adc399d02f",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_002_sentence_ua.mp3",
+          "duration": 9.624
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-002-en-block-001",
+            "position": 1,
+            "text": "This is the leopard,",
+            "text_sha256": "420df1274bbe39bc7e00c3d0a7b363f94a1bfd98cc1e5452d6e5de19a46e35d2",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_002_block_en_001.wav"
+          },
+          {
+            "id": "scene-002-en-block-002",
+            "position": 2,
+            "text": "a powerful",
+            "text_sha256": "0c46482aeaa0e00efbc4d184dd07427baab5b80dc37d1ac3ae4ef2c59a0e12e6",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_002_block_en_002.wav"
+          },
+          {
+            "id": "scene-002-en-block-003",
+            "position": 3,
+            "text": "and highly adaptable",
+            "text_sha256": "5a977f9bfbb44218394a5650c14df2de78d4619b769d0cdfcc5d4fba878126bb",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_002_block_en_003.wav"
+          },
+          {
+            "id": "scene-002-en-block-004",
+            "position": 4,
+            "text": "wild cat",
+            "text_sha256": "16e1abca3951f0f1e6a5032d3f7eb7b9eaa47656e6fb46361d133380e21101f7",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_002_block_en_004.wav"
+          },
+          {
+            "id": "scene-002-en-block-005",
+            "position": 5,
+            "text": "famous for its strength,",
+            "text_sha256": "b2486a3426022c935379bf551a798430b3098817286a8cff4117e9b63190da24",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_002_block_en_005.wav"
+          },
+          {
+            "id": "scene-002-en-block-006",
+            "position": 6,
+            "text": "stealth,",
+            "text_sha256": "948b5222165c9044c2d150df2cedfdb742491704fef9ee1cc80e491227546f96",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_002_block_en_006.wav"
+          },
+          {
+            "id": "scene-002-en-block-007",
+            "position": 7,
+            "text": "and remarkable climbing ability.",
+            "text_sha256": "fc987e54dd95b02788543a8abfe0d30495450727ab0532808b6d9b2a487caf8e",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_002_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-002-ua-block-001",
+            "position": 1,
+            "text": "Це леопард —",
+            "text_sha256": "5de757d5f1890b0e7e21744f3f820f4de6605805c0394b130f6a5c86ddea4a32",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_002_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-002-ua-block-002",
+            "position": 2,
+            "text": "сильна",
+            "text_sha256": "d0a838c9ac3211a5b9c826c9708c17f170159c9d1f493c2dcbdf96fd19d78e46",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_002_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-002-ua-block-003",
+            "position": 3,
+            "text": "й надзвичайно пристосовувана",
+            "text_sha256": "adea50d46d1b598abf87993594f3b18265cbab05845b0a0d1d5b092147d30767",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_002_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-002-ua-block-004",
+            "position": 4,
+            "text": "дика кішка,",
+            "text_sha256": "6ce7e393f51b3e3fbceebaf04e27ae01d41531dcc16caa3b11265b7ea75d16b6",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_002_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-002-ua-block-005",
+            "position": 5,
+            "text": "відома своєю могутністю,",
+            "text_sha256": "ea2c21b911569d907fd0a2ce19e18911ce63d0b3ee2350810fa22bcb4ee159a5",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_002_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-002-ua-block-006",
+            "position": 6,
+            "text": "потайністю",
+            "text_sha256": "59e6ade4e0dd9ae6e62f5b8e12f763b7707de7268f0fb1df6333d7f49c34217e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_002_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-002-ua-block-007",
+            "position": 7,
+            "text": "та дивовижною здатністю",
+            "text_sha256": "5071a0d49a8c6b90ea59d858f009675f712c7eedb835e2f6edf4f11c80d87740",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_002_block_ua_007.mp3"
+          },
+          {
+            "id": "scene-002-ua-block-008",
+            "position": 8,
+            "text": "лазити по деревах.",
+            "text_sha256": "56b754cdc2b03d5c6d145cc07071b56cba17be6dde661afb3e987df9cb364a89",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_002_block_ua_008.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 3,
+      "sentences": {
+        "en": {
+          "id": "scene-003-en-sentence",
+          "text": "Unlike lions, leopards usually live alone, marking wide home ranges and avoiding unfamiliar rivals whenever possible.",
+          "text_sha256": "c204a798cea68e08e83c0aab5df77b14807eaf0d28b9726438253daafec7c6ca",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_003_sentence_en.wav",
+          "duration": 8.726
+        },
+        "ua": {
+          "id": "scene-003-ua-sentence",
+          "text": "На відміну від левів, леопарди зазвичай живуть поодинці, позначають великі володіння та намагаються уникати незнайомих суперників.",
+          "text_sha256": "39be233a30e839b2e545eae8a192ed242f001fb0e269c4c456e6df1bbed8ded3",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_003_sentence_ua.mp3",
+          "duration": 8.88
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-003-en-block-001",
+            "position": 1,
+            "text": "Unlike lions,",
+            "text_sha256": "8528cc4e990d917af174207c2c5af304b519d2804d12181e7e984c18a59a097a",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_003_block_en_001.wav"
+          },
+          {
+            "id": "scene-003-en-block-002",
+            "position": 2,
+            "text": "leopards usually live alone,",
+            "text_sha256": "2dee64285006705785e7dd8e54b682b9f2ab91610ebb2831337bd4402a9be33e",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_003_block_en_002.wav"
+          },
+          {
+            "id": "scene-003-en-block-003",
+            "position": 3,
+            "text": "marking",
+            "text_sha256": "60e0497120e088d272e60a539ecd10084a16ed71112cb10194470d5dc087479c",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_003_block_en_003.wav"
+          },
+          {
+            "id": "scene-003-en-block-004",
+            "position": 4,
+            "text": "wide home ranges",
+            "text_sha256": "ac7d4ac704c67ba92abe9d7cc03c90d9c5449b9c99253daf6112c8628d96afb4",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_003_block_en_004.wav"
+          },
+          {
+            "id": "scene-003-en-block-005",
+            "position": 5,
+            "text": "and avoiding",
+            "text_sha256": "cc7dd9ab3097d4df5e9ab9f391a2c9183ead039b5132518673bc606f9b5fe85d",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_003_block_en_005.wav"
+          },
+          {
+            "id": "scene-003-en-block-006",
+            "position": 6,
+            "text": "unfamiliar rivals",
+            "text_sha256": "1ad5d57070f41ae35a0558a09a9742f52a914e26961fa8a57415172251a39b91",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_003_block_en_006.wav"
+          },
+          {
+            "id": "scene-003-en-block-007",
+            "position": 7,
+            "text": "whenever possible.",
+            "text_sha256": "05ffa999ad0fd479b9a1f0014f37198f6631223380753e5ff626e747c5ce7c76",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_003_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-003-ua-block-001",
+            "position": 1,
+            "text": "На відміну від левів,",
+            "text_sha256": "92627dfc5440f01374225485a6ead736c418a59afab1178153f20443fe36d296",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_003_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-003-ua-block-002",
+            "position": 2,
+            "text": "леопарди зазвичай",
+            "text_sha256": "e39ccf27daaf9817abb66101f02cde4d35837729c5b2209b992e8296ded8c2c6",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_003_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-003-ua-block-003",
+            "position": 3,
+            "text": "живуть поодинці,",
+            "text_sha256": "6716a83e85a524bd154b95f35e6e1ef866980c1501112edecd0d412ddf8780c4",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_003_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-003-ua-block-004",
+            "position": 4,
+            "text": "позначають великі володіння",
+            "text_sha256": "532504f70784ffd2be98814716a0e77e1a4be02ec05761e46acdcd278cf02c4d",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_003_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-003-ua-block-005",
+            "position": 5,
+            "text": "та намагаються уникати",
+            "text_sha256": "ca6e71c2395363468a8491491b92f151776fc5e7b8f3d9546a2973d58554d1ab",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_003_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-003-ua-block-006",
+            "position": 6,
+            "text": "незнайомих суперників.",
+            "text_sha256": "1cec1acd38f022d0152d80ac3e0ed8e313cff247939b2483d61c0646aec1572f",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_003_block_ua_006.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 4,
+      "sentences": {
+        "en": {
+          "id": "scene-004-en-sentence",
+          "text": "During the hottest hours of the day, the cat disappears among leaves and shadows, its rosette-patterned coat blending almost perfectly with the landscape.",
+          "text_sha256": "d6ee1a7ca3716f7dbd57b93835b96e4b773f58b29b62fc7ff0920b90fa16daba",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_004_sentence_en.wav",
+          "duration": 9.099333
+        },
+        "ua": {
+          "id": "scene-004-ua-sentence",
+          "text": "У найспекотніші години дня кішка зникає серед листя й тіней, а її хутро з візерунком розеток майже ідеально зливається з навколишнім пейзажем.",
+          "text_sha256": "b616c426151866691fb30f575430a5ddb71f75dec028bd5497fb0774863e6966",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_004_sentence_ua.mp3",
+          "duration": 9.312
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-004-en-block-001",
+            "position": 1,
+            "text": "During the hottest hours",
+            "text_sha256": "0c922e9dd818b03c61d5d9dd6bc49628fffa0f330fcbe908eb3664f3cc846039",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_004_block_en_001.wav"
+          },
+          {
+            "id": "scene-004-en-block-002",
+            "position": 2,
+            "text": "of the day,",
+            "text_sha256": "97d9857e128501c9e5ee5746e6b86583175e864c8bf607590e68f3daaeec0b71",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_004_block_en_002.wav"
+          },
+          {
+            "id": "scene-004-en-block-003",
+            "position": 3,
+            "text": "the cat disappears",
+            "text_sha256": "58987a9136177e66cb0af8d27f11ff86fa45e8280cc38d477bdad30bf4e57e02",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_004_block_en_003.wav"
+          },
+          {
+            "id": "scene-004-en-block-004",
+            "position": 4,
+            "text": "among leaves and shadows,",
+            "text_sha256": "3ae399318f816278030814b869605ecd814036c974977b01ef6188fab202557b",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_004_block_en_004.wav"
+          },
+          {
+            "id": "scene-004-en-block-005",
+            "position": 5,
+            "text": "its rosette-patterned coat",
+            "text_sha256": "0f2730a22461fde9a809359c27bf9eea6e8a283b7be7cfc25ccc60c8495cb18f",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_004_block_en_005.wav"
+          },
+          {
+            "id": "scene-004-en-block-006",
+            "position": 6,
+            "text": "blending almost perfectly",
+            "text_sha256": "ef88eeba44b7acfa2302b1df3570516b63b8f0296e2061e23f79c8d81bbd4151",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_004_block_en_006.wav"
+          },
+          {
+            "id": "scene-004-en-block-007",
+            "position": 7,
+            "text": "with the landscape.",
+            "text_sha256": "53661fef44652a37676f9819c0c1d95773010a7c2f2dd7b9565408858f87dcda",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_004_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-004-ua-block-001",
+            "position": 1,
+            "text": "У найспекотніші години дня",
+            "text_sha256": "840618b27486cf99779c9225c49baa2a4d4d5879b25ac40e5be1b35c6930aecc",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_004_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-004-ua-block-002",
+            "position": 2,
+            "text": "кішка зникає",
+            "text_sha256": "3dc119cae9fbe2e0031a9fd3d3c0e73e4e0847bef8b854e229896f96c7e99eb5",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_004_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-004-ua-block-003",
+            "position": 3,
+            "text": "серед листя й тіней,",
+            "text_sha256": "07f3c003c8c35b9efbb176209f03ba45525c98e047081f9ba45eddca663703e6",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_004_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-004-ua-block-004",
+            "position": 4,
+            "text": "а її хутро",
+            "text_sha256": "97eada090569a783b6349dd5904a8b1599ebcd5170bc715a7e19e48633cb6f13",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_004_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-004-ua-block-005",
+            "position": 5,
+            "text": "з візерунком розеток",
+            "text_sha256": "b313f47f16692471cc77c836dd3d3224c6e272ba382a4634ceb9468829f0c1dd",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_004_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-004-ua-block-006",
+            "position": 6,
+            "text": "майже ідеально зливається",
+            "text_sha256": "57c9813d19760512baee637a1470261ac8f5c667678a3ab7a625a57c3b95d622",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_004_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-004-ua-block-007",
+            "position": 7,
+            "text": "з навколишнім пейзажем.",
+            "text_sha256": "7e52f06469ba148c93fa7e457255fb6aadc020f5a99286bb90fe906716af8422",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_004_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 5,
+      "sentences": {
+        "en": {
+          "id": "scene-005-en-sentence",
+          "text": "As twilight settles over the savanna, the hungry hunter slowly climbs down and begins its secret patrol through the fading light.",
+          "text_sha256": "085e0c90df63f307063f34c4de66d28797f580e80a2b8cad37f27f3de8f47de7",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_005_sentence_en.wav",
+          "duration": 7.840667
+        },
+        "ua": {
+          "id": "scene-005-ua-sentence",
+          "text": "Коли над саваною опускаються сутінки, голодний мисливець повільно спускається з дерева й починає таємний обхід у згасаючому світлі.",
+          "text_sha256": "74c018c709f42b33e7427807e05eb3d3ba11d343742fdb06c7e2e22206ef952b",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_005_sentence_ua.mp3",
+          "duration": 8.88
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-005-en-block-001",
+            "position": 1,
+            "text": "As twilight settles",
+            "text_sha256": "4d10c3635c532f8fc88285688e4cb013f6aa8e02fdc8baee24fe1882db436758",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_005_block_en_001.wav"
+          },
+          {
+            "id": "scene-005-en-block-002",
+            "position": 2,
+            "text": "over the savanna,",
+            "text_sha256": "e55ff1090ee761b7fbf34bf8d1237ea3d6145fa6140c7950170e9a96c42b11ac",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_005_block_en_002.wav"
+          },
+          {
+            "id": "scene-005-en-block-003",
+            "position": 3,
+            "text": "the hungry hunter",
+            "text_sha256": "9157c8584c669f8c9249dc3e3ee5682fe0810f037f2b5c6b3cb819f665754064",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_005_block_en_003.wav"
+          },
+          {
+            "id": "scene-005-en-block-004",
+            "position": 4,
+            "text": "slowly climbs down",
+            "text_sha256": "907b2f5e0bf1038bdf948100a77ebce7e0a209699e93f90aa3a0b52eb4e658ea",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_005_block_en_004.wav"
+          },
+          {
+            "id": "scene-005-en-block-005",
+            "position": 5,
+            "text": "and begins",
+            "text_sha256": "68f542ea2fb848a4294a48aa7f149fcb2696cb91b9141c0b885fb9871cf61ec0",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_005_block_en_005.wav"
+          },
+          {
+            "id": "scene-005-en-block-006",
+            "position": 6,
+            "text": "its secret patrol",
+            "text_sha256": "743b794a127553f74a0bc781f48788296220b3bb1c9f0421ccd6dc2722e555e1",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_005_block_en_006.wav"
+          },
+          {
+            "id": "scene-005-en-block-007",
+            "position": 7,
+            "text": "through the fading light.",
+            "text_sha256": "4daade2c2da6bf2fca4a8d2aeff0c85c523f7826560ea7b99f651f4a67736b54",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_005_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-005-ua-block-001",
+            "position": 1,
+            "text": "Коли над саваною",
+            "text_sha256": "7d306c57e795b5188fa44754c6d678a5fd3d6dff07e60075d3ab407cfa913ef4",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_005_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-005-ua-block-002",
+            "position": 2,
+            "text": "опускаються сутінки,",
+            "text_sha256": "f2f58d40da0d8b8974cb76fc61f103d1e8f6f97fbd91ab5ce7ccdaf1d7be7865",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_005_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-005-ua-block-003",
+            "position": 3,
+            "text": "голодний мисливець",
+            "text_sha256": "9b88a9dfbad25d23bc979c3331b2e505f7758497feaabeac91616c480c681d73",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_005_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-005-ua-block-004",
+            "position": 4,
+            "text": "повільно спускається з дерева",
+            "text_sha256": "513666400355003261078e8e3942445b3ef0b6a7b49cee8f49fa98004a02fbbe",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_005_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-005-ua-block-005",
+            "position": 5,
+            "text": "й починає",
+            "text_sha256": "da4749073da3bbe8fe2cd16725c242b6868958247a566980a47dba638edebdd4",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_005_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-005-ua-block-006",
+            "position": 6,
+            "text": "таємний обхід",
+            "text_sha256": "1101b185cdb6ec4b855262a17cfa52a726277ce21264ab94b87f0f55bbcf576e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_005_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-005-ua-block-007",
+            "position": 7,
+            "text": "у згасаючому світлі.",
+            "text_sha256": "3124bf3e4a309cb87443e5c0d9b0d4cb302483f2407d670841119a67d4795d13",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_005_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 6,
+      "sentences": {
+        "en": {
+          "id": "scene-006-en-sentence",
+          "text": "A leopard is an opportunistic ambush predator, quietly following impalas and other medium-sized animals through grass, bushes, and broken woodland.",
+          "text_sha256": "77dc1dae57f4957ff13a06d5b8799f3604401e5d8af3c49cd047edc3523f0edc",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_006_sentence_en.wav",
+          "duration": 8.864667
+        },
+        "ua": {
+          "id": "scene-006-ua-sentence",
+          "text": "Леопард — опортуністичний хижак із засідки, який тихо переслідує імпал та інших тварин середнього розміру крізь траву, чагарники й рідколісся.",
+          "text_sha256": "af1d268a1fb1fd04b82eacb925bfa0e661bd2d2c26d63e64f550ae642f925886",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_006_sentence_ua.mp3",
+          "duration": 9.936
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-006-en-block-001",
+            "position": 1,
+            "text": "A leopard is",
+            "text_sha256": "ca2a40772032a0b61357293f1f69e6e9a588642c0a1cb10de7625ebb98f8e227",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_006_block_en_001.wav"
+          },
+          {
+            "id": "scene-006-en-block-002",
+            "position": 2,
+            "text": "an opportunistic ambush predator,",
+            "text_sha256": "ccd7af65b825e46ad9592381276ae70ad4ac2101458c5df4ef762ec8dd230e4f",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_006_block_en_002.wav"
+          },
+          {
+            "id": "scene-006-en-block-003",
+            "position": 3,
+            "text": "quietly following impalas",
+            "text_sha256": "2a89bb21e0a24b57842f687af52836c9b6117d4f839643a0ffee3dde03d61b52",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_006_block_en_003.wav"
+          },
+          {
+            "id": "scene-006-en-block-004",
+            "position": 4,
+            "text": "and other medium-sized animals",
+            "text_sha256": "08cdd19681557a614880b20a98e3c2ee46f3eadbd52680bdd5e789178e90778b",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_006_block_en_004.wav"
+          },
+          {
+            "id": "scene-006-en-block-005",
+            "position": 5,
+            "text": "through grass,",
+            "text_sha256": "5e5ecc3fd90bb4c2b9e1273fc8e322e59b41f9c1de514c38ed29266e5526803f",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_006_block_en_005.wav"
+          },
+          {
+            "id": "scene-006-en-block-006",
+            "position": 6,
+            "text": "bushes,",
+            "text_sha256": "2876522beff78a4d120e86df9295571f7c5e06fd9e15894c87a8faa907955bf8",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_006_block_en_006.wav"
+          },
+          {
+            "id": "scene-006-en-block-007",
+            "position": 7,
+            "text": "and broken woodland.",
+            "text_sha256": "8b6b2ad6820f643a25dc3d0fb3b3163c598b0359c0d4c11cc63cb519e85e3638",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_006_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-006-ua-block-001",
+            "position": 1,
+            "text": "Леопард —",
+            "text_sha256": "267a5bab3309f09a7747b5a4a3d208faf54f707d918504d120f9187cf078a3e9",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_006_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-006-ua-block-002",
+            "position": 2,
+            "text": "опортуністичний хижак із засідки,",
+            "text_sha256": "34e041b361ff87c4a13a78b12bb713c4778b14bbf7dfa31e3b6a790d478cad6a",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_006_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-006-ua-block-003",
+            "position": 3,
+            "text": "який тихо переслідує",
+            "text_sha256": "cb7e4ee8820f0a883f7e440be370ec0be53e205f91ce4c6195fab81d85d44069",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_006_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-006-ua-block-004",
+            "position": 4,
+            "text": "імпал",
+            "text_sha256": "0f48d2581a1456a8b670106d6f1f8f78520d391053e4c0c307d7569a1e036d6e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_006_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-006-ua-block-005",
+            "position": 5,
+            "text": "та інших тварин",
+            "text_sha256": "79ae995f55652c12286cd4c2f124157847d94b31f6524a6bfb2b7db910faa99f",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_006_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-006-ua-block-006",
+            "position": 6,
+            "text": "середнього розміру",
+            "text_sha256": "3111284f1289bcc2a2141f481533d73f8ac3e8b7bab08d6d858db978fd1a7d97",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_006_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-006-ua-block-007",
+            "position": 7,
+            "text": "крізь траву, чагарники",
+            "text_sha256": "64d47e1e7ffbcac6bfd8be49259344867a70c436ec4e4701673f7320a070a57f",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_006_block_ua_007.mp3"
+          },
+          {
+            "id": "scene-006-ua-block-008",
+            "position": 8,
+            "text": "й рідколісся.",
+            "text_sha256": "0e1c68be3fee39f9dddbd0a12e7346b7a648e4cb811968b83040be6cda0ff543",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_006_block_ua_008.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 7,
+      "sentences": {
+        "en": {
+          "id": "scene-007-en-sentence",
+          "text": "Moving with extraordinary patience, it creeps closer and closer until only a short distance separates it from the unaware target.",
+          "text_sha256": "0f83183bb59d1b321062a9812e0d28d7abf998b73023110a7b4746a6b37fa153",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_007_sentence_en.wav",
+          "duration": 8.960667
+        },
+        "ua": {
+          "id": "scene-007-ua-sentence",
+          "text": "Рухаючись із надзвичайним терпінням, він підкрадається дедалі ближче, доки між ним і нічого не підозрюючою жертвою не залишається лише кілька метрів.",
+          "text_sha256": "2d173a3c730bd6337e039620fc552fea49db41304d4d1d557f8a09b42f78c236",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_007_sentence_ua.mp3",
+          "duration": 9.888
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-007-en-block-001",
+            "position": 1,
+            "text": "Moving with extraordinary patience,",
+            "text_sha256": "2d5c83bd6bed7e2a3ee9859032958b76e98be713f76777a70a23ab69ef36731b",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_007_block_en_001.wav"
+          },
+          {
+            "id": "scene-007-en-block-002",
+            "position": 2,
+            "text": "it creeps",
+            "text_sha256": "a66102305101198557d661a55226738464ef765fc13557a4991df89535b60fbd",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_007_block_en_002.wav"
+          },
+          {
+            "id": "scene-007-en-block-003",
+            "position": 3,
+            "text": "closer and closer",
+            "text_sha256": "8f2401dbc5f94b6b695fb75b864cd72bd25e850ff5210a61c2ca26d25236d06d",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_007_block_en_003.wav"
+          },
+          {
+            "id": "scene-007-en-block-004",
+            "position": 4,
+            "text": "until only a short distance",
+            "text_sha256": "5251a260d27122e4db55c573b668f8d47edc5658ea9297a1d4cb6f734ec06b6b",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_007_block_en_004.wav"
+          },
+          {
+            "id": "scene-007-en-block-005",
+            "position": 5,
+            "text": "separates it",
+            "text_sha256": "940586a62683f764db5ac2863c270e2ee95440fb4249f36228009fe69165a603",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_007_block_en_005.wav"
+          },
+          {
+            "id": "scene-007-en-block-006",
+            "position": 6,
+            "text": "from the unaware target.",
+            "text_sha256": "2f328c5768f2801adbd0a220c3348ac0fd6c3c0de0a326c62323fc296ebcaebf",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_007_block_en_006.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-007-ua-block-001",
+            "position": 1,
+            "text": "Рухаючись",
+            "text_sha256": "e1d40639af9c5c55a741b60ad2c1d52a567816b87418ce23e07d8ebb703ce650",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_007_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-007-ua-block-002",
+            "position": 2,
+            "text": "із надзвичайним терпінням,",
+            "text_sha256": "5a4264f9c45c083a2d131314480509624e57708e734ec1537a05e70297c78860",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_007_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-007-ua-block-003",
+            "position": 3,
+            "text": "він підкрадається",
+            "text_sha256": "9e00e54d172197ce73e7ed79195da7f0b01c13aa66fc5672d33cdae6bf72a6b8",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_007_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-007-ua-block-004",
+            "position": 4,
+            "text": "дедалі ближче,",
+            "text_sha256": "3ea6ee17264972f6890004ad81cedec0d54d583238c263195200d2712cbb2690",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_007_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-007-ua-block-005",
+            "position": 5,
+            "text": "доки між ним",
+            "text_sha256": "f97f12a5f80a11a8d8431b68b02cfe61a8ea201e7893f7502b51005bc4c00efe",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_007_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-007-ua-block-006",
+            "position": 6,
+            "text": "і нічого не підозрюючою жертвою",
+            "text_sha256": "2fb8f1a0bf4f52503b47b8f6c2ccd4720b064e57b7f671bab2b0d8294beeb389",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_007_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-007-ua-block-007",
+            "position": 7,
+            "text": "не залишається лише кілька метрів.",
+            "text_sha256": "1ce7bb8cc1e87a6db9cd1c7efab0788aaf803fc36a2114405bea4d14bf3731ed",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_007_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 8,
+      "sentences": {
+        "en": {
+          "id": "scene-008-en-sentence",
+          "text": "Then, in a sudden burst of speed, the leopard launches forward and brings down the fleeing antelope in the dark grass.",
+          "text_sha256": "3acdafaa93d4e22bb3746910938def6f05d07befaa657008a9a352e8147199d0",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_008_sentence_en.wav",
+          "duration": 8.214
+        },
+        "ua": {
+          "id": "scene-008-ua-sentence",
+          "text": "Потім раптовим вибухом швидкості леопард кидається вперед і валить антилопу, що тікає крізь темну траву.",
+          "text_sha256": "75b73c9415bcad59e4832319472a0a2cd71c0f64147a9c163008198c2cc666dc",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_008_sentence_ua.mp3",
+          "duration": 7.224
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-008-en-block-001",
+            "position": 1,
+            "text": "Then,",
+            "text_sha256": "aa3f39fe2c9e8dfc274b6a26e2fea6bf1d48552c540f22a6dcbc61b559c83d63",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_008_block_en_001.wav"
+          },
+          {
+            "id": "scene-008-en-block-002",
+            "position": 2,
+            "text": "in a sudden burst of speed,",
+            "text_sha256": "768716a990bf8a1f90e3aa68125c6e27642f4555440e4b949cc048f581bacd27",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_008_block_en_002.wav"
+          },
+          {
+            "id": "scene-008-en-block-003",
+            "position": 3,
+            "text": "the leopard launches forward",
+            "text_sha256": "3b3810ceb44e399413ab0398636f63b38f98d2138a18eba0fb6fb6a968071529",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_008_block_en_003.wav"
+          },
+          {
+            "id": "scene-008-en-block-004",
+            "position": 4,
+            "text": "and brings down",
+            "text_sha256": "2a92429f6a4659f4fb604002bfa5afec016b6bf4e23c361a710791070663c92c",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_008_block_en_004.wav"
+          },
+          {
+            "id": "scene-008-en-block-005",
+            "position": 5,
+            "text": "the fleeing antelope",
+            "text_sha256": "57f14241a4eb7513f781d4972661391bd666f6bf1edd7feda0bed8bc46e70b98",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_008_block_en_005.wav"
+          },
+          {
+            "id": "scene-008-en-block-006",
+            "position": 6,
+            "text": "in the dark grass.",
+            "text_sha256": "a48b033b0ed6a0c405f7684f8cb755d0b8d4cf34593ec82439c0514445a5b0ba",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_008_block_en_006.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-008-ua-block-001",
+            "position": 1,
+            "text": "Потім",
+            "text_sha256": "dbe5f99fbde99b7c2c9f080a748544e771ed840033f8b4990c13587c981da154",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_008_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-008-ua-block-002",
+            "position": 2,
+            "text": "раптовим вибухом швидкості",
+            "text_sha256": "098863ae052f2249515f3048b8086c29b41e091530a134c493229253cb7ad1ab",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_008_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-008-ua-block-003",
+            "position": 3,
+            "text": "леопард кидається вперед",
+            "text_sha256": "f2ec3b28b51accb5d930caaf2ed0e39033e83a57645fffed544415c50da2be80",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_008_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-008-ua-block-004",
+            "position": 4,
+            "text": "і валить",
+            "text_sha256": "d97ca71ab1e779f72802ff4fe92748e40ac25f11c3092d906b13d0ae34416153",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_008_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-008-ua-block-005",
+            "position": 5,
+            "text": "антилопу,",
+            "text_sha256": "9e2bb707c77fe7aa18a26eaafeb36f0bb70f4ec40c38739df888dde74a754a81",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_008_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-008-ua-block-006",
+            "position": 6,
+            "text": "що тікає",
+            "text_sha256": "00442a7e0b638e51e40902758fb810dc4ce699ab26543749f6f73e0ca1cec2ea",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_008_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-008-ua-block-007",
+            "position": 7,
+            "text": "крізь темну траву.",
+            "text_sha256": "1aff3f19b641b8e8963e29e302330c95362b263b0b6154e7fda56e7a66b487cb",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_008_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 9,
+      "sentences": {
+        "en": {
+          "id": "scene-009-en-sentence",
+          "text": "But the hunt is not truly over, because lions, hyenas, and other powerful scavengers may steal the hard-won meal.",
+          "text_sha256": "36847f21e8aea8a940466e7b51dfd81021a67088476f9fdb5b45ac08e44a2756",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_009_sentence_en.wav",
+          "duration": 9.280667
+        },
+        "ua": {
+          "id": "scene-009-ua-sentence",
+          "text": "Але полювання ще не закінчилося, адже леви, гієни та інші сильні падальники можуть відібрати важко здобуту їжу.",
+          "text_sha256": "2553033119d107868198856c04e2de8fdc2954c82eabbe34122c2be9566d9658",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_009_sentence_ua.mp3",
+          "duration": 7.944
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-009-en-block-001",
+            "position": 1,
+            "text": "But the hunt",
+            "text_sha256": "48fdc006d9411ac2962eec454e7a2c415fb41cef5477ea33cd1fdfeda621f8db",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_009_block_en_001.wav"
+          },
+          {
+            "id": "scene-009-en-block-002",
+            "position": 2,
+            "text": "is not truly over,",
+            "text_sha256": "a79d6bc3e938bf233b8746b7592e6609bfb551f581281dbee13bb6710d7fefa3",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_009_block_en_002.wav"
+          },
+          {
+            "id": "scene-009-en-block-003",
+            "position": 3,
+            "text": "because lions,",
+            "text_sha256": "aea340192e9b52b1cfe404c19355bc9dde2166ca6b34128082252927bfaed44c",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_009_block_en_003.wav"
+          },
+          {
+            "id": "scene-009-en-block-004",
+            "position": 4,
+            "text": "hyenas,",
+            "text_sha256": "19d3a7c226c7a3665be6f3a45006bdad2273ccdaa141b2896bfd5acaffab7462",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_009_block_en_004.wav"
+          },
+          {
+            "id": "scene-009-en-block-005",
+            "position": 5,
+            "text": "and other powerful scavengers",
+            "text_sha256": "b534a87908cded46c71d89a40883b41b185e2b5b21ebfc93a1fbc9c4136b0980",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_009_block_en_005.wav"
+          },
+          {
+            "id": "scene-009-en-block-006",
+            "position": 6,
+            "text": "may steal",
+            "text_sha256": "ea2e8fed469576faccd116a546568d3ac603389df98b1d2c16654b6b8bddfe01",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_009_block_en_006.wav"
+          },
+          {
+            "id": "scene-009-en-block-007",
+            "position": 7,
+            "text": "the hard-won meal.",
+            "text_sha256": "0acb10b74c2b22782b7f226c55655ce89432f7326f5910ec1fdd604d19546f63",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_009_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-009-ua-block-001",
+            "position": 1,
+            "text": "Але полювання",
+            "text_sha256": "1cc3ccb0a7fe80b169c7bef598e3c3f8004209ff2dd2ad9fd288a4f73be52105",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_009_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-009-ua-block-002",
+            "position": 2,
+            "text": "ще не закінчилося,",
+            "text_sha256": "e4b0d40d41205e8e47adba4283b66918b9f2254476a34b888d243560e6d7d36b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_009_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-009-ua-block-003",
+            "position": 3,
+            "text": "адже леви,",
+            "text_sha256": "6314b66212e8bce28eab4d864edc54c6e7a1ee0735d08d20c6a0136520b71db6",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_009_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-009-ua-block-004",
+            "position": 4,
+            "text": "гієни",
+            "text_sha256": "246f9aca0affd43d97987de0d69e679b4fd004046965acf78cf5e63493dec096",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_009_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-009-ua-block-005",
+            "position": 5,
+            "text": "та інші сильні падальники",
+            "text_sha256": "848649a87b1ac85f1d36a196221296569772bce1c45efb180db245ab7aa781cf",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_009_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-009-ua-block-006",
+            "position": 6,
+            "text": "можуть відібрати",
+            "text_sha256": "d80deb6f097f755433e45b681f8bf6b6b48e672eb94635cf96fc5a908e7f56a0",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_009_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-009-ua-block-007",
+            "position": 7,
+            "text": "важко здобуту їжу.",
+            "text_sha256": "4a1406e2004ad0a177191177b3648473d3795fe820c28d89f563a562f170a076",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_009_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 10,
+      "sentences": {
+        "en": {
+          "id": "scene-010-en-sentence",
+          "text": "Gripping the carcass with its jaws, the leopard begins the difficult climb up the trunk of a tall acacia tree.",
+          "text_sha256": "9a60eea4b2229ac1bc9fa32610793abd7b80c409054e81eeff6c1b3c8c03e732",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_010_sentence_en.wav",
+          "duration": 6.87
+        },
+        "ua": {
+          "id": "scene-010-ua-sentence",
+          "text": "Схопивши тушу щелепами, леопард починає важкий підйом стовбуром високої акації.",
+          "text_sha256": "578476175e42127e5fde2f6bb2b11610f0f9b3ff0aeaf10ec597c570e809b2ba",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_010_sentence_ua.mp3",
+          "duration": 6.24
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-010-en-block-001",
+            "position": 1,
+            "text": "Gripping the carcass",
+            "text_sha256": "6cf559cdb65ea772dede4c1a81a8d979e6ba301f8e31f9bc3ea05342c4071bf7",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_010_block_en_001.wav"
+          },
+          {
+            "id": "scene-010-en-block-002",
+            "position": 2,
+            "text": "with its jaws,",
+            "text_sha256": "d9286d04a7e1770b803274e4ca0d59630e3d42a8966b44c22811befc2b55ac64",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_010_block_en_002.wav"
+          },
+          {
+            "id": "scene-010-en-block-003",
+            "position": 3,
+            "text": "the leopard begins",
+            "text_sha256": "0094e83d0eed6b17750a61e531d1e7d1a792fc80a3192f3489c476ad245c74c7",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_010_block_en_003.wav"
+          },
+          {
+            "id": "scene-010-en-block-004",
+            "position": 4,
+            "text": "the difficult climb",
+            "text_sha256": "b167e34b29987ba849faa89359ce60f8f6b00aa92550468d7c909e775a60a1fd",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_010_block_en_004.wav"
+          },
+          {
+            "id": "scene-010-en-block-005",
+            "position": 5,
+            "text": "up the trunk",
+            "text_sha256": "768e3d35b76c65bb3622dd7dc261edfd0c373fd837d96854a3ebedb174019bfa",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_010_block_en_005.wav"
+          },
+          {
+            "id": "scene-010-en-block-006",
+            "position": 6,
+            "text": "of a tall acacia tree.",
+            "text_sha256": "ec6df70198f0c639a13d79820d7692454d747ff099f44b1b84955072c66975d8",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_010_block_en_006.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-010-ua-block-001",
+            "position": 1,
+            "text": "Схопивши тушу",
+            "text_sha256": "703a268483edec89cf5ffc5437768f71300a0e5c778d7d8caab7ecbf59f6d131",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_010_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-010-ua-block-002",
+            "position": 2,
+            "text": "щелепами,",
+            "text_sha256": "81dbeacdbe5750cb2c5f3f3e3339d1d3bae14aca8654dc288879e0a14b091397",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_010_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-010-ua-block-003",
+            "position": 3,
+            "text": "леопард починає",
+            "text_sha256": "21ce59b0296b388665be94ad3eac23645c8a20ee6fd3bd9ba8b3c1ccd3a2771c",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_010_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-010-ua-block-004",
+            "position": 4,
+            "text": "важкий підйом",
+            "text_sha256": "086eab1560085365b9a332f0a17101cb4e2576241e73d306dc6363660986db8e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_010_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-010-ua-block-005",
+            "position": 5,
+            "text": "стовбуром",
+            "text_sha256": "725ca99eddc0cb2122e682681eb7057cf7a4ac9fa4c1851812b0f3ffc90e730b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_010_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-010-ua-block-006",
+            "position": 6,
+            "text": "високої акації.",
+            "text_sha256": "9194103e327371857e565ecc5ad3812643c6d78f65776e3285bd078819e1233b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_010_block_ua_006.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 11,
+      "sentences": {
+        "en": {
+          "id": "scene-011-en-sentence",
+          "text": "Its muscular body allows it to drag surprisingly heavy prey high into the branches, far beyond the reach of many competitors.",
+          "text_sha256": "445bef8911680f57681281069fda94b9e1e9c91e07e2e32063f6ff34274c1791",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_011_sentence_en.wav",
+          "duration": 8.864667
+        },
+        "ua": {
+          "id": "scene-011-ua-sentence",
+          "text": "Його м’язисте тіло дозволяє затягувати напрочуд важку здобич високо на гілки, куди багато конкурентів не можуть дістатися.",
+          "text_sha256": "e4e35e57cb72f4353ad936a1d4b767b5360122b643019af26ab091f790ae2677",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_011_sentence_ua.mp3",
+          "duration": 8.424
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-011-en-block-001",
+            "position": 1,
+            "text": "Its muscular body",
+            "text_sha256": "776006e260384ba8abafb64e8a47cdea36fa33992640988ce94ee4d99d769e6b",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_011_block_en_001.wav"
+          },
+          {
+            "id": "scene-011-en-block-002",
+            "position": 2,
+            "text": "allows it",
+            "text_sha256": "83bd88a38f43206267e9b0fde9fe8e6c1261c15d23fa337089012e7d2196e7ab",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_011_block_en_002.wav"
+          },
+          {
+            "id": "scene-011-en-block-003",
+            "position": 3,
+            "text": "to drag",
+            "text_sha256": "25f47e19edad7fb83be25da17f54ba8091ca84013113d6cbffbb9b87fe89cf32",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_011_block_en_003.wav"
+          },
+          {
+            "id": "scene-011-en-block-004",
+            "position": 4,
+            "text": "surprisingly heavy prey",
+            "text_sha256": "64860f0ab5647ea77825dffc7cd168502ecea508c26390a2a58de9f70cf36949",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_011_block_en_004.wav"
+          },
+          {
+            "id": "scene-011-en-block-005",
+            "position": 5,
+            "text": "high into the branches,",
+            "text_sha256": "ae39e054501908666ce5a7dda102e2ee30eab1354715fca6e9be2a452f779ceb",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_011_block_en_005.wav"
+          },
+          {
+            "id": "scene-011-en-block-006",
+            "position": 6,
+            "text": "far beyond the reach",
+            "text_sha256": "2db478b375e294c9d840b3c3061864d2bfee30cfc26548a9ad5b5964162222b6",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_011_block_en_006.wav"
+          },
+          {
+            "id": "scene-011-en-block-007",
+            "position": 7,
+            "text": "of many competitors.",
+            "text_sha256": "913ce790098c848e3d63fce416753d829771d69dec6907385bc6b06b488da9a6",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_011_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-011-ua-block-001",
+            "position": 1,
+            "text": "Його м’язисте тіло",
+            "text_sha256": "3be834ab71ceb414ac740c36a6325137334b57cc57399c078e6df9c92ce7f74b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_011_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-011-ua-block-002",
+            "position": 2,
+            "text": "дозволяє",
+            "text_sha256": "784ff7da9a5d0abefc0c53146f85b6d5c91d6ba1e9016b7cfc02daaf8ae75a16",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_011_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-011-ua-block-003",
+            "position": 3,
+            "text": "затягувати",
+            "text_sha256": "7b020489a2d0acd9b50b46872040ad2eebc8274f1658086b32298cf0157fbe4e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_011_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-011-ua-block-004",
+            "position": 4,
+            "text": "напрочуд важку здобич",
+            "text_sha256": "e314bdc4b420500f3688a97a54007b9cfd909aea7de603a8502f3d09dc2bd073",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_011_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-011-ua-block-005",
+            "position": 5,
+            "text": "високо на гілки,",
+            "text_sha256": "51b0264da1907db9659808e81d36ae74837108e549524b0454b13759fa501f8e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_011_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-011-ua-block-006",
+            "position": 6,
+            "text": "куди багато конкурентів",
+            "text_sha256": "ce882d1fa31ffa6a5d44e47410fa536fcb5d0838be4715429743480c7152ad52",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_011_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-011-ua-block-007",
+            "position": 7,
+            "text": "не можуть дістатися.",
+            "text_sha256": "a43e2582fb3fedfab4fdc20327a424a1c6c52a8ecdacab2b5f75b0c9129dc220",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_011_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 12,
+      "sentences": {
+        "en": {
+          "id": "scene-012-en-sentence",
+          "text": "Hidden safely in the canopy, the solitary hunter can finally feed in peace beneath the African night sky.",
+          "text_sha256": "082726636203fdef658c0128fe726df42ee8b68274ae08679be035114f00f7b7",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_012_sentence_en.wav",
+          "duration": 7.744667
+        },
+        "ua": {
+          "id": "scene-012-ua-sentence",
+          "text": "Надійно сховавшись у кроні, самотній мисливець нарешті може спокійно їсти під африканським нічним небом.",
+          "text_sha256": "ab0ea49b877e473ca8aa3aecaae2645f8865a1b7385150e51220fd2053d43472",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_012_sentence_ua.mp3",
+          "duration": 7.32
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-012-en-block-001",
+            "position": 1,
+            "text": "Hidden safely",
+            "text_sha256": "05493b0aed5718e9df6ef5f30d90ce0115f024ce8e609a0b7fcc23d38626cab5",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_012_block_en_001.wav"
+          },
+          {
+            "id": "scene-012-en-block-002",
+            "position": 2,
+            "text": "in the canopy,",
+            "text_sha256": "989ab19c642868b03e31483dde4597422d94de8d7bcbb5436b28c0d8c599fbdf",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_012_block_en_002.wav"
+          },
+          {
+            "id": "scene-012-en-block-003",
+            "position": 3,
+            "text": "the solitary hunter",
+            "text_sha256": "20ac5f3674e9608b5ee5f244a8b479e4fa4970505940fc5abb026c41a3f3e826",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_012_block_en_003.wav"
+          },
+          {
+            "id": "scene-012-en-block-004",
+            "position": 4,
+            "text": "can finally",
+            "text_sha256": "26ba006b1e2565ba199db4ae094061a90825a3df38b04d5f4026637a8a7924a7",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_012_block_en_004.wav"
+          },
+          {
+            "id": "scene-012-en-block-005",
+            "position": 5,
+            "text": "feed in peace",
+            "text_sha256": "9163bbe322a09322319ad8bab81486e9d84709ee9e17a96a44efd239cb861149",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_012_block_en_005.wav"
+          },
+          {
+            "id": "scene-012-en-block-006",
+            "position": 6,
+            "text": "beneath",
+            "text_sha256": "2f3ca61c7e8e9936139944975fe756d250f143e50f4db3072e3b4900b65feadc",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_012_block_en_006.wav"
+          },
+          {
+            "id": "scene-012-en-block-007",
+            "position": 7,
+            "text": "the African night sky.",
+            "text_sha256": "2dbe67bce2068f0359fd06ceb176d07cd3bf125e7ed1dc939646333579d0251b",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_012_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-012-ua-block-001",
+            "position": 1,
+            "text": "Надійно сховавшись",
+            "text_sha256": "c4e5026e493215f9181349f7cf6f5c90c5bcc54198fa8413e4dce12418626bb6",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_012_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-012-ua-block-002",
+            "position": 2,
+            "text": "у кроні,",
+            "text_sha256": "ffa4b9af59862ce0d8084d163e8f9e1afda284b162e691e32ea5ea9eeb1fc1c2",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_012_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-012-ua-block-003",
+            "position": 3,
+            "text": "самотній мисливець",
+            "text_sha256": "ac6b640bd028148e2d3f82b0669263c9c27091eac0f75ceedfbdc00ce67b23c2",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_012_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-012-ua-block-004",
+            "position": 4,
+            "text": "нарешті може",
+            "text_sha256": "d05e65e53d76f341fae4be850b5319d565f8a8b519c5a7bb2dc98dbfe51d4c48",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_012_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-012-ua-block-005",
+            "position": 5,
+            "text": "спокійно їсти",
+            "text_sha256": "7ce68475c4130cd7c690a2193b8a9ef41705f68ecd72eeb2fc9ba19f5428fba2",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_012_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-012-ua-block-006",
+            "position": 6,
+            "text": "під",
+            "text_sha256": "002bbedb544343e00b4a914f4a814024faf1dc40d3dd5acec063d10f5574843c",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_012_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-012-ua-block-007",
+            "position": 7,
+            "text": "африканським нічним небом.",
+            "text_sha256": "149a417829e955a84260f915cab9c8c13df170bebb8e1692a4e1bbc16489ae12",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_012_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 13,
+      "sentences": {
+        "en": {
+          "id": "scene-013-en-sentence",
+          "text": "Leopards do not form permanent pairs, and males and females meet only briefly during the mating season.",
+          "text_sha256": "691b8e4460bc95f005a07e394b130000413b2c421d585f21a9331b503fdf4501",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_013_sentence_en.wav",
+          "duration": 6.816667
+        },
+        "ua": {
+          "id": "scene-013-ua-sentence",
+          "text": "Леопарди не утворюють постійних пар, а самці й самки зустрічаються лише ненадовго під час шлюбного сезону.",
+          "text_sha256": "0a8553bd7c87710b6b0b0ed9b0be19a46676e24aed32b7992594029e09358053",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_013_sentence_ua.mp3",
+          "duration": 7.464
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-013-en-block-001",
+            "position": 1,
+            "text": "Leopards do not form",
+            "text_sha256": "f0300bbced946cbcfe6bdaba7d0ed447ae6cab22ff225976a1b0e11195a5b43b",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_013_block_en_001.wav"
+          },
+          {
+            "id": "scene-013-en-block-002",
+            "position": 2,
+            "text": "permanent pairs,",
+            "text_sha256": "9abb1e2fb8ab8e372ee2f687f9f579c3593e84ba8b6259f6149b563db8563806",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_013_block_en_002.wav"
+          },
+          {
+            "id": "scene-013-en-block-003",
+            "position": 3,
+            "text": "and males and females",
+            "text_sha256": "07817e2c614a8380437a2b1ad4c58cf41860cec112600bb0adeb46f2922bcb03",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_013_block_en_003.wav"
+          },
+          {
+            "id": "scene-013-en-block-004",
+            "position": 4,
+            "text": "meet only briefly",
+            "text_sha256": "741fe68836aa5dc9925fc32b0febed5b8276dc11978257026de1f0435fe52764",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_013_block_en_004.wav"
+          },
+          {
+            "id": "scene-013-en-block-005",
+            "position": 5,
+            "text": "during",
+            "text_sha256": "76678e40cf8bdb8a83501170b65ec33d03cb2af5be9250610e7aa596c7e77d8f",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_013_block_en_005.wav"
+          },
+          {
+            "id": "scene-013-en-block-006",
+            "position": 6,
+            "text": "the mating season.",
+            "text_sha256": "8e3fe0e144ecb8acafe29fcfde9e7b9d976544a5601981ae2fe2300bf765ee34",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_013_block_en_006.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-013-ua-block-001",
+            "position": 1,
+            "text": "Леопарди не утворюють",
+            "text_sha256": "4f7ab8320102fd63407c1b709ca05206840822299a8cfb0b33dabc2a4cb9828f",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_013_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-013-ua-block-002",
+            "position": 2,
+            "text": "постійних пар,",
+            "text_sha256": "4abf829f7280fb6827480a2f3e069d99b173401aac6fc56f7a9c916a239ed76d",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_013_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-013-ua-block-003",
+            "position": 3,
+            "text": "а самці й самки",
+            "text_sha256": "af89e2014ce0d639339174bcd6c40cf7852f72fa3a3b4092c2358cf93014defd",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_013_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-013-ua-block-004",
+            "position": 4,
+            "text": "зустрічаються лише ненадовго",
+            "text_sha256": "b077174366c296a97ce3735e89ba215273905695873e269813487f13bd3946ab",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_013_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-013-ua-block-005",
+            "position": 5,
+            "text": "під час",
+            "text_sha256": "cdc2210b752fa66ed8ca4d8e7e2a0afe598f71fd6eb021cff87564b9449dd022",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_013_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-013-ua-block-006",
+            "position": 6,
+            "text": "шлюбного сезону.",
+            "text_sha256": "b37cefdb6618de7bcdf9d3df9840f1fbd65fe424001b519b3eb0c85c12e11329",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_013_block_ua_006.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 14,
+      "sentences": {
+        "en": {
+          "id": "scene-014-en-sentence",
+          "text": "Afterward, the male returns to his own range, while the female faces the coming months and the future litter alone.",
+          "text_sha256": "72a085db7b90e35a0067966a982833cf5f6b38fe239940a5ff8696e4865196a4",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_014_sentence_en.wav",
+          "duration": 7.286
+        },
+        "ua": {
+          "id": "scene-014-ua-sentence",
+          "text": "Після цього самець повертається до власних володінь, а самка сама зустрічає наступні місяці та майбутню появу дитинчат.",
+          "text_sha256": "0a899bc85578b1772875780f519877d1ed810f1384f1370bb19bd6e632e22a8f",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_014_sentence_ua.mp3",
+          "duration": 7.92
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-014-en-block-001",
+            "position": 1,
+            "text": "Afterward,",
+            "text_sha256": "072a6348ec7f0b774ec7170872092a0837eae6f474a677270dddf2176f75e962",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_014_block_en_001.wav"
+          },
+          {
+            "id": "scene-014-en-block-002",
+            "position": 2,
+            "text": "the male returns",
+            "text_sha256": "50d043ceb254715017812d807ae6a77e8771d14c48ed580c3bdc569f2a37f53f",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_014_block_en_002.wav"
+          },
+          {
+            "id": "scene-014-en-block-003",
+            "position": 3,
+            "text": "to his own range,",
+            "text_sha256": "78fb23537fc49a9408c65315328028c9c6948667672f41cb3d6af42ef35516c3",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_014_block_en_003.wav"
+          },
+          {
+            "id": "scene-014-en-block-004",
+            "position": 4,
+            "text": "while the female",
+            "text_sha256": "60959e493d354ed8e07a0652ed84bdf5a179cbd35a92f7ea9ba98a62837ae0ee",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_014_block_en_004.wav"
+          },
+          {
+            "id": "scene-014-en-block-005",
+            "position": 5,
+            "text": "faces the coming months",
+            "text_sha256": "6e28625f25a5eb12a21eeea16aa586592c4cda9445eea555dd96d039df70865b",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_014_block_en_005.wav"
+          },
+          {
+            "id": "scene-014-en-block-006",
+            "position": 6,
+            "text": "and the future litter",
+            "text_sha256": "a85bb31d07f50f90833b401553a1ac2d62e293e1ff8d9d1ecb669c6fb220a804",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_014_block_en_006.wav"
+          },
+          {
+            "id": "scene-014-en-block-007",
+            "position": 7,
+            "text": "alone.",
+            "text_sha256": "72c2c9c19e68375f289075ef6d8e9544db5c7cd6b3507dd30108968769421308",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_014_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-014-ua-block-001",
+            "position": 1,
+            "text": "Після цього",
+            "text_sha256": "c24e168ee269d18692674a159a4749a431e5a99bbe718118d70108e149d5f12b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_014_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-014-ua-block-002",
+            "position": 2,
+            "text": "самець повертається",
+            "text_sha256": "f1925964e3fef7684da69be691a4faca671fe55e7a6e6e1646e25fd751d81c84",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_014_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-014-ua-block-003",
+            "position": 3,
+            "text": "до власних володінь,",
+            "text_sha256": "3f709703d3b5269feab328b0acae13ae76a6d93289332cc0a68f498a6ff05dc7",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_014_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-014-ua-block-004",
+            "position": 4,
+            "text": "а самка",
+            "text_sha256": "c68a49bb8edefc9d7fc7e2d9d4cce7800c4b615e7e79366e6b56c49ee6d7460e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_014_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-014-ua-block-005",
+            "position": 5,
+            "text": "сама зустрічає",
+            "text_sha256": "f82ab6a5503639708004f315374dcd102533f1842d521fc5b8551bf68c3caca2",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_014_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-014-ua-block-006",
+            "position": 6,
+            "text": "наступні місяці",
+            "text_sha256": "f6f9629a3b3e79fb290f226e9a712594159ef6e550b18c13d61ea46979b0788d",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_014_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-014-ua-block-007",
+            "position": 7,
+            "text": "та майбутню появу дитинчат.",
+            "text_sha256": "14423240dbedb03d67603487ceb7052ee3315900a105f865245a984dd0a079b6",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_014_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 15,
+      "sentences": {
+        "en": {
+          "id": "scene-015-en-sentence",
+          "text": "After a pregnancy of about three months, she gives birth to two or three tiny cubs inside a sheltered rock crevice, hollow tree, or dense thicket.",
+          "text_sha256": "80b853aed0ce316961d3c7cda2124a6a800428b12dc00a213cb7a6bbc363b276",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_015_sentence_en.wav",
+          "duration": 10.902
+        },
+        "ua": {
+          "id": "scene-015-ua-sentence",
+          "text": "Після вагітності тривалістю близько трьох місяців вона народжує двох або трьох крихітних дитинчат у захищеній скельній ущелині, дуплі дерева або густих хащах.",
+          "text_sha256": "fa879216f1705a7dd9d03d07bbf0522a5ba170847e1e66fc2d251edb6e657f1d",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_015_sentence_ua.mp3",
+          "duration": 10.104
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-015-en-block-001",
+            "position": 1,
+            "text": "After a pregnancy",
+            "text_sha256": "5c06fa5dea201a47666b94e4c634f5c434a69c593ff9697715710ae188a6773e",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_015_block_en_001.wav"
+          },
+          {
+            "id": "scene-015-en-block-002",
+            "position": 2,
+            "text": "of about three months,",
+            "text_sha256": "f2bfd45a588eed113691ca941eb4ada4100d91f00edbe5eaa247a6abcf3fc693",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_015_block_en_002.wav"
+          },
+          {
+            "id": "scene-015-en-block-003",
+            "position": 3,
+            "text": "she gives birth",
+            "text_sha256": "029e5580b913e9e46efa3c72bf1ccf2d0879997cdb1eb22ac19c1663e6e13830",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_015_block_en_003.wav"
+          },
+          {
+            "id": "scene-015-en-block-004",
+            "position": 4,
+            "text": "to two or three tiny cubs",
+            "text_sha256": "841fc3ab6ce3a47b229d4e4c4b6f9f9f4f4a0544e134299f0a7ae63f4adb1101",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_015_block_en_004.wav"
+          },
+          {
+            "id": "scene-015-en-block-005",
+            "position": 5,
+            "text": "inside a sheltered rock crevice,",
+            "text_sha256": "e73b0015c0969274cb9bc32aca2d1eb9a880207725724bfb89a02c64cdd51365",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_015_block_en_005.wav"
+          },
+          {
+            "id": "scene-015-en-block-006",
+            "position": 6,
+            "text": "hollow tree,",
+            "text_sha256": "cd0fc101971301dc1dc5c95436e1c24f603ab752e82cb4d56aea4cf9c4c147ba",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_015_block_en_006.wav"
+          },
+          {
+            "id": "scene-015-en-block-007",
+            "position": 7,
+            "text": "or dense thicket.",
+            "text_sha256": "dc737a66214d1f9b099fbf124df320cdb4f365000c306d0cfebeb608c66e2679",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_015_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-015-ua-block-001",
+            "position": 1,
+            "text": "Після вагітності",
+            "text_sha256": "b032bb8d89d5b2810eec4b728b4c0ca6514e594a8394d915f681634264b59511",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_015_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-015-ua-block-002",
+            "position": 2,
+            "text": "тривалістю близько трьох місяців",
+            "text_sha256": "d47f41f29ccea2a59dc2f76dbf465d33da1c1c554f9f0f74c9a7ab9350fbd72e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_015_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-015-ua-block-003",
+            "position": 3,
+            "text": "вона народжує",
+            "text_sha256": "f2b953e3bce04f23593c80244b9e26f6caaf840d9e04d29e3feba6e7bcfde589",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_015_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-015-ua-block-004",
+            "position": 4,
+            "text": "двох або трьох",
+            "text_sha256": "8b90c7fd0f9cbd5b1becaa0b89550ad9d23f9e6fe680b4339fdbd48d04cc184e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_015_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-015-ua-block-005",
+            "position": 5,
+            "text": "крихітних дитинчат",
+            "text_sha256": "07ca94892fb7ff554d0529cebba7d1341f81be2f614b3c7921011f1c5d8ab465",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_015_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-015-ua-block-006",
+            "position": 6,
+            "text": "у захищеній скельній ущелині,",
+            "text_sha256": "fa325fd997eb626858b31db52b55dfd5aa419e3289dbc1f2e153d968fbce4ac6",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_015_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-015-ua-block-007",
+            "position": 7,
+            "text": "дуплі дерева",
+            "text_sha256": "f381263def0e564cb197ec58f9db834280a9394102f2408a29b0977ca3f0a396",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_015_block_ua_007.mp3"
+          },
+          {
+            "id": "scene-015-ua-block-008",
+            "position": 8,
+            "text": "або густих хащах.",
+            "text_sha256": "9c0aa66061de4d578fbb7f95fa89a9601c3bf0a1418008d6d67e5eda145cc34d",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_015_block_ua_008.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 16,
+      "sentences": {
+        "en": {
+          "id": "scene-016-en-sentence",
+          "text": "The newborn cubs are blind and helpless, depending completely on their mother for warmth, protection, and food.",
+          "text_sha256": "3b7abc81604898ebed541e1e85b55c22bc12cfca1e9776182f9cdc27d094c8fe",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_016_sentence_en.wav",
+          "duration": 8.032667
+        },
+        "ua": {
+          "id": "scene-016-ua-sentence",
+          "text": "Новонароджені дитинчата сліпі й безпорадні, тому повністю залежать від матері, яка дає їм тепло, захист і їжу.",
+          "text_sha256": "1b64ccf62bed7d00c2674193447703070b99b9aefe8be211c7ae37369a16d6a8",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_016_sentence_ua.mp3",
+          "duration": 8.304
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-016-en-block-001",
+            "position": 1,
+            "text": "The newborn cubs",
+            "text_sha256": "d5d13bdf32414c9278eb87ea28c42b817ceee1c1690f1347094adfa89f05e4ff",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_016_block_en_001.wav"
+          },
+          {
+            "id": "scene-016-en-block-002",
+            "position": 2,
+            "text": "are blind and helpless,",
+            "text_sha256": "8b416e823fe6cbe2b4ae50a249ac70cfe9f92c32b56e91d7347e491c68fb64b8",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_016_block_en_002.wav"
+          },
+          {
+            "id": "scene-016-en-block-003",
+            "position": 3,
+            "text": "depending completely",
+            "text_sha256": "ddcb1fecbd09d7cf63e0e1278edf2da486783f4263bd636207c0cd7c84a8e3e9",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_016_block_en_003.wav"
+          },
+          {
+            "id": "scene-016-en-block-004",
+            "position": 4,
+            "text": "on their mother",
+            "text_sha256": "6c06068c921a630ec931bd55365113b24ebcd377c6ec4f837f01b49be0874837",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_016_block_en_004.wav"
+          },
+          {
+            "id": "scene-016-en-block-005",
+            "position": 5,
+            "text": "for warmth,",
+            "text_sha256": "6af3ae1243453ceb5c7bc01becdbad55e30beb97f49053f230677475cb4f0104",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_016_block_en_005.wav"
+          },
+          {
+            "id": "scene-016-en-block-006",
+            "position": 6,
+            "text": "protection,",
+            "text_sha256": "b38221564215ca8829e3d8237f2228d2a3523f65536eb30d570cc91f8f9e5aa8",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_016_block_en_006.wav"
+          },
+          {
+            "id": "scene-016-en-block-007",
+            "position": 7,
+            "text": "and food.",
+            "text_sha256": "22536a4927cc7d5de3ee37517798e88bf4b786bdf631c9ab35bb371d5341cbed",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_016_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-016-ua-block-001",
+            "position": 1,
+            "text": "Новонароджені дитинчата",
+            "text_sha256": "25fffd92c9980a538d4b49ab3695fbbbdadd5df2b37314c82e5be522e6a720f5",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_016_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-016-ua-block-002",
+            "position": 2,
+            "text": "сліпі й безпорадні,",
+            "text_sha256": "89a98d27474c951bf098c33c910d57a2b8f07bc767f672cd3f651d181837d41d",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_016_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-016-ua-block-003",
+            "position": 3,
+            "text": "тому повністю залежать",
+            "text_sha256": "63acd24c8d36411ac46fb5222043b64d62ff88bc0c54ceeaa0b4fc1cf103f833",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_016_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-016-ua-block-004",
+            "position": 4,
+            "text": "від матері,",
+            "text_sha256": "3d0d9cc6db897d7ecd7c3669eea05e48ccbd086bcabd926c9311445529161e6a",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_016_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-016-ua-block-005",
+            "position": 5,
+            "text": "яка дає їм",
+            "text_sha256": "7aae0501fe1947aeb5173106008d8b0cd99b0937c09727b3b7544e7bbeb5ba8b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_016_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-016-ua-block-006",
+            "position": 6,
+            "text": "тепло,",
+            "text_sha256": "730135f6be67cb1baf3c8285f061fe24ed82ff9c9ce410965bf23c59988f28d2",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_016_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-016-ua-block-007",
+            "position": 7,
+            "text": "захист",
+            "text_sha256": "a86fad99ca3c08d0a7fb63b1d9a89bd88c76faaa01c636f06776b103a8e1a2e2",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_016_block_ua_007.mp3"
+          },
+          {
+            "id": "scene-016-ua-block-008",
+            "position": 8,
+            "text": "і їжу.",
+            "text_sha256": "14704c7c3ce658f11b5bc6f1e7dc07363a4a60820bfd9a782a0d9de8ad6e2568",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_016_block_ua_008.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 17,
+      "sentences": {
+        "en": {
+          "id": "scene-017-en-sentence",
+          "text": "Whenever she must leave to hunt, the mother hides them carefully and returns as quickly as the dangerous wilderness allows.",
+          "text_sha256": "c86b3bf4f80ccf312d1d54e000321c6803e73fbbb83eb8992efddbcac53f8eb1",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_017_sentence_en.wav",
+          "duration": 7.979333
+        },
+        "ua": {
+          "id": "scene-017-ua-sentence",
+          "text": "Коли їй доводиться вирушати на полювання, мати ретельно ховає малюків і повертається так швидко, як дозволяє небезпечна дика природа.",
+          "text_sha256": "cc358eca67ee8eb1a685dacd6d2deb027e3529f8c5849924e23971ebdab8467e",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_017_sentence_ua.mp3",
+          "duration": 8.928
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-017-en-block-001",
+            "position": 1,
+            "text": "Whenever she must leave",
+            "text_sha256": "6d8cde467b4f5bbaf4e957b6856f2df36a3f87b77c1e88e72d2d5f5d94d8bf5d",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_017_block_en_001.wav"
+          },
+          {
+            "id": "scene-017-en-block-002",
+            "position": 2,
+            "text": "to hunt,",
+            "text_sha256": "0575bd20a8edc75b5169154947284d9db183a5e30f22ebc1f56d37c7c8b0522f",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_017_block_en_002.wav"
+          },
+          {
+            "id": "scene-017-en-block-003",
+            "position": 3,
+            "text": "the mother hides them carefully",
+            "text_sha256": "4b7f8808f6d813ceb849969d41f62ffd623f5c7fe3db01552ad5bb490e8fbc7a",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_017_block_en_003.wav"
+          },
+          {
+            "id": "scene-017-en-block-004",
+            "position": 4,
+            "text": "and returns",
+            "text_sha256": "16e2aa1178ab7468bd6e3973372611d6e20c8f339a9ccd6d43b957092b4514ea",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_017_block_en_004.wav"
+          },
+          {
+            "id": "scene-017-en-block-005",
+            "position": 5,
+            "text": "as quickly",
+            "text_sha256": "2c6c1adf016e6eb8cf771f63784c1f044ac0ec3cad94f2f00b3055d62dbc3717",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_017_block_en_005.wav"
+          },
+          {
+            "id": "scene-017-en-block-006",
+            "position": 6,
+            "text": "as the dangerous wilderness",
+            "text_sha256": "d5a99817b57f3ce34bdb124f75fdd40934279a79064f713ee12e203731d0a6c8",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_017_block_en_006.wav"
+          },
+          {
+            "id": "scene-017-en-block-007",
+            "position": 7,
+            "text": "allows.",
+            "text_sha256": "b520664670c92d6fa4cebb057a21d9eeabcaca3a17f9caadd5b52cb5c28c5ad0",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_017_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-017-ua-block-001",
+            "position": 1,
+            "text": "Коли їй доводиться",
+            "text_sha256": "a51276f238a4154fe3226046d42a35e7e313845838e23a543491fb0840e405b3",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_017_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-017-ua-block-002",
+            "position": 2,
+            "text": "вирушати на полювання,",
+            "text_sha256": "7300bbce0dd567d230d293dfd84bdd9bf0d01bfee67eb0b941c12adc09c60f52",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_017_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-017-ua-block-003",
+            "position": 3,
+            "text": "мати ретельно ховає малюків",
+            "text_sha256": "4d90b9dbfe3daf544fd44711b686946c3383c37338a446735e59221596928746",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_017_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-017-ua-block-004",
+            "position": 4,
+            "text": "і повертається",
+            "text_sha256": "d7f2108704c9f2a01fd548d5cfb52febac618d95ce84f5045cf4908661adb0c5",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_017_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-017-ua-block-005",
+            "position": 5,
+            "text": "так швидко,",
+            "text_sha256": "2169d0ab2142c272d69c14eafaa9e585e5cd9b85f493458670a2472fbe790072",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_017_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-017-ua-block-006",
+            "position": 6,
+            "text": "як дозволяє",
+            "text_sha256": "623c9694e200c4e4e856543aa6242272f6de1f6c9aaa3e38a0e5b8dc723055d6",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_017_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-017-ua-block-007",
+            "position": 7,
+            "text": "небезпечна дика природа.",
+            "text_sha256": "da549fa7a0ae130248fae8397d53a9000f5ad32a8b6f9ba911ad13b2be9fa09d",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_017_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 18,
+      "sentences": {
+        "en": {
+          "id": "scene-018-en-sentence",
+          "text": "To prevent predators from discovering the den, she may carry the cubs one by one to new secret hiding places.",
+          "text_sha256": "7610492780a6b5eb763705df3e5b1c157c0aa52666d3ecf3ca91b84a99434d5f",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_018_sentence_en.wav",
+          "duration": 7.520667
+        },
+        "ua": {
+          "id": "scene-018-ua-sentence",
+          "text": "Щоб хижаки не знайшли лігво, вона може переносити дитинчат по одному до нових таємних схованок.",
+          "text_sha256": "f89e8d0602f22d18ef147e398a98e9fdaaba93011b0bf09c70636f597eea5f17",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_018_sentence_ua.mp3",
+          "duration": 6.672
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-018-en-block-001",
+            "position": 1,
+            "text": "To prevent predators",
+            "text_sha256": "5eb277e18873585085770c7b3110fa630cea4ddf9306191b4d6be098e4d870cd",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_018_block_en_001.wav"
+          },
+          {
+            "id": "scene-018-en-block-002",
+            "position": 2,
+            "text": "from discovering the den,",
+            "text_sha256": "2a14adf558b33822b5b4a00153f852e21c3d65deaba5fe9f2c36f7434f079d2f",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_018_block_en_002.wav"
+          },
+          {
+            "id": "scene-018-en-block-003",
+            "position": 3,
+            "text": "she may carry",
+            "text_sha256": "0451303e10cc1164c482baada2671d0fa5047dda1c74aef8abf0808293e7709b",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_018_block_en_003.wav"
+          },
+          {
+            "id": "scene-018-en-block-004",
+            "position": 4,
+            "text": "the cubs",
+            "text_sha256": "5be72f71f5bceb6d93929dd39f83f401ce75217d0dcc9aa1fc3212a42a5bba45",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_018_block_en_004.wav"
+          },
+          {
+            "id": "scene-018-en-block-005",
+            "position": 5,
+            "text": "one by one",
+            "text_sha256": "3bc2c644772624630ad437137375979b790075893069073fdd953dc770a549cd",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_018_block_en_005.wav"
+          },
+          {
+            "id": "scene-018-en-block-006",
+            "position": 6,
+            "text": "to new secret hiding places.",
+            "text_sha256": "a57bd000f440cb5d16bc03c46dfba8e8dbf6eef9f489eb8c5bdfab05050aa87d",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_018_block_en_006.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-018-ua-block-001",
+            "position": 1,
+            "text": "Щоб хижаки",
+            "text_sha256": "53808b50fc627b20d3ca2a50cb817885d34ea8c9063d55912552c922301e5644",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_018_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-018-ua-block-002",
+            "position": 2,
+            "text": "не знайшли лігво,",
+            "text_sha256": "bd4a14ad53d419eefef18d0298c1dbaded7b76ed972fe50b45438c7659071b31",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_018_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-018-ua-block-003",
+            "position": 3,
+            "text": "вона може переносити",
+            "text_sha256": "91392efa5c3fe1bf425fb7295d76d6ac9a3b4a483ab0f481a12cfd4bbd925520",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_018_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-018-ua-block-004",
+            "position": 4,
+            "text": "дитинчат",
+            "text_sha256": "a00560bcc32c3bbd50afaa286346d8d9d2efe6dae9ddac0963cb8a8f0e472e33",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_018_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-018-ua-block-005",
+            "position": 5,
+            "text": "по одному",
+            "text_sha256": "242c840b874567eb18ecd81f1c85f8ca21981c9f474240faeb5607f55a3a4d9b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_018_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-018-ua-block-006",
+            "position": 6,
+            "text": "до нових",
+            "text_sha256": "c0529e4979afba855433e24fcedd7d065ec21e06d0d9f8b4e1100fcb866f0d41",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_018_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-018-ua-block-007",
+            "position": 7,
+            "text": "таємних схованок.",
+            "text_sha256": "1ac43d586313f1567520ca8c1aac4f1101c75aebb86e268c32ff5a63415323f5",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_018_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 19,
+      "sentences": {
+        "en": {
+          "id": "scene-019-en-sentence",
+          "text": "As the young leopards grow stronger, they begin climbing low branches, chasing tails, and playfully wrestling with one another.",
+          "text_sha256": "fd9b5e98cd365e4cba635642d39875ac2afc21e4811fd1f302b524de0ca3bec8",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_019_sentence_en.wav",
+          "duration": 7.467333
+        },
+        "ua": {
+          "id": "scene-019-ua-sentence",
+          "text": "Коли молоді леопарди стають сильнішими, вони починають лазити по низьких гілках, ганятися за хвостами й грайливо боротися одне з одним.",
+          "text_sha256": "e9f8fbe6f423e66c1af859f2ec5f2af1d1af729837887ede686bf3bf1bd5ed22",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_019_sentence_ua.mp3",
+          "duration": 9.288
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-019-en-block-001",
+            "position": 1,
+            "text": "As the young leopards",
+            "text_sha256": "eae971db4fa0c846e34a4a2a7dfa7153c2d75b3c35cf4572abbce2d474ad847a",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_019_block_en_001.wav"
+          },
+          {
+            "id": "scene-019-en-block-002",
+            "position": 2,
+            "text": "grow stronger,",
+            "text_sha256": "171dafb493ba2bc0b775372476b5c46ad0d0f3f48c6d5b2e48a8c15c2a5c808d",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_019_block_en_002.wav"
+          },
+          {
+            "id": "scene-019-en-block-003",
+            "position": 3,
+            "text": "they begin",
+            "text_sha256": "b49a79a73ed4388f3a91c1f07246b2e03bd6f3e7a6b03b35af6606b9f3dcf1ee",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_019_block_en_003.wav"
+          },
+          {
+            "id": "scene-019-en-block-004",
+            "position": 4,
+            "text": "climbing low branches,",
+            "text_sha256": "2865488abfe87d4bdd83e6ee55416320025eae229364814e8e72154eab1334dd",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_019_block_en_004.wav"
+          },
+          {
+            "id": "scene-019-en-block-005",
+            "position": 5,
+            "text": "chasing tails,",
+            "text_sha256": "a02d9528e3eff7250fe4901ecb0d9192b2ee37f6b0e5e1e635e4facf0a0f8797",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_019_block_en_005.wav"
+          },
+          {
+            "id": "scene-019-en-block-006",
+            "position": 6,
+            "text": "and playfully wrestling",
+            "text_sha256": "419e45cafc22b8a03aa9fc5d74ceb1d9fb4e3e06986389abb5f7d8a0b3913318",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_019_block_en_006.wav"
+          },
+          {
+            "id": "scene-019-en-block-007",
+            "position": 7,
+            "text": "with one another.",
+            "text_sha256": "eb25746a4ef744bade02339e39e4f11ab40e3e3c5b9db9924bb3d30524a42427",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_019_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-019-ua-block-001",
+            "position": 1,
+            "text": "Коли молоді леопарди",
+            "text_sha256": "a063acb537ec6abd4d4f27561bf5a94f4de9376a0998e194461f400efcd4cd0e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_019_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-019-ua-block-002",
+            "position": 2,
+            "text": "стають сильнішими,",
+            "text_sha256": "8f9b599c5802e551a0afe884d5df37746b585a76733941bfea04456736c0656e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_019_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-019-ua-block-003",
+            "position": 3,
+            "text": "вони починають",
+            "text_sha256": "12dc50946cc01447be99fc58f653d30d6fb0c145bed69b3696baad9435d3131b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_019_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-019-ua-block-004",
+            "position": 4,
+            "text": "лазити по низьких гілках,",
+            "text_sha256": "cf5979009b10a580582c01fd86057efc4129c359024c5fcd227f3f6d9e4c0d0d",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_019_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-019-ua-block-005",
+            "position": 5,
+            "text": "ганятися за хвостами",
+            "text_sha256": "d3fabc6a6907e085f577c9ec0d9e923c382d8ffcf14ed86672716656c5709a47",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_019_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-019-ua-block-006",
+            "position": 6,
+            "text": "й грайливо боротися",
+            "text_sha256": "28833440b49f6286074c68530195aff5d2b48898a05832f2ec68c8538e261e8d",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_019_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-019-ua-block-007",
+            "position": 7,
+            "text": "одне з одним.",
+            "text_sha256": "73cf6d0ea269fd090f3a474d99a54b8a33b21e6500307a8ec83768f6bbd827cd",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_019_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 20,
+      "sentences": {
+        "en": {
+          "id": "scene-020-en-sentence",
+          "text": "These games slowly become lessons, teaching balance, timing, stalking, and the quick movements they will need as hunters.",
+          "text_sha256": "e97e28da74eaa7b67036b47c5538eb1dbaf69823fa954c62329f4ec55ecd1851",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_020_sentence_en.wav",
+          "duration": 8.395333
+        },
+        "ua": {
+          "id": "scene-020-ua-sentence",
+          "text": "Ці ігри поступово перетворюються на уроки, розвиваючи рівновагу, точність рухів, навички переслідування та швидкість майбутніх мисливців.",
+          "text_sha256": "5a4d215ee71c0a53459737a571703c3dbe5ac5c45f5eac3b02a7ba4d7c6d5ce6",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_020_sentence_ua.mp3",
+          "duration": 9.648
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-020-en-block-001",
+            "position": 1,
+            "text": "These games",
+            "text_sha256": "6725a23909472765cc05ca9ef7a69a8f5c5899d8f4038e69d7a8896b63fabe1c",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_020_block_en_001.wav"
+          },
+          {
+            "id": "scene-020-en-block-002",
+            "position": 2,
+            "text": "slowly become lessons,",
+            "text_sha256": "33b5f9602c88812ae86f5379bc37c42cdee3bd4afcecda0eb4fbe75d9f483615",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_020_block_en_002.wav"
+          },
+          {
+            "id": "scene-020-en-block-003",
+            "position": 3,
+            "text": "teaching balance,",
+            "text_sha256": "d1285f668b02388d4f91a5cca25db9716354063cbfa5ae796cccd5bd5185cabc",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_020_block_en_003.wav"
+          },
+          {
+            "id": "scene-020-en-block-004",
+            "position": 4,
+            "text": "timing,",
+            "text_sha256": "cbfe712408a6932e5deb6cefe13d1d499eb9598ff92413edd6319e6821a81df9",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_020_block_en_004.wav"
+          },
+          {
+            "id": "scene-020-en-block-005",
+            "position": 5,
+            "text": "stalking,",
+            "text_sha256": "89c0b4da1cd27723493e15e5f50a335db347b0012a01da0bda6bdcbea94de332",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_020_block_en_005.wav"
+          },
+          {
+            "id": "scene-020-en-block-006",
+            "position": 6,
+            "text": "and the quick movements",
+            "text_sha256": "ffb2ae6cf04edb345059215b08f578cb297d176235ee5f979203c0867ed42279",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_020_block_en_006.wav"
+          },
+          {
+            "id": "scene-020-en-block-007",
+            "position": 7,
+            "text": "they will need",
+            "text_sha256": "5276eb7228045fe71948f92235851624134551c80f4146e2cd0b9de3217c029f",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_020_block_en_007.wav"
+          },
+          {
+            "id": "scene-020-en-block-008",
+            "position": 8,
+            "text": "as hunters.",
+            "text_sha256": "89ec3d74ba92a53ceb54cac326b3a72c055b870e60c54ae608d4b6d5fc0af93f",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_020_block_en_008.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-020-ua-block-001",
+            "position": 1,
+            "text": "Ці ігри",
+            "text_sha256": "2ba3a507c067cdf895e4f164e68ba6966fe358fbe16202c92da32dc375abbabe",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_020_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-020-ua-block-002",
+            "position": 2,
+            "text": "поступово перетворюються на уроки,",
+            "text_sha256": "74cc41447f3420665b1b59d23a56078116de1439641a0f375ba919079a6b6a39",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_020_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-020-ua-block-003",
+            "position": 3,
+            "text": "розвиваючи рівновагу,",
+            "text_sha256": "7989200db0341326458806473a756dfbb39815cc493b5473d41f6f0546362fdf",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_020_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-020-ua-block-004",
+            "position": 4,
+            "text": "точність рухів,",
+            "text_sha256": "3b1a395cc77328be4778114bafb29a5f884792981719f8bce549b6156335b245",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_020_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-020-ua-block-005",
+            "position": 5,
+            "text": "навички переслідування",
+            "text_sha256": "3c44eb04669a943f60e1066865fd6e93d203d0bb2aad256f4f082260588779a8",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_020_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-020-ua-block-006",
+            "position": 6,
+            "text": "та швидкість",
+            "text_sha256": "ec2fb2734d5694f7bb3c85685b71b53bb2c4dd8d3e4fe5e4a3f154b7143c6593",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_020_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-020-ua-block-007",
+            "position": 7,
+            "text": "майбутніх мисливців.",
+            "text_sha256": "598687d1dc401eb5981024767dcffc1e42def72bbc3f58a2beb3e9ce3d52ce55",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_020_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 21,
+      "sentences": {
+        "en": {
+          "id": "scene-021-en-sentence",
+          "text": "Later, the cubs begin following their mother through the grass, watching closely as she approaches prey and moves without sound.",
+          "text_sha256": "e053a19740a0529ad6639806add1bda98194b77960ff53b46dad8c062b9065be",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_021_sentence_en.wav",
+          "duration": 7.147333
+        },
+        "ua": {
+          "id": "scene-021-ua-sentence",
+          "text": "Згодом дитинчата починають ходити за матір’ю крізь траву й уважно спостерігають, як вона наближається до здобичі та рухається безшумно.",
+          "text_sha256": "59af6bd825796ae826cd4e78028a25c5237ac703f18bb61fc0e3ff06f508cd7c",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_021_sentence_ua.mp3",
+          "duration": 8.952
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-021-en-block-001",
+            "position": 1,
+            "text": "Later,",
+            "text_sha256": "08edb7d522f736fa0734b788a51d95ae5bdff1d492371db9909ca636e5e44d1d",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_021_block_en_001.wav"
+          },
+          {
+            "id": "scene-021-en-block-002",
+            "position": 2,
+            "text": "the cubs begin following",
+            "text_sha256": "e2a80a160b87cc29af738bb454fd5f98dabb2028c5df460d33d07059139a46a1",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_021_block_en_002.wav"
+          },
+          {
+            "id": "scene-021-en-block-003",
+            "position": 3,
+            "text": "their mother",
+            "text_sha256": "d95d2ed9abc850b5f4878795cede5bd54eed855b08a118d5b77e01d3942d9114",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_021_block_en_003.wav"
+          },
+          {
+            "id": "scene-021-en-block-004",
+            "position": 4,
+            "text": "through the grass,",
+            "text_sha256": "07cce50b8d151908b48beac8fef1776b14f8e7dd204e2ceeacfa72ffa5ad1a38",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_021_block_en_004.wav"
+          },
+          {
+            "id": "scene-021-en-block-005",
+            "position": 5,
+            "text": "watching closely",
+            "text_sha256": "8c2d1720f4a970b7f89809e8ae8d292bdba00452042612447ab323bd5c8bfd38",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_021_block_en_005.wav"
+          },
+          {
+            "id": "scene-021-en-block-006",
+            "position": 6,
+            "text": "as she approaches prey",
+            "text_sha256": "1df4df5ac29269585422c325a33aa98e7cde15dcf18bdebfeebf26c4daafb462",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_021_block_en_006.wav"
+          },
+          {
+            "id": "scene-021-en-block-007",
+            "position": 7,
+            "text": "and moves without sound.",
+            "text_sha256": "b04f7aaa0d88d483acb4da34751af5d5acfcc0794ee743a7abf27c73a07ece61",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_021_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-021-ua-block-001",
+            "position": 1,
+            "text": "Згодом",
+            "text_sha256": "70ac0b3ed8b61295d441ca10fe6f03ef9b3e55028290938663f6e51cd1dfcd04",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_021_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-021-ua-block-002",
+            "position": 2,
+            "text": "дитинчата починають",
+            "text_sha256": "76ad71d113d58601e98cb54ae95e3b930da99f94e981010a7a12a636cf352ca8",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_021_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-021-ua-block-003",
+            "position": 3,
+            "text": "ходити за матір’ю",
+            "text_sha256": "4e3643f4adc6bd8929c32d5edba16c3d0459ddeea9247ebdaa71c306b5c986ef",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_021_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-021-ua-block-004",
+            "position": 4,
+            "text": "крізь траву",
+            "text_sha256": "e6803a58db1115cf8b1f401e6b34365e0bfdc95e60e8cce1a3a1412bf7e8066d",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_021_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-021-ua-block-005",
+            "position": 5,
+            "text": "й уважно спостерігають,",
+            "text_sha256": "587efe8a915aede2ed394e5ad32425ebbf985dee78fdc0b32caf3f54a51f8c2b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_021_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-021-ua-block-006",
+            "position": 6,
+            "text": "як вона наближається до здобичі",
+            "text_sha256": "b1d3e864b1fa9d0d6e0b426271cdc0f39b03940998d98a0778cb0870bfbc5508",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_021_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-021-ua-block-007",
+            "position": 7,
+            "text": "та рухається безшумно.",
+            "text_sha256": "4d2f50c61bd66bad81edef3b965fa56bb1ff55864db5614f56439a2f41308059",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_021_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 22,
+      "sentences": {
+        "en": {
+          "id": "scene-022-en-sentence",
+          "text": "Even under her protection, many cubs do not survive attacks from lions, hyenas, and other predators.",
+          "text_sha256": "69fe5d18b530929ae43f3a696bd076107c7f496c9793694f35127503110b93ee",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_022_sentence_en.wav",
+          "duration": 6.496667
+        },
+        "ua": {
+          "id": "scene-022-ua-sentence",
+          "text": "Навіть під її захистом багато дитинчат не переживають нападів левів, гієн та інших хижаків.",
+          "text_sha256": "b11a0e1702132a6c4f6d089e80fa4370029ec7940d61c4f10a7222ddb9c96680",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_022_sentence_ua.mp3",
+          "duration": 6.6
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-022-en-block-001",
+            "position": 1,
+            "text": "Even under her protection,",
+            "text_sha256": "20f163acadb50e964d5086fc3d6db528183306e2f4d5777159796558b07ce4ee",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_022_block_en_001.wav"
+          },
+          {
+            "id": "scene-022-en-block-002",
+            "position": 2,
+            "text": "many cubs",
+            "text_sha256": "f38c587b98f802c5eb61a1cb884162e65db43645e575470952875a0f536b4ac3",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_022_block_en_002.wav"
+          },
+          {
+            "id": "scene-022-en-block-003",
+            "position": 3,
+            "text": "do not survive",
+            "text_sha256": "91fe0a1270c16905454ca9e913bf657b7c289be1ac82f6a5778d6dfc93e95acb",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_022_block_en_003.wav"
+          },
+          {
+            "id": "scene-022-en-block-004",
+            "position": 4,
+            "text": "attacks from lions,",
+            "text_sha256": "0a0ecc35504931465a3eb74389497b983a338940a247c7ed47321c8e66592aca",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_022_block_en_004.wav"
+          },
+          {
+            "id": "scene-022-en-block-005",
+            "position": 5,
+            "text": "hyenas,",
+            "text_sha256": "19d3a7c226c7a3665be6f3a45006bdad2273ccdaa141b2896bfd5acaffab7462",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_022_block_en_005.wav"
+          },
+          {
+            "id": "scene-022-en-block-006",
+            "position": 6,
+            "text": "and other predators.",
+            "text_sha256": "b77d6bd4b838f937fe19ddc5649195a4c8e5033bb3127236aa3ad67f51087637",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_022_block_en_006.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-022-ua-block-001",
+            "position": 1,
+            "text": "Навіть під її захистом",
+            "text_sha256": "ad9c5c55db9cf49e2f3ce86a2871967e0d326095220e7c1efce8a06db663353a",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_022_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-022-ua-block-002",
+            "position": 2,
+            "text": "багато дитинчат",
+            "text_sha256": "3e51acbc15a577e801e2dfb7fd4ef528de994fb04065891262ff660b2c1d0f2d",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_022_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-022-ua-block-003",
+            "position": 3,
+            "text": "не переживають",
+            "text_sha256": "1f0ea021be2fc50becad636949d1f0328f281ff27903cd291bc743fdf3ad6e7d",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_022_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-022-ua-block-004",
+            "position": 4,
+            "text": "нападів левів,",
+            "text_sha256": "6161eb4010a456adc917896cff390c44db3e75d2e676c71383d14c0fde391d72",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_022_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-022-ua-block-005",
+            "position": 5,
+            "text": "гієн",
+            "text_sha256": "faa10350293fdbcc6af452a500a7fde1c6026352b49f0c28e65664c9b13abef4",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_022_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-022-ua-block-006",
+            "position": 6,
+            "text": "та інших хижаків.",
+            "text_sha256": "15e631083c67c74809c4719e1a2e8880fa6f2d63d8f6c5f9547bd0db4bf1340d",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_022_block_ua_006.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 23,
+      "sentences": {
+        "en": {
+          "id": "scene-023-en-sentence",
+          "text": "Those that survive remain with their mother for roughly eighteen months, learning how to hunt and live independently.",
+          "text_sha256": "131924d74f841aceda0e4fbc5ff62e9c2be89fd78e0d42adfa6452e7afbb7abc",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_023_sentence_en.wav",
+          "duration": 7.467333
+        },
+        "ua": {
+          "id": "scene-023-ua-sentence",
+          "text": "Ті, що виживають, залишаються з матір’ю приблизно вісімнадцять місяців, навчаючись полювати й жити самостійно.",
+          "text_sha256": "eebb375205ba9841ea4394114a075ecfb29d605825135fce245b02c571be3a71",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_023_sentence_ua.mp3",
+          "duration": 8.136
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-023-en-block-001",
+            "position": 1,
+            "text": "Those that survive",
+            "text_sha256": "e99619322e5073ab449c35ae9145e1383005714d44c5f73303297337bd05b254",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_023_block_en_001.wav"
+          },
+          {
+            "id": "scene-023-en-block-002",
+            "position": 2,
+            "text": "remain with their mother",
+            "text_sha256": "06e0f4945331c83c48a8dcfb4503d03aeaa12fa3664e51037d3d3ccf138fc68a",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_023_block_en_002.wav"
+          },
+          {
+            "id": "scene-023-en-block-003",
+            "position": 3,
+            "text": "for roughly eighteen months,",
+            "text_sha256": "c1d90617652af0b5507ebee3413f5e160b70cc9975ddb8bcab351c9de1b1071c",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_023_block_en_003.wav"
+          },
+          {
+            "id": "scene-023-en-block-004",
+            "position": 4,
+            "text": "learning",
+            "text_sha256": "edd95740e339e6aa0a1dab45741b0521185680b051631a7c265b5630da4f2158",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_023_block_en_004.wav"
+          },
+          {
+            "id": "scene-023-en-block-005",
+            "position": 5,
+            "text": "how to hunt",
+            "text_sha256": "77f7e4b75b8a301667d8fffdc94fec7016c4c1063c665a946a1f399959d36620",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_023_block_en_005.wav"
+          },
+          {
+            "id": "scene-023-en-block-006",
+            "position": 6,
+            "text": "and live independently.",
+            "text_sha256": "94f8f4dd043880d47ce01129b4785f7094369e3bc32394b28a9ae3886b6d7f2b",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_023_block_en_006.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-023-ua-block-001",
+            "position": 1,
+            "text": "Ті, що виживають,",
+            "text_sha256": "57534c589e8830a89316ed432ba2ddef716f9d3852e5042ce1b14e71b5461fef",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_023_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-023-ua-block-002",
+            "position": 2,
+            "text": "залишаються з матір’ю",
+            "text_sha256": "5ce49174556c271ebfd6295ca83a5fc190dadd278f0163e0d4b384aacb47f7ab",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_023_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-023-ua-block-003",
+            "position": 3,
+            "text": "приблизно вісімнадцять місяців,",
+            "text_sha256": "1ba8fe0f65afa6e4e2135d353944e4809843fd06387134133b23ffc3c1cfd810",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_023_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-023-ua-block-004",
+            "position": 4,
+            "text": "навчаючись",
+            "text_sha256": "a236bbd010c59efc273244a97a4491494f6681b0b10346dc24148913d79d77fd",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_023_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-023-ua-block-005",
+            "position": 5,
+            "text": "полювати",
+            "text_sha256": "7f8f8c853316cc019403b7235481db3e21eeeb59809a509452c114c3794e191e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_023_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-023-ua-block-006",
+            "position": 6,
+            "text": "й жити самостійно.",
+            "text_sha256": "342536975668ceebb68549b4cdcd41135ec7d1c658ca0cf3102ccf5cbe12dff3",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_023_block_ua_006.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 24,
+      "sentences": {
+        "en": {
+          "id": "scene-024-en-sentence",
+          "text": "At last, the young leopards leave her territory and disappear into the wilderness in search of solitary ranges of their own.",
+          "text_sha256": "f47839797d717becf37a95a0cb5bb4fa2d3f5fc3f64bb79af6d9ef803a0c9afd",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_024_sentence_en.wav",
+          "duration": 8.352667
+        },
+        "ua": {
+          "id": "scene-024-ua-sentence",
+          "text": "Зрештою молоді леопарди залишають її територію та зникають у дикій природі в пошуках власних одиночних володінь.",
+          "text_sha256": "62f3b5035aac16d6324423425c707990214e085aaa910a541a80bfbb3c644f03",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_024_sentence_ua.mp3",
+          "duration": 7.536
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-024-en-block-001",
+            "position": 1,
+            "text": "At last,",
+            "text_sha256": "050dc8606dd4594ef7e24e89b59e1029c07be4ac5b5c442aef89cd3c6413b376",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_024_block_en_001.wav"
+          },
+          {
+            "id": "scene-024-en-block-002",
+            "position": 2,
+            "text": "the young leopards",
+            "text_sha256": "fcf712e9cb9cf9f4ade830de5ab69425bdfa096b23e3721a07f02ebde3a0199c",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_024_block_en_002.wav"
+          },
+          {
+            "id": "scene-024-en-block-003",
+            "position": 3,
+            "text": "leave her territory",
+            "text_sha256": "13febb480b6a37cbbeb251366bd2e2f4da80528371d508d66224f0eace61dd98",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_024_block_en_003.wav"
+          },
+          {
+            "id": "scene-024-en-block-004",
+            "position": 4,
+            "text": "and disappear",
+            "text_sha256": "d45238b70e5706d19c253b822bbfe2dc95caf66d32781ed0ddc6f22699560f76",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_024_block_en_004.wav"
+          },
+          {
+            "id": "scene-024-en-block-005",
+            "position": 5,
+            "text": "into the wilderness",
+            "text_sha256": "fe7d86f5a7188d3dc992b6e7fba107075a5c3e76e0b6b7604b933669338be670",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_024_block_en_005.wav"
+          },
+          {
+            "id": "scene-024-en-block-006",
+            "position": 6,
+            "text": "in search of",
+            "text_sha256": "10cf6797767e0d82672e076cb4cbfde3ffd5a039e3a4869d4ba83d905cf08bef",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_024_block_en_006.wav"
+          },
+          {
+            "id": "scene-024-en-block-007",
+            "position": 7,
+            "text": "solitary ranges of their own.",
+            "text_sha256": "ab2430b2cb8f7173b3118c2249e3a622bd15611f4ea5444221d5e1a73462e019",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_024_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-024-ua-block-001",
+            "position": 1,
+            "text": "Зрештою",
+            "text_sha256": "1406852fe4bd5fb9a019fd23b6ff811ddc7e708bbb01174bfa85aa01e2a640f1",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_024_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-024-ua-block-002",
+            "position": 2,
+            "text": "молоді леопарди",
+            "text_sha256": "89ef7ff8a573f121e122109f85532b4a1580cb61d97c7095f08b9a93763583d1",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_024_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-024-ua-block-003",
+            "position": 3,
+            "text": "залишають її територію",
+            "text_sha256": "a29e227fff853d31cdd0473a6ff8f71df7c3ad9a9243f24054ff5aa0d8fe4c4a",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_024_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-024-ua-block-004",
+            "position": 4,
+            "text": "та зникають",
+            "text_sha256": "71f324cb203e371f96b22a15e8ce06886dabab363b4c7eea062f35e2ea797a8e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_024_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-024-ua-block-005",
+            "position": 5,
+            "text": "у дикій природі",
+            "text_sha256": "c941ce86a89fccaf7925f079b0e4d5996c7c8ec34c3dac66309bf4759301a3a2",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_024_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-024-ua-block-006",
+            "position": 6,
+            "text": "в пошуках",
+            "text_sha256": "25dd71bee6ad0022b028b255912f16a8fe37951b2f21412cc74427c2d375773c",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_024_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-024-ua-block-007",
+            "position": 7,
+            "text": "власних одиночних володінь.",
+            "text_sha256": "baa9f4242d62c0a58db94d9c1cda68d317cfaf0743cad33721260d893d5e95d3",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_024_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 25,
+      "sentences": {
+        "en": {
+          "id": "scene-025-en-sentence",
+          "text": "Their future, however, is becoming more uncertain as farms, roads, and expanding settlements divide natural habitats into smaller fragments.",
+          "text_sha256": "d941ada5921bc8a1461ced830892a1a02923c36a325590e5e85c7218259fd394",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_025_sentence_en.wav",
+          "duration": 10.678
+        },
+        "ua": {
+          "id": "scene-025-ua-sentence",
+          "text": "Однак їхнє майбутнє стає дедалі невизначенішим, оскільки ферми, дороги й поселення розділяють природні середовища на все менші ділянки.",
+          "text_sha256": "b0ffee90cfa7b8ab6d64d8645bf99b61120f2f2182351b2c1651aa0ff86159d8",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_025_sentence_ua.mp3",
+          "duration": 9.384
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-025-en-block-001",
+            "position": 1,
+            "text": "Their future,",
+            "text_sha256": "82a5f0a0bc989bb5ff2543067ce607b6dc1909d0ea5c81b7b76257972bd8d6e4",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_025_block_en_001.wav"
+          },
+          {
+            "id": "scene-025-en-block-002",
+            "position": 2,
+            "text": "however,",
+            "text_sha256": "4860ed8c70b23f76771f0681d90724ce76e5c2a97c99f459b574117522a0b4f6",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_025_block_en_002.wav"
+          },
+          {
+            "id": "scene-025-en-block-003",
+            "position": 3,
+            "text": "is becoming more uncertain",
+            "text_sha256": "12d39493fc05d0b50a8574c41b3f9fc51f4f8f6de95a014114829661ea8dd4ed",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_025_block_en_003.wav"
+          },
+          {
+            "id": "scene-025-en-block-004",
+            "position": 4,
+            "text": "as farms,",
+            "text_sha256": "2c2e85142822898072b7b499ca4ae7657ef6f68f2c76e873d5728bb09b4e4fc4",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_025_block_en_004.wav"
+          },
+          {
+            "id": "scene-025-en-block-005",
+            "position": 5,
+            "text": "roads,",
+            "text_sha256": "0e717385cf8a105ea717d8b3cfc7863d3cb5cd2d98928a63cba30b44a5ca5280",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_025_block_en_005.wav"
+          },
+          {
+            "id": "scene-025-en-block-006",
+            "position": 6,
+            "text": "and expanding settlements",
+            "text_sha256": "7abd619d262f229fa9d0b042300048301bac128b9c496b8ab1332d02c9b8d384",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_025_block_en_006.wav"
+          },
+          {
+            "id": "scene-025-en-block-007",
+            "position": 7,
+            "text": "divide natural habitats",
+            "text_sha256": "2f3f1dbba054ce7530ade8224b897075625247341586c1043aac7953e9d9779f",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_025_block_en_007.wav"
+          },
+          {
+            "id": "scene-025-en-block-008",
+            "position": 8,
+            "text": "into smaller fragments.",
+            "text_sha256": "9f3047df7fac18addb913e9527a928fdf36b4c74de5605e576a77d074fc24aff",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_025_block_en_008.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-025-ua-block-001",
+            "position": 1,
+            "text": "Однак",
+            "text_sha256": "c634a99b74a7462389db6334636ab49c62d143201d7d8d51accd5897db3252d1",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_025_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-025-ua-block-002",
+            "position": 2,
+            "text": "їхнє майбутнє",
+            "text_sha256": "fec227c75f87f4aee20243d6b82875410ef8f813504008aa671c6ce57cb2b984",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_025_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-025-ua-block-003",
+            "position": 3,
+            "text": "стає дедалі невизначенішим,",
+            "text_sha256": "daa6b389a3ab4da6faa813b5dc7acf3538027ecabcf63d3c3008a7d5be8ea01a",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_025_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-025-ua-block-004",
+            "position": 4,
+            "text": "оскільки ферми,",
+            "text_sha256": "bd54fcc92219b11f929dab2714eee2f94213acfca3e05954df968526c3b162f7",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_025_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-025-ua-block-005",
+            "position": 5,
+            "text": "дороги й поселення",
+            "text_sha256": "f2fbc32f2d702902b600e189021334f204e149a7c31c495bebe4e4388a049cd0",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_025_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-025-ua-block-006",
+            "position": 6,
+            "text": "розділяють",
+            "text_sha256": "deee21908facb3561ce750bc37c354e42dd1f969728ebb7b1e6d7b5f80d4122c",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_025_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-025-ua-block-007",
+            "position": 7,
+            "text": "природні середовища",
+            "text_sha256": "fac3170ae74a3c07cf1578a81e4cea697895adee563f3e566362ffd8a7f29e38",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_025_block_ua_007.mp3"
+          },
+          {
+            "id": "scene-025-ua-block-008",
+            "position": 8,
+            "text": "на все менші ділянки.",
+            "text_sha256": "31ea329cdefc4b311f9110232500a40fcb0e167c2e2047950fd1c24d1fff137b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_025_block_ua_008.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 26,
+      "sentences": {
+        "en": {
+          "id": "scene-026-en-sentence",
+          "text": "As wild prey declines, some leopards begin hunting livestock near villages and grazing lands.",
+          "text_sha256": "ed371812e42defbf40c8b51f6f3598a674ead1c9f4ae0c6aa1681b79653f7055",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_026_sentence_en.wav",
+          "duration": 7.051333
+        },
+        "ua": {
+          "id": "scene-026-ua-sentence",
+          "text": "Коли кількість дикої здобичі скорочується, деякі леопарди починають полювати на домашню худобу поблизу сіл і пасовищ.",
+          "text_sha256": "7a1d989bd2cc9153e6e1b2a46fb9a7a410cb3658f32ede17ea09066aaeccde6f",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_026_sentence_ua.mp3",
+          "duration": 8.088
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-026-en-block-001",
+            "position": 1,
+            "text": "As wild prey declines,",
+            "text_sha256": "a76a468369343a2041d13ec95f5d6e541a52e5382a8d1e240c35c6a0bb23e87c",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_026_block_en_001.wav"
+          },
+          {
+            "id": "scene-026-en-block-002",
+            "position": 2,
+            "text": "some leopards",
+            "text_sha256": "8833f36da2be6b2bd16ef23ff5ad8f21edccd375042386eecd2ed96f411e62fd",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_026_block_en_002.wav"
+          },
+          {
+            "id": "scene-026-en-block-003",
+            "position": 3,
+            "text": "begin hunting livestock",
+            "text_sha256": "601d6f901b70af2d0d1eb480d45f3b687e575503a9acc80d6d3f60ed90a6e6b4",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_026_block_en_003.wav"
+          },
+          {
+            "id": "scene-026-en-block-004",
+            "position": 4,
+            "text": "near villages",
+            "text_sha256": "18d3345d21b1d3a39bd095feee9f27a4795c29684b12ccc6f7cb4ed2656a6e99",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_026_block_en_004.wav"
+          },
+          {
+            "id": "scene-026-en-block-005",
+            "position": 5,
+            "text": "and grazing lands.",
+            "text_sha256": "91951938ca2c3ea861d96902eb75857a5ef5f6e88b1f6eef54495b701923a65b",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_026_block_en_005.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-026-ua-block-001",
+            "position": 1,
+            "text": "Коли кількість дикої здобичі",
+            "text_sha256": "a432c92b79bd86e55070d26930cec322973b53748802165aaf2091684d2fafed",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_026_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-026-ua-block-002",
+            "position": 2,
+            "text": "скорочується,",
+            "text_sha256": "23116f21d19d4df894b549aa4c0286985dd77ea36f9803e1a1f13296ee918467",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_026_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-026-ua-block-003",
+            "position": 3,
+            "text": "деякі леопарди",
+            "text_sha256": "d584abc7fb7315d5d2366003187e349d4b7648f1c546ecc4f12b402385a4491c",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_026_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-026-ua-block-004",
+            "position": 4,
+            "text": "починають полювати",
+            "text_sha256": "268a3b0488b91f101b0cd9063a2c850f12b1285fcf4ee2a1637db31d6bbe14a7",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_026_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-026-ua-block-005",
+            "position": 5,
+            "text": "на домашню худобу",
+            "text_sha256": "61b1b5590023708f56b15120f06ed87685b95f6011ad13298fd707b7c18395a5",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_026_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-026-ua-block-006",
+            "position": 6,
+            "text": "поблизу сіл",
+            "text_sha256": "1ae06815e69a124783f214b97b88d8e944a1e3fb4364708b4cdf16eee840e889",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_026_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-026-ua-block-007",
+            "position": 7,
+            "text": "і пасовищ.",
+            "text_sha256": "463cd357acd4916a1af097a2db556c784db7c0b7abe64a678bc474a3c35d59a4",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_026_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 27,
+      "sentences": {
+        "en": {
+          "id": "scene-027-en-sentence",
+          "text": "These encounters can lead to retaliatory killings by farmers and herders trying to protect their animals.",
+          "text_sha256": "5f8dda32d9c252f04769def4e21dcfe9c1f40087bbc0e4049bd9b93d50008edb",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_027_sentence_en.wav",
+          "duration": 7.840667
+        },
+        "ua": {
+          "id": "scene-027-ua-sentence",
+          "text": "Такі зустрічі можуть призводити до помстових убивств з боку фермерів і пастухів, які намагаються захистити своїх тварин.",
+          "text_sha256": "8fb72e267424a8577affccce53a2a4506053a703ab5898ef46746b9c9ac5ab2a",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_027_sentence_ua.mp3",
+          "duration": 7.992
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-027-en-block-001",
+            "position": 1,
+            "text": "These encounters",
+            "text_sha256": "5e2a5ba85c02e228f9ff85e79008c27810e6a4ab244710c2d160f439ea19e5fb",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_027_block_en_001.wav"
+          },
+          {
+            "id": "scene-027-en-block-002",
+            "position": 2,
+            "text": "can lead",
+            "text_sha256": "6160bef55e12fe3c87503df87f1a3209f1a157477bb00898bd81ad9c109b6cc0",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_027_block_en_002.wav"
+          },
+          {
+            "id": "scene-027-en-block-003",
+            "position": 3,
+            "text": "to retaliatory killings",
+            "text_sha256": "19c67477b5c32e73ab85fcecae30a07c63801a6691ced2416e6b12094ce01f99",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_027_block_en_003.wav"
+          },
+          {
+            "id": "scene-027-en-block-004",
+            "position": 4,
+            "text": "by farmers and herders",
+            "text_sha256": "deb1fa5d79ae766c1b32264a9759747d5132ff5df60f3157b238ed97219ededa",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_027_block_en_004.wav"
+          },
+          {
+            "id": "scene-027-en-block-005",
+            "position": 5,
+            "text": "trying",
+            "text_sha256": "4dd6721b523ac6d7a0284668004856ab748e4692337ac19454cd7a53c64c507e",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_027_block_en_005.wav"
+          },
+          {
+            "id": "scene-027-en-block-006",
+            "position": 6,
+            "text": "to protect",
+            "text_sha256": "f60cbb9cd2db254f264e406f4380630151620b404d96633f811041b3a43f8e2c",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_027_block_en_006.wav"
+          },
+          {
+            "id": "scene-027-en-block-007",
+            "position": 7,
+            "text": "their animals.",
+            "text_sha256": "f60a72f3a9eb24c70b1722b5a8cbe700d9de79f9861a642e2b3a0ae21b887db1",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_027_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-027-ua-block-001",
+            "position": 1,
+            "text": "Такі зустрічі",
+            "text_sha256": "6a018f319cd60c28908bfd57cf2dd866117bbedbc3b674f1f2352f1ada3be161",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_027_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-027-ua-block-002",
+            "position": 2,
+            "text": "можуть призводити",
+            "text_sha256": "dcb4a397f22f31dd2477a52b1cea33da78c19bd3bfd4c21bf544bf5be43c1cba",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_027_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-027-ua-block-003",
+            "position": 3,
+            "text": "до помстових убивств",
+            "text_sha256": "4c856cf93671feeb7fd1cfcf429ed6fc50db59087359069ee0bf2911ea4528cc",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_027_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-027-ua-block-004",
+            "position": 4,
+            "text": "з боку фермерів і пастухів,",
+            "text_sha256": "dd02ccbbcf0978ab5b21c29269cc0681c4e95f208d43eb83c37b7a2d49b5c900",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_027_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-027-ua-block-005",
+            "position": 5,
+            "text": "які намагаються",
+            "text_sha256": "4761a4069a399fa9444a842b18e61c811a246d856adb31faa695cb99b7b69d7f",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_027_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-027-ua-block-006",
+            "position": 6,
+            "text": "захистити",
+            "text_sha256": "4f02d6b2d0baa57af78c538df05617744828e0ab0afc3c78c016a4ff395e113b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_027_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-027-ua-block-007",
+            "position": 7,
+            "text": "своїх тварин.",
+            "text_sha256": "452f6c24fc0e222d102e2cef89663f91918ad23207d4d39633e3ea773c24f08c",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_027_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 28,
+      "sentences": {
+        "en": {
+          "id": "scene-028-en-sentence",
+          "text": "Illegal hunting also remains a serious threat, because leopard skins and body parts are still traded in some regions.",
+          "text_sha256": "2f8990634ba651ed7c8eb2e768c0c5140d08bccd30fab7e91735ff7ca955547a",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_028_sentence_en.wav",
+          "duration": 7.243333
+        },
+        "ua": {
+          "id": "scene-028-ua-sentence",
+          "text": "Незаконне полювання також залишається серйозною загрозою, адже в деяких регіонах досі торгують леопардовими шкурами та частинами тіла.",
+          "text_sha256": "72e33b7e93eea5b562bd6f9f2840169b09f8d764527c09616f6783ac41bfce37",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_028_sentence_ua.mp3",
+          "duration": 9.168
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-028-en-block-001",
+            "position": 1,
+            "text": "Illegal hunting",
+            "text_sha256": "8f9f2a39933e2baea2277f542f4b1a3a37a978bba7e2ad8e5e1e9454073690af",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_028_block_en_001.wav"
+          },
+          {
+            "id": "scene-028-en-block-002",
+            "position": 2,
+            "text": "also remains",
+            "text_sha256": "dc1b59ffd1f1260eab011d9453762c44cb35f4da3596dd8a004530ed0121e9c3",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_028_block_en_002.wav"
+          },
+          {
+            "id": "scene-028-en-block-003",
+            "position": 3,
+            "text": "a serious threat,",
+            "text_sha256": "cc0a0cc6bae450f082f377d48c504aa44519789a5e99022b4d9715f70ac38f88",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_028_block_en_003.wav"
+          },
+          {
+            "id": "scene-028-en-block-004",
+            "position": 4,
+            "text": "because leopard skins",
+            "text_sha256": "bb6c11fb1c5649bb0f17fd8443ec34c0ee1b05fa6a7c3c68074fec2c6dc20e2e",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_028_block_en_004.wav"
+          },
+          {
+            "id": "scene-028-en-block-005",
+            "position": 5,
+            "text": "and body parts",
+            "text_sha256": "268ff3450b05dc8ccd51045be9da19aac164ec6cdee9f39a859fc69df1aae32f",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_028_block_en_005.wav"
+          },
+          {
+            "id": "scene-028-en-block-006",
+            "position": 6,
+            "text": "are still traded",
+            "text_sha256": "99cb6d9eb5484846e827dc651a8c679b337b1c69040d242e75e120e8147cbb43",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_028_block_en_006.wav"
+          },
+          {
+            "id": "scene-028-en-block-007",
+            "position": 7,
+            "text": "in some regions.",
+            "text_sha256": "d962f3a4f6f502a94296e744ee6905106ede5b96b41ea6752caac03948120bb4",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_028_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-028-ua-block-001",
+            "position": 1,
+            "text": "Незаконне полювання",
+            "text_sha256": "01e0fc7873b45e8447294f05f00b4b6b0f8f7c922662076583ac78033b6ce89a",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_028_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-028-ua-block-002",
+            "position": 2,
+            "text": "також залишається",
+            "text_sha256": "212540df9b7a17824562fcae36df6d7f056ed0bfabf06b62b3f0cd8b3f780e12",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_028_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-028-ua-block-003",
+            "position": 3,
+            "text": "серйозною загрозою,",
+            "text_sha256": "43d4fb0a2b817069eb45c8996ef9c26db1444c0932612f74f5dcd96a1e606f08",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_028_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-028-ua-block-004",
+            "position": 4,
+            "text": "адже в деяких регіонах",
+            "text_sha256": "6fcd6871b29a2ac851bbe522cbb577792bfa5caaadcc3bf33443e09e1b35753e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_028_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-028-ua-block-005",
+            "position": 5,
+            "text": "досі торгують",
+            "text_sha256": "1a5fd15aa94c24e1c54819a6093419b112dbe68a53e35344c0f40238657724ce",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_028_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-028-ua-block-006",
+            "position": 6,
+            "text": "леопардовими шкурами",
+            "text_sha256": "bd4ce799850ab5bc533afab9f1755dc5ba6c553183a2cdc33128327637d384b7",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_028_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-028-ua-block-007",
+            "position": 7,
+            "text": "та частинами тіла.",
+            "text_sha256": "fec12bf12972d8073281345e79def6abaf722774492bd19af7df89a57706f681",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_028_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 29,
+      "sentences": {
+        "en": {
+          "id": "scene-029-en-sentence",
+          "text": "Conservationists now work with local communities to protect habitat, secure livestock, and reduce conflict between people and predators.",
+          "text_sha256": "a458d4c15aca233f80b9ae7a5424026b7e171d9dbde0ee4d6849dfec4091e731",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_029_sentence_en.wav",
+          "duration": 8.171333
+        },
+        "ua": {
+          "id": "scene-029-ua-sentence",
+          "text": "Сьогодні захисники природи співпрацюють із місцевими громадами, щоб зберігати середовище існування, захищати худобу та зменшувати конфлікти між людьми й хижаками.",
+          "text_sha256": "c8b2242414d0cbeecce2d422d8bfb601977d1d4ed97b0ba02bb30a94b0282d44",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_029_sentence_ua.mp3",
+          "duration": 10.824
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-029-en-block-001",
+            "position": 1,
+            "text": "Conservationists now work",
+            "text_sha256": "b58a36beb9c9d542255a3cac31a071ef0705a8515fdfb4c39e32888460705ed6",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_029_block_en_001.wav"
+          },
+          {
+            "id": "scene-029-en-block-002",
+            "position": 2,
+            "text": "with local communities",
+            "text_sha256": "2060496f115dc75431428b6584db4c52efd3c2e8c04068cdddb31ca5157e64da",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_029_block_en_002.wav"
+          },
+          {
+            "id": "scene-029-en-block-003",
+            "position": 3,
+            "text": "to protect habitat,",
+            "text_sha256": "c690e1fb1da18dcd71231b93e1507f5d59ad78fd786be9b91a5241c52b15f938",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_029_block_en_003.wav"
+          },
+          {
+            "id": "scene-029-en-block-004",
+            "position": 4,
+            "text": "secure livestock,",
+            "text_sha256": "a3b21f497a15219f9a9581e61b0dbfce930efcacffd8df6b97631f9d19b78df1",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_029_block_en_004.wav"
+          },
+          {
+            "id": "scene-029-en-block-005",
+            "position": 5,
+            "text": "and reduce conflict",
+            "text_sha256": "e37c039284e71e4b50c344734471699b6f6d4f8032ea191958658f12882599ed",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_029_block_en_005.wav"
+          },
+          {
+            "id": "scene-029-en-block-006",
+            "position": 6,
+            "text": "between people",
+            "text_sha256": "00a27520b5f3a9a2ae553faee0c4d0a368066f16b9af9c26b6301d81e435b09f",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_029_block_en_006.wav"
+          },
+          {
+            "id": "scene-029-en-block-007",
+            "position": 7,
+            "text": "and predators.",
+            "text_sha256": "3995d948aed388e136c216cf8aef0593d5bbb264a95768eec27413b8f6be614b",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_029_block_en_007.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-029-ua-block-001",
+            "position": 1,
+            "text": "Сьогодні захисники природи",
+            "text_sha256": "8cb61178b37d8cd2bbd0797de885658ef428e482e04275b07ed3cac8289cb40d",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_029_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-029-ua-block-002",
+            "position": 2,
+            "text": "співпрацюють",
+            "text_sha256": "45156f51dc85c89b8f3c25bdc722ee7383f88821cf44318737288ed9ef53757b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_029_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-029-ua-block-003",
+            "position": 3,
+            "text": "із місцевими громадами,",
+            "text_sha256": "b0b18744bea292ffe2e92b711976d6ceb5859ef5026ee16ab0404ca9504e6f02",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_029_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-029-ua-block-004",
+            "position": 4,
+            "text": "щоб зберігати середовище існування,",
+            "text_sha256": "b6e909f81caee70fb6b4b9c28f8ebba1dc10df3e77233e28a8413a6694e7df36",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_029_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-029-ua-block-005",
+            "position": 5,
+            "text": "захищати худобу",
+            "text_sha256": "a43cc00aec68074af9fa989a51afc962b4ece813ae8291e81327f12d5fea38bf",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_029_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-029-ua-block-006",
+            "position": 6,
+            "text": "та зменшувати конфлікти",
+            "text_sha256": "8f398e99188efc7ebcf1f7d8244ca734a11e5a7df2b6b32bec5ff3a637880239",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_029_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-029-ua-block-007",
+            "position": 7,
+            "text": "між людьми й хижаками.",
+            "text_sha256": "7d3d0aefa4cf61fbff6d4cb0bcfa14b203bc0ba8e151a9b697cb2e20101b3d7b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_029_block_ua_007.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "scene": 30,
+      "sentences": {
+        "en": {
+          "id": "scene-030-en-sentence",
+          "text": "If these efforts succeed, the leopard will continue moving through Africa’s shadows, a silent symbol of courage, mystery, and wild strength.",
+          "text_sha256": "5ca3cffb36d7858b55bdeea2c2149d6f9d057ab942219d427b48d3065871287c",
+          "audio": "../../puzzle_audio_v2/sentences/en/scene_030_sentence_en.wav",
+          "duration": 9.931333
+        },
+        "ua": {
+          "id": "scene-030-ua-sentence",
+          "text": "Якщо ці зусилля матимуть успіх, леопард і надалі рухатиметься крізь африканські тіні — мовчазний символ відваги, таємничості та дикої сили.",
+          "text_sha256": "6f144dc07cb2369d0ad48d7659f35e0cf76f64adea959f32a4de11041eb750ee",
+          "audio": "../../puzzle_audio_v2/sentences/ua/scene_030_sentence_ua.mp3",
+          "duration": 9.864
+        }
+      },
+      "blocks": {
+        "en": [
+          {
+            "id": "scene-030-en-block-001",
+            "position": 1,
+            "text": "If these efforts succeed,",
+            "text_sha256": "2b69321fe749353157960869ce02ae8e58a9fc54acf13ccf5c28ec10bccf5467",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_030_block_en_001.wav"
+          },
+          {
+            "id": "scene-030-en-block-002",
+            "position": 2,
+            "text": "the leopard",
+            "text_sha256": "e588fc77ed3b3966e19f99de605b86768cb5d438a6b9d9314bdac709dfa50dde",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_030_block_en_002.wav"
+          },
+          {
+            "id": "scene-030-en-block-003",
+            "position": 3,
+            "text": "will continue moving",
+            "text_sha256": "daa60473f28e78f78ad148b774ee35ae33f227276c050c0813e23f3d223c00ad",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_030_block_en_003.wav"
+          },
+          {
+            "id": "scene-030-en-block-004",
+            "position": 4,
+            "text": "through Africa’s shadows,",
+            "text_sha256": "1979e4c9419c6fe39d6a2c7a730f3409bd1d00e1cbcf6650481d31dd4261bb18",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_030_block_en_004.wav"
+          },
+          {
+            "id": "scene-030-en-block-005",
+            "position": 5,
+            "text": "a silent symbol",
+            "text_sha256": "af2e437359dfc3c88a577fc726f3a86b7b48161c5e6eaa18ba7477e4f2a7f9d3",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_030_block_en_005.wav"
+          },
+          {
+            "id": "scene-030-en-block-006",
+            "position": 6,
+            "text": "of courage,",
+            "text_sha256": "3ac6f8e0d0aeb2f977d468da2079543a31483420805e9e2e3d10dd8b3fdaacce",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_030_block_en_006.wav"
+          },
+          {
+            "id": "scene-030-en-block-007",
+            "position": 7,
+            "text": "mystery,",
+            "text_sha256": "df4f52d47edd1984b93726f44c6c61d7f629c5f01ecd2e6c8823579d854b25fe",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_030_block_en_007.wav"
+          },
+          {
+            "id": "scene-030-en-block-008",
+            "position": 8,
+            "text": "and wild strength.",
+            "text_sha256": "a67f05eefd88b021a41219d0a19e70c986852d0d27fd3bb6cf081230f49d86bd",
+            "audio": "../../puzzle_audio_v2/blocks/en/scene_030_block_en_008.wav"
+          }
+        ],
+        "ua": [
+          {
+            "id": "scene-030-ua-block-001",
+            "position": 1,
+            "text": "Якщо ці зусилля",
+            "text_sha256": "ad64287f8873cebb2cf17bd506a84c4f627945254ca3f8ad1f30bb2d1ec0031e",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_030_block_ua_001.mp3"
+          },
+          {
+            "id": "scene-030-ua-block-002",
+            "position": 2,
+            "text": "матимуть успіх,",
+            "text_sha256": "1b808ab431778441d6e868d6ae9b4d8bef00c784728ae5828c0e8cc01f9c09ef",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_030_block_ua_002.mp3"
+          },
+          {
+            "id": "scene-030-ua-block-003",
+            "position": 3,
+            "text": "леопард",
+            "text_sha256": "f1f413947a77172e9071610c976c3cd89f03367aeb74048b340dc2508fc09bc1",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_030_block_ua_003.mp3"
+          },
+          {
+            "id": "scene-030-ua-block-004",
+            "position": 4,
+            "text": "і надалі рухатиметься",
+            "text_sha256": "0e8d73a55826a862287f5ec392f5c0418b099781927c69ed86b0540c1419bee3",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_030_block_ua_004.mp3"
+          },
+          {
+            "id": "scene-030-ua-block-005",
+            "position": 5,
+            "text": "крізь африканські тіні —",
+            "text_sha256": "3b12fd535be7fde9d1f5b3959435abbbfe3745c00316ee5f6d94d9cc0ecc6c0a",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_030_block_ua_005.mp3"
+          },
+          {
+            "id": "scene-030-ua-block-006",
+            "position": 6,
+            "text": "мовчазний символ",
+            "text_sha256": "ef2d7af5643d2864340465bfe76858af91c1dea112cbe4d216bb533424880f0b",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_030_block_ua_006.mp3"
+          },
+          {
+            "id": "scene-030-ua-block-007",
+            "position": 7,
+            "text": "відваги,",
+            "text_sha256": "f36a21416a94e05cf4a106f2d145b1cce1675692c04c756ee6d57e2a9e5ea665",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_030_block_ua_007.mp3"
+          },
+          {
+            "id": "scene-030-ua-block-008",
+            "position": 8,
+            "text": "таємничості",
+            "text_sha256": "1ead541f60153fb60fb0c720422a8958a8cb7ee920a7b554b9947a4b20a6c255",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_030_block_ua_008.mp3"
+          },
+          {
+            "id": "scene-030-ua-block-009",
+            "position": 9,
+            "text": "та дикої сили.",
+            "text_sha256": "26579fa1bc13ff86869c31caa2134de4af4d9953df7f2a264262577574df74b1",
+            "audio": "../../puzzle_audio_v2/blocks/ua/scene_030_block_ua_009.mp3"
+          }
+        ]
+      }
+    }
+  ]
+}
