@@ -1,0 +1,11 @@
+{
+  "schema_version": 2,
+  "status": "PASS",
+  "topic": "The_Leopard",
+  "level": "A1-A2",
+  "direction": "english-first",
+  "scene_count": 30,
+  "standalone": true,
+  "audio_file_count": 525,
+  "created_at": "2026-07-28T16:39:21.074880+00:00"
+}
