@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="data:,">
+  <title>The Leopard — English Story Workspace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">A1–A2 · English Story Workspace · 30 sentences</p>
+      <h1>English Story Workspace</h1>
+      <p class="lede"><strong>The Leopard</strong> · Continue learning after the video.<br>Read, listen, and practise at your own pace.</p>
+    </div>
+    <div class="hero-actions">
+      <button id="builderOpen" class="builder-open" type="button">Sentence Builder</button>
+      <button id="vocabularyOpen" class="vocabulary-open" type="button">
+        My Vocabulary <span id="vocabularyCount" aria-label="vocabulary item count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="player" aria-labelledby="playerTitle">
+      <div>
+        <p class="section-label" id="playerTitle">Continuous English audio</p>
+        <p id="playerStatus" class="player-status" aria-live="polite">Ready at Sentence 1</p>
+      </div>
+      <div class="player-actions">
+        <button id="playStory" type="button">Play</button>
+        <button id="pauseStory" class="secondary" type="button">Pause</button>
+        <button id="restartStory" class="secondary" type="button">Restart</button>
+      </div>
+      <progress id="storyProgress" value="0" max="1" aria-label="Story playback progress"></progress>
+      <span id="storyTime" class="story-time">0:00 / 0:00</span>
+    </section>
+
+    <section aria-labelledby="storyTitle">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">Reading view</p>
+          <h2 id="storyTitle">The complete 30-sentence story</h2>
+        </div>
+        <p>Underlined text has approved phrase data.</p>
+      </div>
+      <div id="sentenceList" class="sentence-list"></div>
+    </section>
+  </main>
+
+  <dialog id="lexicalDialog" class="compact-dialog">
+    <section class="dialog-card">
+      <button id="lexicalClose" class="close-button" type="button" aria-label="Close lexical item">×</button>
+      <p class="section-label">Approved contextual phrase</p>
+      <h2 id="lexicalEnglish"></h2>
+      <p id="lexicalUkrainian" class="translation" lang="uk"></p>
+      <p id="lexicalContext" class="context"></p>
+      <div class="dialog-actions">
+        <button id="lexicalPronounce" type="button">Pronounce English</button>
+        <button id="lexicalAdd" type="button">Add to Vocabulary</button>
+        <button id="lexicalOpenVocabulary" class="secondary" type="button" hidden>Open My Vocabulary</button>
+      </div>
+      <p id="lexicalStatus" class="status" aria-live="polite"></p>
+    </section>
+  </dialog>
+
+  <dialog id="deepStudyDialog" class="deep-dialog">
+    <section class="dialog-card">
+      <div class="deep-head">
+        <div>
+          <p class="section-label">Whole–Parts–Whole</p>
+          <h2 id="deepTitle">Study This Sentence</h2>
+        </div>
+        <button id="deepClose" class="close-button" type="button" aria-label="Return to reading">×</button>
+      </div>
+      <label class="sentence-picker">Choose any sentence
+        <select id="deepSentencePicker"></select>
+      </label>
+      <article class="whole-card">
+        <p id="deepEnglish" class="deep-english" lang="en"></p>
+        <p id="deepUkrainian" class="translation" lang="uk"></p>
+        <div class="dialog-actions">
+          <button id="deepEnglishAudio" type="button">Play English sentence</button>
+          <button id="deepUkrainianAudio" class="secondary" type="button">Play Ukrainian sentence</button>
+        </div>
+      </article>
+      <div id="deepBlocks" class="deep-blocks"></div>
+      <div class="learning-return-actions">
+        <button id="deepReturn" class="secondary" type="button">Return to Reading</button>
+        <button id="deepContinue" type="button">Continue</button>
+      </div>
+    </section>
+  </dialog>
+
+  <dialog id="vocabularyDialog" class="vocabulary-dialog">
+    <section class="dialog-card">
+      <div class="deep-head">
+        <div>
+          <p class="section-label">Stored only in this browser</p>
+          <h2>My Vocabulary</h2>
+        </div>
+        <button id="vocabularyClose" class="close-button" type="button" aria-label="Close vocabulary">×</button>
+      </div>
+      <p id="vocabularyEmpty">Your vocabulary is empty. Add an approved phrase from the story.</p>
+      <div id="vocabularyList" class="vocabulary-list"></div>
+      <div id="vocabularyContextActions" class="learning-return-actions">
+        <button id="vocabularyReturn" class="secondary" type="button">Return to Sentence 1</button>
+        <button id="vocabularyContinue" type="button">Continue with Sentence 2</button>
+      </div>
+      <button id="vocabularyClear" class="danger" type="button">Clear Vocabulary</button>
+    </section>
+  </dialog>
+
+  <dialog id="builderDialog" class="builder-dialog">
+    <section class="dialog-card">
+      <div class="deep-head">
+        <div>
+          <p class="section-label">Sentence Builder · approved phrase segments</p>
+          <h2 id="builderTitle">Build the Sentence</h2>
+        </div>
+        <button id="builderClose" class="close-button" type="button" aria-label="Return to Read & Listen">×</button>
+      </div>
+
+      <div id="builderSentenceMenu" class="builder-sentence-menu" aria-label="Choose any builder sentence"></div>
+
+      <section id="builderModeChoice" class="builder-mode-choice" aria-labelledby="builderModeTitle">
+        <h3 id="builderModeTitle">Choose a mode</h3>
+        <div class="builder-mode-grid">
+          <button id="translationMode" type="button">Translation Mode</button>
+          <button id="listeningMode" type="button">Listening Mode</button>
+          <div class="future-mode" aria-disabled="true">Write the Sentence · Unavailable</div>
+        </div>
+      </section>
+
+      <section id="builderWorkspace" hidden>
+        <p id="builderModeLabel" class="section-label"></p>
+        <p id="builderTranslation" class="translation" lang="uk"></p>
+        <button id="builderShowTranslation" class="secondary" type="button" hidden>Show Translation</button>
+
+        <div class="builder-audio-row">
+          <button id="builderPlayAudio" type="button">Play Sentence</button>
+          <span id="builderAudioStatus" class="builder-audio-status" aria-live="polite"></span>
+        </div>
+
+        <h3>Available segments</h3>
+        <div id="builderSegmentBank" class="segment-zone segment-bank" aria-label="Randomized approved English segments"></div>
+        <h3>Your sentence</h3>
+        <div id="builderAnswer" class="segment-zone answer-zone" aria-label="Sentence answer area">
+          <p id="builderEmpty" class="builder-empty">Select or drag segments here.</p>
+        </div>
+
+        <p id="builderResult" class="builder-result" aria-live="polite"></p>
+        <div class="builder-controls">
+          <button id="builderCheck" type="button">Check</button>
+          <button id="builderReset" class="secondary" type="button">Reset</button>
+          <button id="builderTryAgain" type="button" hidden>Try Again</button>
+          <button id="builderPlayAgain" type="button" hidden>Play Again</button>
+        </div>
+      </section>
+
+      <div class="builder-navigation">
+        <button id="builderStudy" class="secondary" type="button">Study the Sentence</button>
+        <button id="builderReturn" class="secondary" type="button">Return to Read &amp; Listen</button>
+        <button id="builderContinue" type="button">Continue</button>
+        <button id="builderProgressReset" class="danger" type="button">Reset Builder Progress</button>
+      </div>
+    </section>
+  </dialog>
+
+  <script src="app.js?v=learning-entry-stop-logic-1" defer></script>
+</body>
+</html>
